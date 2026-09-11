@@ -1,31 +1,80 @@
-# Không Gian Triển Lãm Tranh Dân Gian Đông Hồ
+# 🏛️ Không Gian Triển Lãm Tranh Dân Gian Đông Hồ
 
-Dự án mô phỏng không gian triển lãm nghệ thuật tranh dân gian Đông Hồ được xây dựng trên **Unity 6 (6000.5.9f1)** với **Universal Render Pipeline (URP)**.
-
----
-
-## 🌟 Tính Năng Nổi Bật
-
-* **Kiến trúc truyền thống Việt Nam:** Không gian triển lãm kích thước $24\text{m} \times 36\text{m} \times 5\text{m}$ với hệ khung cột dầm xà gỗ nóc nhà, hoành phi câu đối và bình phong tiền sảnh đón khách.
-* **Bộ sưu tập tranh Đông Hồ độc bản:** 16 module tranh Đông Hồ sắc nét được bố trí khoa học theo các gian trưng bày, tích hợp hệ thống đèn rọi Spotlight chuẩn bảo tàng.
-* **Hệ thống ánh sáng ấm cúng:** Cụm 12 đèn lồng trần và đèn lồng đơn sảnh đón khách với nguồn sáng Point Light vàng ấm, kết hợp mặt sàn gạch đất nung mộc mạc, dịu mắt.
-* **Điều khiển góc nhìn thứ nhất (First Person):** Tích hợp Unity New Input System và First Person Controller, di chuyển mượt mà và tự do khám phá.
+Dự án mô phỏng không gian bảo tàng triển lãm nghệ thuật tranh dân gian Đông Hồ truyền thống Việt Nam, được xây dựng trên nền tảng **Unity 6 (6000.5.9f1)** sử dụng **Universal Render Pipeline (URP)**.
 
 ---
 
-## 🎮 Hướng Dẫn Điều Khiển
+## 📋 Yêu Cầu Hệ Thống
 
-| Thao Tác | Phím / Chuột |
-| :--- | :--- |
-| **Di chuyển** | `W` `A` `S` `D` |
-| **Xoay góc nhìn** | Di chuyển chuột |
-| **Chạy nhanh** | Giữ `Shift` |
-| **Nhảy** | `Space` |
+* **Unity Hub:** Phiên bản mới nhất.
+* **Phiên bản Unity:** **Unity 6 (6000.5.9f1)** hoặc các bản **Unity 6000.x** tương đương.
+* **Render Pipeline:** Universal Render Pipeline (URP) - Đã được cấu hình sẵn trong project.
 
 ---
 
-## 🚀 Cài Đặt & Khởi Chạy
+## 📥 Hướng Dẫn Tải Dự Án Từ GitHub
 
-1. Khởi động **Unity Hub** và mở dự án với phiên bản **Unity 6 (6000.5.9f1)** trở lên.
-2. Mở Scene chính: `Assets/Scenes/PhongTrienLam.unity`.
-3. Bấm **Play** để bắt đầu trải nghiệm không gian triển lãm.
+Bạn có thể lựa chọn 1 trong 2 cách sau để tải project về máy tính:
+
+### Cách 1: Dùng Git CLI (Khuyên dùng)
+1. Mở **Terminal** / **Git Bash** / **Command Prompt** trên máy tính.
+2. Di chuyển đến thư mục bạn muốn lưu dự án và chạy lệnh:
+```bash
+git clone https://github.com/SiesShinn162/Phongtranhdongho.git
+```
+
+### Cách 2: Tải trực tiếp file ZIP
+1. Truy cập trang repository: [https://github.com/SiesShinn162/Phongtranhdongho](https://github.com/SiesShinn162/Phongtranhdongho).
+2. Nhấn vào nút màu xanh **`<> Code`** ở góc trên bên phải.
+3. Chọn **Download ZIP**.
+4. Sau khi tải về, giải nén file `.zip` vào một thư mục trên máy tính (ví dụ: `D:\UnityProjects\Phongtranhdongho`).
+
+---
+
+## 🚀 Cách Thêm Dự Án Vào Unity Hub & Khởi Chạy
+
+### Bước 1: Thêm dự án vào Unity Hub
+1. Khởi động ứng dụng **Unity Hub**.
+2. Tại mục **Projects**, nhấn vào mũi tên cạnh nút **Add** (hoặc bấm nút **Add**) ở góc trên bên phải.
+3. Chọn **Add project from disk**.
+4. Điều hướng và chọn đúng thư mục chứa dự án vừa tải về (thư mục chứa các thư mục con `Assets`, `Packages`, `ProjectSettings`).
+5. Nhấn **Add Project**. Dự án sẽ xuất hiện trong danh sách của Unity Hub.
+
+### Bước 2: Kiểm tra phiên bản Unity Editor
+* Tại cột **Editor Version** của dự án trên Unity Hub, hãy đảm bảo chọn phiên bản **Unity 6 (6000.5.9f1)** hoặc phiên bản Unity 6 đã cài trên máy bạn.
+* Nếu chưa có Unity 6, Unity Hub sẽ hiện biểu tượng cảnh báo màu vàng, bạn chỉ cần nhấn vào và chọn **Install** để Unity Hub tự động tải bản phù hợp.
+
+### Bước 3: Mở dự án
+* Nhấp chuột vào tên dự án trên Unity Hub để mở bằng Unity Editor.
+* *Lưu ý:* Trong lần đầu tiên mở dự án, Unity sẽ mất khoảng **2 - 5 phút** để tải các Package URP, import asset và biên dịch Shader. Hãy kiên nhẫn đợi cho đến khi giao diện Editor tải xong hoàn toàn.
+
+### Bước 4: Mở Scene triển lãm và bấm Play
+1. Trong cửa sổ **Project** (ở góc dưới giao diện Unity), điều hướng theo đường dẫn:
+   ```
+   Assets > Scenes
+   ```
+2. Nhấp đúp chuột vào file Scene chính: **`PhongTrienLam.unity`** (hoặc `PhongTrienLam`).
+3. Nhấn nút **Play** (biểu tượng hình tam giác ▶️ ở giữa thanh công cụ trên cùng của Unity Editor) để bắt đầu trải nghiệm!
+
+---
+
+## 🎮 Hướng Dẫn Phím Điều Khiển (Controls)
+
+Dự án tích hợp góc nhìn thứ nhất (First Person Controller) mượt mà bằng bàn phím và chuột:
+
+| Thao Tác | Phím / Chuột | Chức Năng |
+| :--- | :---: | :--- |
+| **Di chuyển** | `W` `A` `S` `D` | Tiến, lùi, di chuyển sang trái / phải |
+| **Xoay góc nhìn** | `Rê chuột` | Quan sát không gian xung quanh 360 độ |
+| **Chạy nhanh** | Giữ `Shift` | Tăng tốc độ di chuyển trong phòng |
+| **Nhảy** | `Space` | Nhảy lên |
+| **Khóa / Mở chuột** | `Esc` | Bật / tắt con trỏ chuột trong Game View |
+
+---
+
+## 🌟 Các Tính Năng Nổi Bật Trong Phòng Triển Lãm
+
+* **Kiến trúc nhà rường truyền thống:** Không gian triển lãm kích thước $24\text{m} \times 36\text{m} \times 5\text{m}$ với hệ khung cột dầm xà gỗ nóc nhà, hoành phi câu đối sơn son thếp vàng `KHÔNG GIAN TRIỂN LÃM TRANH ĐÔNG HỒ` và bình phong tiền sảnh đón khách.
+* **Bộ sưu tập 16 bức tranh Đông Hồ độc bản:** Bố trí trang trọng tại các gian trưng bày và vách ngăn, mỗi bức tranh đều được trang bị đèn rọi Spotlight chuyên dụng chuẩn bảo tàng.
+* **Hệ thống ánh sáng ấm cúng:** Vòng tròn 12 đèn lồng trần và đèn lồng đơn sảnh đón khách tỏa ánh sáng vàng ấm lung linh (`3200K`), kết hợp sàn gạch gốm đất nung Bát Tràng mộc mạc, chống chói lóa.
+* **Tối ưu hóa hiệu năng:** Toàn bộ đèn phụ tắt đổ bóng (Shadows = None) giúp game chạy mượt mà $120\text{ FPS}$ trên mọi cấu hình máy tính.
