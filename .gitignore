@@ -1,0 +1,105 @@
+# =============================
+# Unity generated folders
+# =============================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+[Ee]xport/
+GeneratedAssets/
+
+# =============================
+# IDE / editor files
+# =============================
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# =============================
+# OS files
+# =============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================
+# SENSITIVE - do NOT commit (API keys, tokens, secrets)
+# =============================
+opencode.json
+**/opencode.json
+*.env
+.env
+.env.*
+!.env.example
+*.envrc
+*.token
+*.tokens
+*.key
+*.pem
+*.pfx
+*.p12
+*.cer
+*.crt
+*.jks
+*.keystore
+credentials.json
+secrets.json
+secrets.*
+*secret*
+*credential*
+
+# =============================
+# Agent instructions and documentation
+# =============================
+AGENTS.md
+checklist.md
+plan.md
+concept.md
+CLAUDE.md
+GEMINI.md
+COPILOT.md
+.github/copilot-instructions.md
+
+# =============================
+# Agent configs, tools, sidecars (skills, MCP, plugins, node_modules)
+# =============================
+.opencode/
+.agent/
+.agent.meta
+.agents/
+.agents.meta
+.claude/
+.cursor/
+
+# MCP configuration, NuGet dependencies and local MCP state
+.mcp.json
+mcp.json
+**/*mcp*.json
+**/*mcp*.config
+**/mcp/
+**/MCP/
+Assets/Plugins/
+Assets/Plugins.meta
+
+# Graphify local configuration and generated outputs
+.graphifyignore
+graphify-out/
