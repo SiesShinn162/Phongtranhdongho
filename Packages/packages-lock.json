@@ -1,33 +1,13 @@
 {
   "dependencies": {
     "com.ivanmurzak.unity.mcp": {
-      "version": "0.90.0",
-      "depth": 0,
+      "version": "0.88.0",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.33",
         "com.unity.modules.uielements": "1.0.0",
         "extensions.unity.playerprefsex": "2.1.5"
-      },
-      "url": "https://package.openupm.com"
-    },
-    "com.ivanmurzak.unity.mcp.animation": {
-      "version": "1.2.32",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.ivanmurzak.unity.mcp": "0.88.0",
-        "com.unity.modules.animation": "1.0.0"
-      },
-      "url": "https://package.openupm.com"
-    },
-    "com.ivanmurzak.unity.mcp.particlesystem": {
-      "version": "1.2.31",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.ivanmurzak.unity.mcp": "0.88.0",
-        "com.unity.modules.particlesystem": "1.0.0"
       },
       "url": "https://package.openupm.com"
     },
@@ -51,6 +31,12 @@
         "com.unity.modules.terrainphysics": "1.0.0"
       },
       "url": "https://package.openupm.com"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
     },
     "com.unity.ai.navigation": {
       "version": "2.0.14",
@@ -334,7 +320,7 @@
     },
     "extensions.unity.playerprefsex": {
       "version": "2.1.5",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
