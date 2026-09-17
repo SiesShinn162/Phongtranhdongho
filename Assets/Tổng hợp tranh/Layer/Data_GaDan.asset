@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
   m_Name: Data_GaDan
   m_EditorClassIdentifier: Assembly-CSharp::PaintingData
-  tenTranh: 
-  moTa: 
-  anhTranh: {fileID: 0}
+  tenTranh: "G\xE0 "
+  moTa: "Mi\xEAu t\u1EA3 ch\xE2n dung sinh ho\u1EA1t"
+  anhTranh: {fileID: 21300000, guid: 02c1904adf57794429085c985f5c58de, type: 3}
   amThanhThuyetMinh: {fileID: 0}
