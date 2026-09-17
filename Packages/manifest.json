@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "com.ivanmurzak.unity.mcp": "0.90.0",
-    "com.ivanmurzak.unity.mcp.animation": "1.2.32",
     "com.ivanmurzak.unity.mcp.particlesystem": "1.2.31",
     "com.ivanmurzak.unity.mcp.probuilder": "1.2.31",
+    "com.ivanmurzak.unity.mcp.terrain": "1.0.17",
+    "com.unity.2d.sprite": "1.0.0",
     "com.unity.ai.navigation": "2.0.14",
     "com.unity.cinemachine": "3.1.6",
     "com.unity.cloud.gltfast": "6.20.0",
@@ -52,8 +52,7 @@
     "com.unity.modules.vehicles": "1.0.0",
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.ivanmurzak.unity.mcp.terrain": "1.0.17"
+    "com.unity.modules.xr": "1.0.0"
   },
   "scopedRegistries": [
     {
