@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.ivanmurzak.unity.mcp.particlesystem": "1.2.31",
     "com.ivanmurzak.unity.mcp.probuilder": "1.2.31",
     "com.ivanmurzak.unity.mcp.terrain": "1.0.17",
     "com.unity.2d.sprite": "1.0.0",
