@@ -1,6 +1,6 @@
 # Vietnamese Roof & 3-Part Yard Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Dùng `superpowers:executing-plans` để thực thi tuần tự từng task có checkpoint rõ ràng. **KHÔNG** dispatch nhiều subagent chạy song song cùng sửa file Scene `PhongTrienLam.unity` để tránh conflict ghi đè file scene. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Xây dựng hệ thống mái ngói 4 dốc xếp lớp truyền thống Việt Nam có đầu đao cong và phân chia mặt sân thành 3 dải gạch PBR chân thực (2 bên gạch đỏ, giữa đá xám 7m) cho phòng triển lãm tranh Đông Hồ.
 
@@ -12,12 +12,23 @@
 
 ## Global Constraints
 
-- **Tọa độ & Kích thước:** Tất cả kích thước trong spec là baseline; Phase 0 phải đo đạc chính xác từ runtime scene.
-- **Hình học mái:** Không khóa đồng thời cả góc dốc $32^\circ$ và chiều cao nóc; chiều cao nóc $H$ phải được tính toán linh hoạt theo footprint thực tế và góc dốc: $H = (EaveWidth / 2) \times \tan(\theta)$.
-- **Chống lọt sáng & Z-Fighting:** Khung Underlay phải khép kín hoàn toàn nóc phòng tranh và đặt thấp hơn mặt đáy của ngói từ $0.05\text{ m} - 0.1\text{ m}$.
-- **Tối ưu hiệu năng:** Tuyệt đối không sinh ra hàng nghìn GameObject ngói rời rạc; gom cụm theo dải (strips) hoặc sử dụng Prefab cluster để kiểm soát số lượng draw calls / batches.
+- **Tọa độ & Kích thước động:** Tất cả kích thước trong spec chỉ là baseline; Phase 0 phải đo đạc chính xác từ runtime scene (`BuildingBounds`, `YardBounds`, `EntranceCenter`, `GroundY`). Tuyệt đối không hard-code các giá trị vị trí.
+- **Hình học mái chính xác:**
+  - Không khóa đồng thời cả góc dốc $\theta$ và chiều cao nóc.
+  - Công thức hình học:
+    - $HalfSpan = EaveWidth / 2$
+    - $RoofRise = HalfSpan \times \tan(\theta)$ (với góc dốc $\theta \approx 30^\circ - 35^\circ$)
+    - $RidgeTopY = WallTopY + RoofRise$
+    - $RidgeLength = EaveLength - 2 \times HalfSpan = EaveLength - EaveWidth$
+- **Chống lọt sáng & Z-Fighting:** Khung Underlay phải khép kín hoàn toàn nóc phòng tranh và đỉnh bờ nóc của Underlay phải thấp hơn ngói: $UnderlayTopY = RidgeTopY - 0.08\text{ m}$.
+- **Performance Budget toàn diện:** Không chỉ đo Draw calls / Batches đơn lẻ mà phải kiểm soát đồng thời 4 chỉ số:
+  1. `GameObject count`: Dưới 100 objects cho toàn bộ hệ mái (gom cụm strip/cluster, không sinh hàng ngàn viên lẻ).
+  2. `Renderer count`: Giữ ở mức tối thiểu cần thiết.
+  3. `Triangles count`: Tương thích với năng lực render của URP trong scene.
+  4. `Batches / Draw Calls`: Giữ mức tăng draw call nhỏ nhất thông qua material instancing / batching.
+- **Định dạng Normal Map:** Normal map sinh từ Albedo Grayscale chỉ là giải pháp xấp xỉ (*approximation*); ưu tiên số 1 là Normal map thật nếu có. Bắt buộc lưu ở định dạng lossless **PNG** hoặc **TGA** (như `san_gach_Normal.png`, `san_da_Normal.png`), tuyệt đối **KHÔNG** dùng JPEG vì thuật toán nén 8x8 block của JPEG sẽ phá hỏng các vector pháp tuyến bề mặt.
 - **Cổng phê duyệt bắt buộc (Human Approval Gate):** Chỉ chuyển từ 1 đầu đao sang 3 đầu đao còn lại sau khi người dùng trực tiếp xem screenshot và phê duyệt dáng cong.
-- **Collider mặt sân:** 3 Mesh visual riêng biệt nhưng dùng 1 Collider phẳng liên tục duy nhất tại $Y = 3.74\text{ m}$.
+- **Collider mặt sân:** 3 Mesh visual riêng biệt nhưng dùng 1 BoxCollider phẳng liên tục duy nhất tại cao độ `GroundY` đo từ Phase 0.
 - **Quy tắc dừng (STOP Condition):** Mỗi Phase bắt buộc có tiêu chí dừng rõ ràng; nếu checkpoint thất bại, không được chuyển sang Phase tiếp theo.
 
 ---
@@ -29,9 +40,15 @@
 
 **Interfaces:**
 - Consumes: Scene `PhongTrienLam.unity` đang mở.
-- Produces: Báo cáo số liệu thực tế về Footprint tường, cao độ đỉnh tường, vị trí cửa, cấu trúc prefab `VietnameseAsianRoof`.
+- Produces: Biến số đo thực tế runtime:
+  - `BuildingBounds`: Center, Size, Min, Max của phòng tranh (loại trừ mái cũ).
+  - `WallTopY`: $BuildingBounds.max.y$.
+  - `YardBounds`: Bounds của mặt sân hiện tại (`Plane`).
+  - `GroundY`: Cao độ mặt sân thực tế ($Plane.transform.position.y$).
+  - `EntranceCenter`: Tọa độ $X, Z$ của khu vực cửa chính/tiền sảnh dẫn vào phòng tranh.
+  - `RoofPrefabStats`: ChildCount, RendererCount, VertexCount của `VietnameseAsianRoof.prefab`.
 
-- [ ] **Step 1: Viết script Editor đo đạc chính xác kích thước tường và prefab ngói**
+- [ ] **Step 1: Viết script Editor đo đạc toàn diện kích thước hình học**
 
 ```csharp
 using UnityEngine;
@@ -55,43 +72,67 @@ public class MeasureSceneBounds
             else b.Encapsulate(r.bounds);
         }
 
+        var plane = GameObject.Find("Plane");
+        Bounds yardBounds = plane != null ? plane.GetComponent<Renderer>().bounds : new Bounds();
+        float groundY = plane != null ? plane.transform.position.y : 0f;
+
+        Vector3 entrancePos = Vector3.zero;
+        foreach (Transform t in gallery.transform)
+        {
+            if (t.name.ToLower().Contains("cua") || t.name.ToLower().Contains("door") || t.name.ToLower().Contains("lintel"))
+            {
+                entrancePos = t.position;
+                break;
+            }
+        }
+        if (entrancePos == Vector3.zero)
+        {
+            entrancePos = new Vector3(b.max.x, groundY, b.center.z);
+        }
+
         var roofPrefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Gallery/RoofNative/VietnameseAsianRoof.prefab");
-        int prefabVertexCount = 0;
-        int prefabChildCount = 0;
+        int prefabVertices = 0;
+        int prefabRenderers = 0;
+        int prefabChildren = 0;
         if (roofPrefab != null)
         {
-            prefabChildCount = roofPrefab.transform.childCount;
+            prefabChildren = roofPrefab.transform.childCount;
+            var rList = roofPrefab.GetComponentsInChildren<Renderer>();
+            prefabRenderers = rList.Length;
             foreach (var mf in roofPrefab.GetComponentsInChildren<MeshFilter>())
             {
-                if (mf.sharedMesh != null) prefabVertexCount += mf.sharedMesh.vertexCount;
+                if (mf.sharedMesh != null) prefabVertices += mf.sharedMesh.vertexCount;
             }
         }
 
         return $"BuildingBounds: Center={b.center}, Size={b.size}, Min={b.min}, Max={b.max} | " +
-               $"RoofPrefab: Children={prefabChildCount}, Vertices={prefabVertexCount}";
+               $"Yard: Bounds={yardBounds}, GroundY={groundY:F3} | " +
+               $"Entrance: Pos={entrancePos} | " +
+               $"RoofPrefab: Children={prefabChildren}, Renderers={prefabRenderers}, Verts={prefabVertices}";
     }
 }
 ```
 
-- [ ] **Step 2: Chạy script qua `script-execute` và ghi nhận kích thước thực tế**
-  - Chạy `MeasureSceneBounds.Run()`.
-  - Tính toán các thông số hình học động:
+- [ ] **Step 2: Chạy script qua `script-execute` và tính toán hình học động**
+  - Đọc các kết quả:
     - $FootprintWidth = Size.x$, $FootprintLength = Size.z$, $WallTopY = Max.y$.
     - $EaveOverhang = 0.4\text{ m}$.
-    - $EaveWidth = FootprintWidth + 0.8\text{ m}$, $EaveLength = FootprintLength + 0.8\text{ m}$.
-    - $RidgeLength = EaveLength - EaveWidth$.
-    - Chiều cao nóc: $RidgeHeight = (EaveWidth / 2) \times \tan(32^\circ) \approx (EaveWidth / 2) \times 0.625$.
-    - Cao độ đỉnh nóc: $RidgeTopY = WallTopY + RidgeHeight$.
+    - $EaveWidth = FootprintWidth + 2 \times EaveOverhang$.
+    - $EaveLength = FootprintLength + 2 \times EaveOverhang$.
+    - $HalfSpan = EaveWidth / 2$.
+    - $RoofRise = HalfSpan \times \tan(32^\circ) \approx HalfSpan \times 0.6249$.
+    - $RidgeTopY = WallTopY + RoofRise$.
+    - $RidgeLength = EaveLength - 2 \times HalfSpan = EaveLength - EaveWidth$.
+    - $YardBounds, GroundY, EntranceCenter$ lưu trữ cho Phase 7.
 
-- [ ] **Step 3: Đánh giá số lượng mảng ngói cần thiết để tối ưu hiệu năng**
-  - Tính toán số hàng ngói theo chiều dốc (mỗi dốc khoảng 4 - 5 hàng gối mí).
-  - Đảm bảo tổng số GameObject ngói sinh ra dưới 100 đối tượng thay vì hàng ngàn viên lẻ.
+- [ ] **Step 3: Đánh giá Performance Budget**
+  - Dựa trên `prefabVertices` và `prefabRenderers`: thiết kế cấu trúc nhóm dải (strip) ngói sao cho toàn bộ 4 mặt mái có tổng `GameObject count < 100` và `Renderer count` tối ưu.
 
 - [ ] **Step 4: Xóa script đo đạc tạm thời**
   - Xóa `Assets/Script/Editor/MeasureSceneBounds.cs`.
 
 - [ ] **Step 5: Kiểm tra STOP condition của Phase 0**
-  - **STOP condition:** Nếu không xác định được `BuildingBounds` khép kín hoặc không tìm thấy `VietnameseAsianRoof.prefab` $\rightarrow$ DỪNG ngay lập tức và báo cáo người dùng.
+  - **STOP condition:** Nếu không xác định được `BuildingBounds`, `YardBounds`, hoặc `VietnameseAsianRoof.prefab` $\rightarrow$ DỪNG ngay lập tức và báo cáo.
 
 ---
 
@@ -101,54 +142,56 @@ public class MeasureSceneBounds
 - Modify: Scene `Assets/Scenes/PhongTrienLam.unity` (GameObject `RoofUnderlay`)
 
 **Interfaces:**
-- Consumes: Kích thước $EaveWidth, EaveLength, RidgeLength, RidgeTopY, WallTopY$ từ Phase 0.
-- Produces: GameObject `RoofUnderlay` kín 4 dốc với material `Tran_NauDo.mat`.
+- Consumes: $FootprintWidth, FootprintLength, WallTopY, RidgeLength, RidgeTopY$ từ Phase 0.
+- Produces: Khung chóp cụt `RoofUnderlay` kín 4 dốc với đỉnh đặt ở $UnderlayTopY = RidgeTopY - 0.08\text{ m}$.
 
-- [ ] **Step 1: Tạo hoặc tái cấu trúc Mesh hình chóp cụt 4 dốc cho `RoofUnderlay`**
-  - Đáy hình chữ nhật: $Width = FootprintWidth$, $Length = FootprintLength$ nằm khớp trên đỉnh tường ở $Y = WallTopY$.
-  - Đỉnh bờ nóc: dài $RidgeLength$ tại $Y = RidgeTopY - 0.08\text{ m}$ (thấp hơn mặt ngói $0.08\text{ m}$ để triệt tiêu Z-fighting).
-  - Mép đáy kéo kín vào tim tường để ngăn $100\%$ ánh sáng chiếu xuyên qua trần.
+- [ ] **Step 1: Cấu trúc Mesh hình chóp cụt 4 dốc cho `RoofUnderlay`**
+  - Đáy: Khớp với chu vi đỉnh tường ($Width = FootprintWidth$, $Length = FootprintLength$) tại cao độ $Y = WallTopY$.
+  - Đỉnh nóc: Dài $RidgeLength$ tại $Y = UnderlayTopY$ (thấp hơn ngói $0.08\text{ m}$ để triệt tiêu Z-fighting).
+  - Đáy khép kín mép tường bao để không lọt $100\%$ ánh sáng.
 
 - [ ] **Step 2: Gán Material và cấu hình bóng đổ**
-  - Gán Material `Assets/Gallery/Materials/Tran_NauDo.mat` (màu gỗ nâu tối).
-  - Bật `Cast Shadows = Two Sided` và `Receive Shadows = true`.
+  - Material: `Assets/Gallery/Materials/Tran_NauDo.mat`.
+  - Thiết lập: `Cast Shadows = Two Sided`, `Receive Shadows = true`.
 
 - [ ] **Step 3: Verification kiểm tra lọt sáng từ trong phòng tranh**
-  - Đặt Camera bên trong phòng tranh nhìn lên trần nhà.
+  - Đặt Camera trong phòng tranh nhìn lên trần nhà.
   - Chụp ảnh kiểm tra bằng `screenshot-camera`.
-  - Xác nhận không có bất kỳ tia sáng nào lọt qua khe giữa tường và trần.
+  - Xác nhận không có tia sáng Directional Light nào xuyên qua.
 
 - [ ] **Step 4: Kiểm tra STOP condition của Phase 1**
-  - **STOP condition:** Nếu nhìn từ trong phòng tranh thấy ánh sáng Directional Light lọt vào hoặc Underlay nhô cao hơn cao độ mặt ngói dự kiến $\rightarrow$ DỪNG, chỉnh lại hình học đáy/đỉnh của Underlay.
+  - **STOP condition:** Nếu phát hiện lọt sáng vào phòng tranh hoặc Underlay nhô cao hơn $RidgeTopY$ $\rightarrow$ DỪNG.
 
 ---
 
 ### Task 2: Phase 2 - Lợp Ngói 3D Mặt Mái Thử Nghiệm Số 1 (1 Tile Face Checkpoint)
 
 **Files:**
-- Modify: Scene `Assets/Scenes/PhongTrienLam.unity` (Tạo nhóm `Roof_Face_Front` dưới `MaiNgoi`)
+- Modify: Scene `Assets/Scenes/PhongTrienLam.unity` (Tạo `Roof_Face_Front` dưới `MaiNgoi`)
 
 **Interfaces:**
-- Consumes: Mép hiên trước ($Z = +FootprintLength/2 + 0.4\text{ m}$), bờ nóc chính, prefab `VietnameseAsianRoof`.
-- Produces: Mặt dốc ngói trước hoàn chỉnh với các hàng ngói gối mí nhau $15 - 20\%$.
+- Consumes: Tọa độ mép hiên trước, bờ nóc chính, prefab `VietnameseAsianRoof`.
+- Produces: Mặt dốc trước lợp ngói xếp chồng mí $15 - 20\%$.
 
 - [ ] **Step 1: Tính toán phân bổ hàng ngói theo chiều dốc mặt trước**
-  - Chiều dài dốc mặt trước: $L_{slope} = \sqrt{(EaveWidth/2)^2 + RidgeHeight^2}$.
-  - Xác định số hàng ngói (ví dụ 4 hàng gối mí): Hàng $N$ xếp đè lên mép hàng $N-1$ khoảng $15\%$.
-  - Hàng mép hiên dưới cùng nhô ra ngoài $0.4\text{ m}$ so với tường.
+  - Chiều dài dốc: $L_{slope} = \sqrt{HalfSpan^2 + RoofRise^2}$.
+  - Xác định số hàng ngói (4 - 5 hàng gối mí nhau $15 - 20\%$).
+  - Hàng mép hiên dưới nhô ra ngoài $0.4\text{ m}$.
 
-- [ ] **Step 2: Sinh các mảng ngói và gán Material `Roof_Brick.mat`**
-  - Khởi tạo các mảng ngói dọc theo mặt dốc trước.
-  - Đặt toàn bộ trong GameObject `Roof_Face_Front`.
-  - Tinh chỉnh `_Smoothness = 0.2` trên `Roof_Brick.mat` để có độ mờ lì của đất nung.
+- [ ] **Step 2: Sinh các mảng ngói gom cụm và gán Material `Roof_Brick.mat`**
+  - Bố trí các mảng ngói trong `Roof_Face_Front`.
+  - Thiết lập `_Smoothness = 0.2` trên `Roof_Brick.mat`.
 
-- [ ] **Step 3: Verification kiểm tra độ phủ & Draw Calls**
-  - Dùng `screenshot-scene-view` chụp cận cảnh mặt mái trước.
-  - Kiểm tra độ khít: Không hở khe nhìn thấy lớp Underlay bên dưới.
-  - Kiểm tra Draw Calls / Triangle Count thông qua Profiler/Stats.
+- [ ] **Step 3: Verification kiểm tra toàn diện 4 chỉ số Performance & Độ khít**
+  - Đo đạc:
+    1. `GameObject count`: Ghi nhận số object của `Roof_Face_Front` (yêu cầu $\le 20$).
+    2. `Renderer count`: Ghi nhận số lượng MeshRenderer.
+    3. `Triangles`: Kiểm tra tổng triangle count trong ngưỡng an toàn.
+    4. `Batches / Draw calls`: Kiểm tra số Batches tăng thêm từ Scene Stats / Profiler.
+  - Visual: Chụp ảnh bằng `screenshot-scene-view`, xác nhận không hở khe nhìn thấy Underlay.
 
 - [ ] **Step 4: Kiểm tra STOP condition của Phase 2**
-  - **STOP condition:** Nếu mặt ngói bị lệch góc nghiêng, bị hở khe nhìn thấy Underlay, hoặc số draw calls tăng đột biến (> 20 batches cho 1 mặt) $\rightarrow$ DỪNG, căn chỉnh lại bước gối mí và scale của mảng ngói.
+  - **STOP condition:** Nếu mặt ngói bị hở khe, Z-fighting, hoặc 4 chỉ số performance vượt ngưỡng ngân sách $\rightarrow$ DỪNG.
 
 ---
 
@@ -158,22 +201,22 @@ public class MeasureSceneBounds
 - Modify: Scene `Assets/Scenes/PhongTrienLam.unity` (Tạo `Roof_Face_Back`, `Roof_Face_Left`, `Roof_Face_Right`)
 
 **Interfaces:**
-- Consumes: Quy cách xếp ngói đã chuẩn hóa từ Phase 2.
-- Produces: Đầy đủ 4 mặt mái ngói phủ kín toàn bộ 4 dốc.
+- Consumes: Quy cách xếp ngói chuẩn hóa từ Phase 2.
+- Produces: 4 mặt dốc ngói phủ kín toàn bộ mái.
 
 - [ ] **Step 1: Sinh mặt dốc sau (`Roof_Face_Back`)**
-  - Lấy đối xứng hình học từ `Roof_Face_Front` qua trục bờ nóc $X = 0$.
+  - Lấy đối xứng từ `Roof_Face_Front` qua trục bờ nóc.
 
 - [ ] **Step 2: Sinh 2 mặt chái hồi trái & phải (`Roof_Face_Left`, `Roof_Face_Right`)**
-  - Hai mặt hồi hình tam giác dốc từ 2 đầu bờ nóc xuống 2 mép hiên hồi $Z = \pm (FootprintLength/2 + 0.4\text{ m})$.
-  - Cắt chỉnh các mảng ngói thu hẹp dần về phía đỉnh nóc để tạo dáng chái hồi gọn gàng.
+  - Dốc hình tam giác từ 2 đầu bờ nóc xuống 2 mép hiên hồi.
+  - Thu gọn mảng ngói về phía đỉnh nóc để tạo dáng chái hồi cân xứng.
 
-- [ ] **Step 3: Verification kiểm tra 4 hướng nhìn**
+- [ ] **Step 3: Verification kiểm tra toàn diện 4 mặt & Performance**
   - Chụp ảnh 4 hướng (Front, Back, Left, Right) bằng `screenshot-scene-view`.
-  - Xác nhận 4 mặt mái che phủ đồng đều, khoảng cách nhô mép hiên đều đặn $0.4\text{ m}$ ở cả 4 cạnh.
+  - Kiểm tra 4 chỉ số: Tổng `GameObject count < 100`, `Renderer count`, `Triangles`, `Batches` ổn định.
 
 - [ ] **Step 4: Kiểm tra STOP condition của Phase 3**
-  - **STOP condition:** Nếu có mặt dốc bị lệch mép hiên, không đối xứng, hoặc xuất hiện khe nứt lớn dọc theo 4 đường chéo góc chái $\rightarrow$ DỪNG.
+  - **STOP condition:** Nếu mép hiên không đều $0.4\text{ m}$, không đối xứng, hoặc xuất hiện khe nứt lớn tại các đường chéo góc chái $\rightarrow$ DỪNG.
 
 ---
 
@@ -183,22 +226,21 @@ public class MeasureSceneBounds
 - Modify: Scene `Assets/Scenes/PhongTrienLam.unity` (Tạo `Roof_RidgeCap`, `Roof_HipRidge_01..04`)
 
 **Interfaces:**
-- Consumes: Tọa độ bờ nóc và 4 góc mép hiên mái.
+- Consumes: Tọa độ bờ nóc ($RidgeLength$, $RidgeTopY$) và 4 góc mép hiên mái.
 - Produces: Hệ bờ dải và bờ nóc che kín hoàn toàn 4 đường giao nhau giữa các mặt ngói.
 
 - [ ] **Step 1: Dựng thanh bờ nóc chính (Ridge Cap)**
-  - Dùng ProBuilder tạo khối nẹp viền chạy dọc đỉnh bờ nóc dài $RidgeLength$.
-  - Gán Material vữa trát cổ xám trắng hoặc đá nung.
+  - Dùng ProBuilder tạo khối nẹp viền chạy dọc đỉnh bờ nóc tại $Y = RidgeTopY$.
+  - Gán Material vữa trát cổ xám trắng.
 
 - [ ] **Step 2: Dựng 4 thanh bờ dải (Hip Ridges)**
-  - Chạy từ 2 đầu của bờ nóc chéo xuống 4 góc mép hiên mái.
-  - Tiết diện gờ chỉ nẹp ôm sát trên bề mặt tiếp giáp của các hàng ngói, che kín $100\%$ đường cắt giữa các mặt mái.
+  - Nẹp từ 2 đầu bờ nóc chéo xuống 4 góc mép hiên mái, ôm sát bề mặt giao nhau của ngói.
 
-- [ ] **Step 3: Verification kiểm tra Z-fighting và độ khít**
-  - Kiểm tra tại các giao điểm tiếp xúc giữa bờ dải và ngói lợp: Không có hiện tượng nhấp nháy đa giác (Z-fighting).
+- [ ] **Step 3: Verification kiểm tra Z-fighting & Độ khít**
+  - Kiểm tra các cạnh tiếp xúc giữa bờ dải và ngói lợp: Tuyệt đối không có hiện tượng nhấp nháy đa giác (Z-fighting).
 
 - [ ] **Step 4: Kiểm tra STOP condition của Phase 4**
-  - **STOP condition:** Nếu bờ dải bị lún chìm vào trong ngói hoặc hở khoảng trống nhìn thấy Underlay $\rightarrow$ DỪNG, chỉnh lại cao độ và độ dày của bờ dải.
+  - **STOP condition:** Nếu bờ dải bị lún chìm vào trong ngói hoặc hở khoảng trống nhìn thấy Underlay $\rightarrow$ DỪNG.
 
 ---
 
@@ -213,11 +255,10 @@ public class MeasureSceneBounds
 
 - [ ] **Step 1: Dựng chi tiết đầu đao cong tại Góc 1 bằng ProBuilder**
   - Nối tiếp mũi bờ dải tại góc hiên mái trước - trái.
-  - Uốn lượn cong mềm mại vểnh lên trên với độ nâng cao $\approx 0.35\text{ m}$, vuốt thon nhẹ ở mũi đao theo đúng Mục 4 `tutor.png`.
+  - Vuốt cong mềm mại vểnh lên trên với độ nâng cao $\approx 0.35\text{ m}$, vuốt thon nhẹ ở mũi đao theo đúng Mục 4 `tutor.png`.
 
 - [ ] **Step 2: Chụp ảnh cận cảnh kiểm tra dáng cong**
-  - Đặt góc Camera chụp cận cảnh độ vểnh và đường cong của đầu đao Góc 1.
-  - Sử dụng `screenshot-isolated` hoặc `screenshot-camera`.
+  - Chụp ảnh cận cảnh độ vểnh và đường cong của đầu đao Góc 1 bằng `screenshot-isolated` hoặc `screenshot-camera`.
 
 - [ ] **Step 3: CỔNG PHÊ DUYỆT BẮT BUỘC (HUMAN APPROVAL GATE - STOP)**
   - **STOP CONDITION:** Dừng lại, trình ảnh chụp đầu đao Góc 1 cho người dùng duyệt.
@@ -235,11 +276,11 @@ public class MeasureSceneBounds
 - Produces: Toàn bộ 4 góc mái đều có đầu đao cong đồng bộ chuẩn mực.
 
 - [ ] **Step 1: Nhân bản đối xứng đầu đao sang 3 góc còn lại**
-  - Góc 2: Trước - Phải (đối xứng qua trục $Z$).
-  - Góc 3: Sau - Phải (đối xứng qua tâm).
-  - Góc 4: Sau - Trái (đối xứng qua trục $X$).
+  - Góc 2: Trước - Phải.
+  - Góc 3: Sau - Phải.
+  - Góc 4: Sau - Trái.
 
-- [ ] **Step 2: Gộp nhóm và tổ chức Hierarchy sạch sẽ**
+- [ ] **Step 2: Tổ chức Hierarchy sạch sẽ**
   - Gom toàn bộ vào `MaiNgoi/DauDao_4Goc`.
 
 - [ ] **Step 3: Verification kiểm tra toàn cảnh 4 góc**
@@ -251,31 +292,34 @@ public class MeasureSceneBounds
 
 ---
 
-### Task 7: Phase 7 - Tách Mặt Sân 3 Mesh Visual & 1 Collider Thống Nhất (Yard Plane & Continuous Collider)
+### Task 7: Phase 7 - Tách Mặt Sân 3 Mesh Visual & 1 Collider Thống Nhất Dựa Trên Tọa Độ Runtime
 
 **Files:**
 - Modify: Scene `Assets/Scenes/PhongTrienLam.unity` (Thay thế `Plane` bằng nhóm `Ground_Yard`)
 
 **Interfaces:**
-- Consumes: Vị trí sảnh cửa chính ($Z = 0$, $X \approx 12.25\text{ m}$), cao độ $Y = 3.74\text{ m}$, biên sân rộng $94\text{ m} \times 68\text{ m}$.
-- Produces: 3 Mesh visual phẳng ghép khít + 1 BoxCollider liên tục phủ trọn sân.
+- Consumes: `YardBounds`, `GroundY`, `EntranceCenter` đo đạc thực tế từ Phase 0.
+- Produces: 3 Mesh visual phẳng ghép khít + 1 BoxCollider liên tục phủ trọn `YardBounds`.
 
 - [ ] **Step 1: Tạo Lối Đi Giữa (`Yard_Center_Walkway`)**
-  - Bề rộng: Đúng $7.0\text{ m}$ (từ $Z = -3.5\text{ m}$ đến $Z = +3.5\text{ m}$).
-  - Chiều dài: Từ mép thềm cửa $X = 12.25\text{ m}$ ra mép ngoài sân $X = 51.9\text{ m}$.
+  - Căn giữa theo $Z = EntranceCenter.z$.
+  - Bề rộng: Đúng $7.0\text{ m}$ (từ $Z = EntranceCenter.z - 3.5\text{ m}$ đến $Z = EntranceCenter.z + 3.5\text{ m}$).
+  - Chiều dài: Từ mép thềm sảnh ($X = EntranceCenter.x$) ra mép ngoài của `YardBounds`.
+  - Cao độ: $Y = GroundY$.
   - Gán Material `San_Da_Xam.mat`. Tắt Collider trên mesh này.
 
 - [ ] **Step 2: Tạo Sân Gạch Đỏ Hai Bên (`Yard_Left_RedBrick`, `Yard_Right_RedBrick`)**
-  - Sân trái: Kéo từ $Z = +3.5\text{ m}$ đến biên trái $Z \approx +49.7\text{ m}$.
-  - Sân phải: Kéo từ $Z = -3.5\text{ m}$ đến biên phải $Z \approx -44.1\text{ m}$.
-  - Cả hai ghép sát mép lối đi giữa (sai số $0.0\text{ m}$, không kẽ hở).
+  - Sân trái: Kéo từ mép trái lối đi giữa ($Z = EntranceCenter.z + 3.5\text{ m}$) ra biên trái của `YardBounds`.
+  - Sân phải: Kéo từ mép phải lối đi giữa ($Z = EntranceCenter.z - 3.5\text{ m}$) ra biên phải của `YardBounds`.
+  - Ghép sát khít mép lối đi giữa (sai số $0.0\text{ m}$, không kẽ hở).
+  - Cao độ: $Y = GroundY$.
   - Gán Material `San_Gach_Do.mat`. Tắt Collider trên các mesh này.
 
 - [ ] **Step 3: Tạo 1 Collider phẳng liên tục duy nhất (`Yard_Continuous_Collider`)**
-  - Gắn 1 `BoxCollider` bao trọn diện tích toàn bộ sân $68\text{ m} \times 94\text{ m}$ tại cao độ $Y = 3.74\text{ m}$ (bề dày $0.1\text{ m}$).
+  - Gắn 1 `BoxCollider` bao trọn diện tích `YardBounds` tại cao độ $Y = GroundY$ (bề dày $0.1\text{ m}$).
   - Đảm bảo người chơi khi di chuyển qua lại giữa gạch đỏ và đá xám không bao giờ bị vấp mí ron va chạm.
 
-- [ ] **Step 4: Verification kiểm tra va chạm & liền mạch**
+- [ ] **Step 4: Verification kiểm tra va chạm & Liền mạch**
   - Điều khiển `PlayerCapsule` di chuyển ngang qua ranh giới giữa 2 loại sân.
   - Xác nhận camera êm ru, không bị kênh/vấp chân vật lý.
 
@@ -284,20 +328,20 @@ public class MeasureSceneBounds
 
 ---
 
-### Task 8: Phase 8 - Xử Lý Texture Gạch Thật & Normal Maps PBR
+### Task 8: Phase 8 - Xử Lý Texture Gạch Thật & Normal Maps Lossless PBR
 
 **Files:**
-- Create: `Assets/Gallery/Textures/san_gach_Normal.jpg`, `Assets/Gallery/Textures/san_da_Normal.jpg`
+- Create: `Assets/Gallery/Textures/san_gach_Normal.png`, `Assets/Gallery/Textures/san_da_Normal.png` (Định dạng PNG lossless)
 - Create: `Assets/Gallery/Materials/San_Gach_Do.mat`
 - Modify: `Assets/Gallery/Materials/San_Da_Xam.mat`
 
 **Interfaces:**
 - Consumes: `san_gach.jpg`, `san da.jpg`.
-- Produces: Normal map cấu hình chuẩn Unity Importer + Material PBR mờ lì tự nhiên.
+- Produces: Normal map định dạng PNG lossless cấu hình TextureImporter + Material PBR mờ lì tự nhiên.
 
-- [ ] **Step 1: Kiểm tra xem có Normal map gốc hay không; nếu không, tạo Normal map từ Grayscale**
-  - Nhân bản `san_gach.jpg` $\rightarrow$ `san_gach_Normal.jpg`.
-  - Nhân bản `san da.jpg` $\rightarrow$ `san_da_Normal.jpg`.
+- [ ] **Step 1: Kiểm tra xem có Normal map gốc hay không; nếu không, tạo Normal map từ Grayscale xuất ra PNG**
+  - Kiểm tra project xem có normal map thực tế cho gạch/đá không.
+  - Nếu không, nhân bản albedo và xuất sang định dạng lossless **PNG** (`san_gach_Normal.png`, `san_da_Normal.png`) để tránh lỗi nén block của JPEG.
   - Cấu hình TextureImporter qua C# API:
     - `textureType = TextureImporterType.NormalMap`
     - `convertToNormalMap = true`
@@ -307,13 +351,13 @@ public class MeasureSceneBounds
 - [ ] **Step 2: Thiết lập Material `San_Gach_Do.mat`**
   - Shader: `Universal Render Pipeline/Lit`.
   - `_BaseMap`: `san_gach.jpg`.
-  - `_BumpMap`: `san_gach_Normal.jpg` với `_BumpScale = 1.0`.
-  - `_Smoothness`: $0.18$ (bề mặt lì mộc của gạch nung).
+  - `_BumpMap`: `san_gach_Normal.png` với `_BumpScale = 1.0`.
+  - `_Smoothness`: $0.18$ (bề mặt lì mộc của gạch nung Bát Tràng).
   - Tiling UV: Căn chỉnh tỉ lệ viên gạch $\approx 0.35\text{ m} \times 0.35\text{ m}$.
 
 - [ ] **Step 3: Thiết lập Material `San_Da_Xam.mat`**
   - `_BaseMap`: `san da.jpg`.
-  - `_BumpMap`: `san_da_Normal.jpg` với `_BumpScale = 1.0`.
+  - `_BumpMap`: `san_da_Normal.png` với `_BumpScale = 1.0`.
   - `_Smoothness`: $0.22$.
   - Tiling UV: Căn chỉnh kích thước phiến đá $\approx 0.5\text{ m} \times 0.5\text{ m}$.
 
@@ -322,7 +366,7 @@ public class MeasureSceneBounds
   - Chụp ảnh kiểm tra độ nổi khối của rãnh ron gạch và độ sần hạt của đá.
 
 - [ ] **Step 5: Kiểm tra STOP condition của Phase 8**
-  - **STOP condition:** Nếu Normal map bị đảo ngược (mạch vữa lồi lên thay vì chìm xuống) hoặc vật liệu bị bóng lóa bất thường $\rightarrow$ DỪNG, đảo kênh Normal và hạ Smoothness.
+  - **STOP condition:** Nếu Normal map bị đảo ngược hoặc vật liệu bị bóng lóa bất thường $\rightarrow$ DỪNG.
 
 ---
 
@@ -346,9 +390,9 @@ public class MeasureSceneBounds
   1. Geometry: Mái 4 dốc cân đối, nhô mép $0.4\text{ m}$, 4 đầu đao cong thanh thoát.
   2. Gaps & Light Leaks: Không lọt sáng.
   3. Z-Fighting: Tuyệt đối không nhấp nháy.
-  4. Performance: Draw calls trong ngưỡng an toàn.
+  4. Performance: Kiểm tra toàn diện 4 chỉ số (GameObjects < 100, Renderers, Triangles, Batches).
   5. Materials: Ngói đỏ đất nung, bờ dải vữa xám, sân gạch đỏ và đá xám chuẩn PBR.
-  6. Collision: Player di chuyển trơn tru trên 1 collider phẳng.
+  6. Collision: Player di chuyển trơn tru trên 1 collider phẳng liên tục.
   7. Multi-angle screenshots đầy đủ.
 
 - [ ] **Step 3: Lưu scene và lập báo cáo `walkthrough.md`**
