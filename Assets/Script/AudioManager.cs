@@ -3,40 +3,41 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
+   
     private AudioSource audioSource;
+    private PaintingData tranhHienTai;
 
     void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
+        if (Instance == null) {Instance = this;}       
+        else { Destroy(gameObject);return;}
+            audioSource = GetComponent<AudioSource>();
         }
-        else
-        {
-            Destroy(gameObject);
-            return;
-        }
+        
 
-        audioSource = GetComponent<AudioSource>();
-
-    }
+    
     void OnEnable()
     {
-        PaintingSelector.OnPaintingSelected += PhatThuyetMinh;
+        PaintingSelector.OnPaintingSelected += GhiNhoTranh;
     }
     void OnDisable()
     {
-        PaintingSelector.OnPaintingSelected -= PhatThuyetMinh;
+        PaintingSelector.OnPaintingSelected -= GhiNhoTranh;
     }
-    void PhatThuyetMinh(PaintingData tranh)
+void GhiNhoTranh(PaintingData tranh)
+{
+    tranhHienTai = tranh;
+}
+
+    public void PhatThuyetMinh()
     {
-        if (tranh.amThanhThuyetMinh == null)
+        if (tranhHienTai.amThanhThuyetMinh == null)
         {
-            Debug.Log("Tranh"+ tranh.tenTranh +"chưa có file âm thanh.");
+            Debug.Log("Tranh"+ tranhHienTai.tenTranh +"chưa có file âm thanh.");
             return;
         }
         audioSource.Stop();
-        audioSource.clip = tranh.amThanhThuyetMinh;
+        audioSource.clip = tranhHienTai.amThanhThuyetMinh;
         audioSource.Play();
     }
 }
