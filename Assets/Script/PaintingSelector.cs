@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.XR;
 
 public class PaintingSelector : MonoBehaviour
 {
@@ -9,12 +10,32 @@ public class PaintingSelector : MonoBehaviour
     public float khoangCachToiDa = 5f;
     public LayerMask layerTranh;
 
+    private bool nutDangNhan = false;
+
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        bool nutTayCamDuocNhan = KiemTraNutTrigger();
+
+        // Vẫn giữ chuột để lỡ cần test nhanh không đeo kính
+        bool nutChuotDuocNhan = Input.GetMouseButtonDown(0);
+
+        if ((nutTayCamDuocNhan && !nutDangNhan) || nutChuotDuocNhan)
         {
             KiemTraChonTranh();
         }
+
+        nutDangNhan = nutTayCamDuocNhan;
+    }
+
+    bool KiemTraNutTrigger()
+    {
+        InputDevice tayPhai = InputDevices.GetDeviceAtXRNode(XRNode.RightHand);
+        bool dangNhan;
+        if (tayPhai.TryGetFeatureValue(CommonUsages.triggerButton, out dangNhan))
+        {
+            return dangNhan;
+        }
+        return false;
     }
 
     void KiemTraChonTranh()
@@ -25,7 +46,6 @@ public class PaintingSelector : MonoBehaviour
         if (Physics.Raycast(ray, out hit, khoangCachToiDa, layerTranh))
         {
             PaintingInfo info = hit.collider.GetComponent<PaintingInfo>();
-
             if (info != null)
             {
                 OnPaintingSelected?.Invoke(info.data);
