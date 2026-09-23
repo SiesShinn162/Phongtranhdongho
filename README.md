@@ -1,6 +1,6 @@
 # 🏛️ Không Gian Triển Lãm Tranh Dân Gian Đông Hồ
 
-Dự án mô phỏng không gian bảo tàng triển lãm nghệ thuật tranh dân gian Đông Hồ truyền thống Việt Nam, được xây dựng trên nền tảng **Unity 6 (6000.5.9f1)** sử dụng **Universal Render Pipeline (URP)**.
+Dự án mô phỏng không gian bảo tàng triển lãm nghệ thuật tranh dân gian Đông Hồ truyền thống Việt Nam, được xây dựng trên nền tảng **Unity 6 (6000.5.9f1)** 
 
 ---
 
@@ -58,23 +58,6 @@ git clone https://github.com/SiesShinn162/Phongtranhdongho.git
 
 ---
 
-## 🎮 Hướng Dẫn Phím Điều Khiển (Controls)
 
-Dự án tích hợp góc nhìn thứ nhất (First Person Controller) mượt mà bằng bàn phím và chuột:
 
-| Thao Tác | Phím / Chuột | Chức Năng |
-| :--- | :---: | :--- |
-| **Di chuyển** | `W` `A` `S` `D` | Tiến, lùi, di chuyển sang trái / phải |
-| **Xoay góc nhìn** | `Rê chuột` | Quan sát không gian xung quanh 360 độ |
-| **Chạy nhanh** | Giữ `Shift` | Tăng tốc độ di chuyển trong phòng |
-| **Nhảy** | `Space` | Nhảy lên |
-| **Khóa / Mở chuột** | `Esc` | Bật / tắt con trỏ chuột trong Game View |
 
----
-
-## 🌟 Các Tính Năng Nổi Bật Trong Phòng Triển Lãm
-
-* **Kiến trúc nhà rường truyền thống:** Không gian triển lãm kích thước $24\text{m} \times 36\text{m} \times 5\text{m}$ với hệ khung cột dầm xà gỗ nóc nhà, hoành phi câu đối sơn son thếp vàng `KHÔNG GIAN TRIỂN LÃM TRANH ĐÔNG HỒ` và bình phong tiền sảnh đón khách.
-* **Bộ sưu tập 16 bức tranh Đông Hồ độc bản:** Bố trí trang trọng tại các gian trưng bày và vách ngăn, mỗi bức tranh đều được trang bị đèn rọi Spotlight chuyên dụng chuẩn bảo tàng.
-* **Hệ thống ánh sáng ấm cúng:** Vòng tròn 12 đèn lồng trần và đèn lồng đơn sảnh đón khách tỏa ánh sáng vàng ấm lung linh (`3200K`), kết hợp sàn gạch gốm đất nung Bát Tràng mộc mạc, chống chói lóa.
-* **Tối ưu hóa hiệu năng:** Toàn bộ đèn phụ tắt đổ bóng (Shadows = None) giúp game chạy mượt mà $120\text{ FPS}$ trên mọi cấu hình máy tính.
