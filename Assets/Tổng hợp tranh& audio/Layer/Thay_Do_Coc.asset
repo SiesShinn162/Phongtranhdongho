@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: Thay_Do_Coc
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 Th\u1EA7y \u0110\u1ED3 C\xF3c"
+  moTa: "Tranh d\xE2n gian \u201CTh\u1EA7y \u0110\u1ED3 C\xF3c\u201D, thu\u1ED9c
+    d\xF2ng tranh \u0110\xF4ng H\u1ED3 n\u1ED5i ti\u1EBFng, mang \u0111\u1EBFn m\u1ED9t
+    th\u1EBF gi\u1EDBi s\u1ED1ng \u0111\u1ED9ng, d\xED d\u1ECFm m\xE0 s\xE2u s\u1EAFc,
+    n\u01A1i nh\u1EEFng lo\xE0i v\u1EADt nh\u01B0 c\xF3c, nh\xE1i, \u1EC5nh \u01B0\u01A1ng
+    hi\u1EC7n l\xEAn trong khung c\u1EA3nh \u0111\u1EB7c bi\u1EC7t \u2013 m\u1ED9t
+    l\u1EDBp h\u1ECDc. Gi\u1EEFa b\u1EE9c tranh l\xE0 h\xECnh \u1EA3nh m\u1ED9t th\u1EA7y
+    C\xF3c l\u1EDBn, uy nghi\xEAm, \u0111ang ng\u1ED3i ch\u1EC5m ch\u1EC7 tr\xEAn
+    s\u1EADp g\u1EE5, say s\u01B0a gi\u1EA3ng d\u1EA1y, trong khi c\xE1c \u201Ch\u1ECDc
+    tr\xF2\u201D ch\u0103m ch\xFA l\u1EAFng nghe. M\u1EB7c d\xF9 l\xE0 nh\u1EEFng
+    sinh v\u1EADt quen thu\u1ED9c trong thi\xEAn nhi\xEAn, ch\xFAng l\u1EA1i mang
+    d\xE1ng v\u1EBB v\xE0 h\xE0nh vi g\u1EA7n nh\u01B0 con ng\u01B0\u1EDDi \u2013
+    m\u1ED9t n\xE9t \u0111\u1EB7c tr\u01B0ng \u0111\u1EA7y s\xE1ng t\u1EA1o v\xE0
+    h\xE0i h\u01B0\u1EDBc c\u1EE7a tranh \u0110\xF4ng H\u1ED3.\r\n\r\nN\u1ED5i b\u1EADt
+    trong tranh l\xE0 d\xF2ng ch\u1EEF H\xE1n: \u201CL\xE3o Oa \u0111\u1ED9c gi\u1EA3ng\u201D,
+    c\xF3 ngh\u0129a l\xE0 \u201C\xD4ng C\xF3c gi\xE0 m\u1ED9t m\xECnh gi\u1EA3ng
+    b\xE0i\u201D. Ch\u1EEF \u201COa\u201D v\u1ED1n mang ngh\u0129a l\xE0 \u201C\u1EBFch\u201D,
+    nh\u01B0ng trong ng\u1EEF c\u1EA3nh d\xE2n gian, ng\u01B0\u1EDDi ta quen g\u1ECDi
+    l\xE0 \u201CTh\u1EA7y \u0110\u1ED3 C\xF3c\u201D. Ch\u1EEF \u201C\u0111\u1ED9c\u201D
+    c\xF3 th\u1EC3 hi\u1EC3u theo hai l\u1EDBp ngh\u0129a: v\u1EEBa l\xE0 \u201C\u0111\u1ECDc\u201D
+    \u2013 gi\u1EA3ng b\xE0i, v\u1EEBa l\xE0 \u201Cc\xF4 \u0111\u1ED9c\u201D \u2013
+    m\u1ED9t m\xECnh d\u1EA1y h\u1ECDc, t\u1EA1o n\xEAn t\u1EA7ng \xFD ngh\u0129a
+    ch\u1ED3ng ch\xE9o v\u1EEBa h\xE0i h\u01B0\u1EDBc, v\u1EEBa g\u1EE3i suy ng\u1EABm."
+  anhTranh: {fileID: 21300000, guid: e1665c740e347824b9108e1b61a3aa83, type: 3}
+  amThanhThuyetMinh: {fileID: 0}
