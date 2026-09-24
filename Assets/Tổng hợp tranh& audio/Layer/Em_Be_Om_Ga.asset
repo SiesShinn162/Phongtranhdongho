@@ -33,4 +33,4 @@ MonoBehaviour:
     gi\xE1c g\u1EA7n g\u0169i, th\xE2n thi\u1EC7n v\xE0 gi\xE0u \xFD ngh\u0129a nh\xE2n
     v\u0103n."
   anhTranh: {fileID: 21300000, guid: dd709a27a6a588f4a9254fc39aef749a, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 84976602a4486a34a891cb7252b2c33a, type: 3}

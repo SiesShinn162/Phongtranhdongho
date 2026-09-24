@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
   m_Name: Chan_Trau_Thoi_Sao
   m_EditorClassIdentifier: Assembly-CSharp::PaintingData
-  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 Ch\u0103n Tr\xE2u Th\u1ED5i S\xE1o"
+  tenTranh: "\u0110\xF4ng H\u1ED3 Ch\u0103n Tr\xE2u Th\u1ED5i S\xE1o"
   moTa: "B\u1EE9c tranh \u0110\xF4ng H\u1ED3 \"Ch\u0103n Tr\xE2u Th\u1ED5i S\xE1o\",
     c\xF2n \u0111\u01B0\u1EE3c bi\u1EBFt \u0111\u1EBFn v\u1EDBi t\xEAn g\u1ECDi \"M\u1EE5c
     \u0110\u1ED3ng Th\u1ED5i S\xE1o\", l\xE0 m\u1ED9t ki\u1EC7t t\xE1c ti\xEAu bi\u1EC3u
@@ -33,5 +33,5 @@ MonoBehaviour:
     c\xF2n g\u1EE3i nh\u1EAFc v\u1EC1 tu\u1ED5i th\u01A1 \xEAm \u0111\u1EC1m n\u01A1i
     l\xE0ng qu\xEA, n\u01A1i ti\u1EBFng s\xE1o ng\xE2n vang gi\u1EEFa c\xE1nh \u0111\u1ED3ng
     l\u1ED9ng gi\xF3."
-  anhTranh: {fileID: 21300000, guid: 35162fdb826c8994693ce212c54efe06, type: 3}
+  anhTranh: {fileID: 21300000, guid: 8b1cb55fcc0142840befb87e7f0e5fa5, type: 3}
   amThanhThuyetMinh: {fileID: 0}

@@ -22,5 +22,5 @@ MonoBehaviour:
     c\u1EE7a thi\xEAn nhi\xEAn m\xE0 c\xF2n g\xF3i gh\xE9m trong \u0111\xF3 nh\u1EEFng
     th\xF4ng \u0111i\u1EC7p v\u0103n h\xF3a s\xE2u s\u1EAFc v\u1EC1 t\xECnh c\u1EA3m
     gia \u0111\xECnh, \u0111\u1EB7c bi\u1EC7t l\xE0 t\xECnh m\u1EABu t\u1EED."
-  anhTranh: {fileID: 21300000, guid: b3c81b1539031674ab088e44ae3a244e, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  anhTranh: {fileID: 21300000, guid: 99e3e404de8fbb04c97890913c4d85af, type: 3}
+  amThanhThuyetMinh: {fileID: 8300000, guid: adc06ec04c5fb764db61fa945a3589a8, type: 3}

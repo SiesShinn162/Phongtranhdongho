@@ -29,5 +29,5 @@ MonoBehaviour:
     tranh n\xE0y thu\u1ED9c ch\u1EE7 \u0111\u1EC1 tranh sinh ho\u1EA1t trong d\xE2n
     gian \u0110\xF4ng H\u1ED3. C\xE1i hay c\u1EE7a tranh l\xE0 ngh\u1EC7 thu\u1EADt
     tr\xE0o ph\xFAng v\xE0 ch\xE2m bi\u1EBFm r\u1EA5t th\xFA v\u1ECB."
-  anhTranh: {fileID: 21300000, guid: 5282116d92df6b344bb12b3043c414e5, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  anhTranh: {fileID: 21300000, guid: 6f309aa6fc31b4c4880670b0679e5789, type: 3}
+  amThanhThuyetMinh: {fileID: 8300000, guid: f3123db7a1f888c40a0e3604d5ebc01a, type: 3}

@@ -22,4 +22,4 @@ MonoBehaviour:
     ch\xE9p trong tranh l\xE0 bi\u1EC3u t\u01B0\u1EE3ng c\u1EE7a s\u1EF1 n\u1ED7
     l\u1EF1c, th\xE0nh c\xF4ng, v\xE0 kh\xE1t v\u1ECDng v\u01B0\u01A1n l\xEAn."
   anhTranh: {fileID: 21300000, guid: 02004e4d61c540840b275477665b3a2d, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: adc06ec04c5fb764db61fa945a3589a8, type: 3}

@@ -31,4 +31,4 @@ MonoBehaviour:
     tr\xE8o l\xEAn c\xE2y d\u1EEBa nh\u01B0 cha. T\u1EA5t c\u1EA3 c\xF9ng t\u1EA1o
     n\xEAn m\u1ED9t c\u1EA3nh gia \u0111\xECnh \u0111o\xE0n k\u1EBFt b\xEAn nhau."
   anhTranh: {fileID: 21300000, guid: 9664aaafe33ebae429f99b2e50391a78, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 09335416b06194f4c916b8ee406644bc, type: 3}

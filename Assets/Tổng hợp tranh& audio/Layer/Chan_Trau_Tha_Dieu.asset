@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
   m_Name: Chan_Trau_Tha_Dieu
   m_EditorClassIdentifier: Assembly-CSharp::PaintingData
-  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 Ch\u0103n Tr\xE2u Th\u1EA3 Di\u1EC1u"
+  tenTranh: "Ch\u0103n Tr\xE2u Th\u1EA3 Di\u1EC1u"
   moTa: "B\u1EE9c tranh \u0110\xF4ng H\u1ED3 \u201CCh\u0103n Tr\xE2u Th\u1EA3 Di\u1EC1u\u201D
     nh\u01B0 m\u1ED9t kh\xFAc \u0111\u1ED3ng dao h\u1ED3n nhi\xEAn vang v\u1ECDng
     gi\u1EEFa b\u1EA7u tr\u1EDDi cao v\u1EDDi v\u1EE3i v\xE0 c\xE1nh \u0111\u1ED3ng
@@ -22,5 +22,5 @@ MonoBehaviour:
     \u0111\u1EB9p m\u1ED9c m\u1EA1c c\u1EE7a cu\u1ED9c s\u1ED1ng n\xF4ng th\xF4n,
     m\xE0 c\xF2n l\xE0 k\u1EBFt tinh c\u1EE7a chi\u1EC1u s\xE2u v\u0103n h\xF3a v\xE0
     s\u1EE9c s\u1ED1ng d\xE2n t\u1ED9c."
-  anhTranh: {fileID: 21300000, guid: 044eeb8d351e84e4f88540350fe43275, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  anhTranh: {fileID: 21300000, guid: 0d70a9fbf275c20429e6e8bc6b948f76, type: 3}
+  amThanhThuyetMinh: {fileID: 8300000, guid: a4a2cc73b4cd00143bcb727c0728042b, type: 3}

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PaintingData
   tenTranh: "G\xE0 "
   moTa: "Mi\xEAu t\u1EA3 ch\xE2n dung sinh ho\u1EA1t"
-  anhTranh: {fileID: 21300000, guid: 0d70a9fbf275c20429e6e8bc6b948f76, type: 3}
-  amThanhThuyetMinh: {fileID: 8300000, guid: 96bd85462868f5449b4c4b2ed807c7f5, type: 3}
+  anhTranh: {fileID: 21300000, guid: 7a13a0e9fa55f904ba314c4f8655a1d3, type: 3}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 6a0e74d1b7dc86f4bbf95619a7654ccb, type: 3}
