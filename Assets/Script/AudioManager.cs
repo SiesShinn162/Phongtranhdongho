@@ -40,4 +40,8 @@ void GhiNhoTranh(PaintingData tranh)
         audioSource.clip = tranhHienTai.amThanhThuyetMinh;
         audioSource.Play();
     }
+    public void DungPhat()
+{
+    audioSource.Stop();
+}
 }
