@@ -1,0 +1,2 @@
+Assets/Gallery/RoofNative/*.asset filter=lfs diff=lfs merge=lfs -text
+Assets/AllSkyFree/Cold[[:space:]]Sunset/*.png filter=lfs diff=lfs merge=lfs -text

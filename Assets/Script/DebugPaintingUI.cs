@@ -18,6 +18,7 @@ public class DebugPaintingUI : MonoBehaviour
     }
     void OnGUI()
     {
+        if (UnityEngine.XR.XRSettings.isDeviceActive) return;
         if (trangThaiHienTai == null) return;
 
         GUIStyle style = new GUIStyle();
@@ -29,16 +30,6 @@ public class DebugPaintingUI : MonoBehaviour
 
         style.fontSize = 16;
         GUI.Label(new Rect(30, 70, 380, 60), trangThaiHienTai.moTa, style);
-    
-        if (GUI.Button(new Rect(30, 115, 150, 35), "Nghe thuyết minh"))
-        {
-            AudioManager.Instance.PhatThuyetMinh();
-        }
-
-        if (GUI.Button(new Rect(190, 115, 80, 35), "Đóng"))
-        {
-            trangThaiHienTai = null;
-        }
     }
 
 }
