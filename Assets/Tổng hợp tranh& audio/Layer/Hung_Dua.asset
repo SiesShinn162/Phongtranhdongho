@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: Hung_Dua
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: " Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 H\u1EE9ng D\u1EEBa"
+  moTa: "Tranh \u0110\xF4ng H\u1ED3 H\u1EE9ng D\u1EEBa l\xE0 m\u1ED9t bi\u1EC3u t\u01B0\u1EE3ng
+    c\u1EE7a gia \u0111\xECnh h\u1EA1nh ph\xFAc trong tranh d\xE2n gian \u0110\xF4ng
+    H\u1ED3. Tranh mang h\xECnh \u1EA3nh \u0111\u1EB9p v\xE0 \u0111\u01A1n gi\u1EA3n
+    v\u1EC1 c\u1EA3nh sinh ho\u1EA1t gia \u0111\xECnh, nh\u01B0ng l\u1EA1i mang nhi\u1EC1u
+    \xFD ngh\u0129a s\xE2u s\u1EAFc.\r\n\r\nTranh \u0110\xF4ng H\u1ED3 H\u1EE9ng
+    D\u1EEBa \u0111\u01B0\u1EE3c th\u1EF1c hi\u1EC7n tr\xEAn gi\u1EA5y \u0111i\u1EC7p
+    v\xE0 in b\u1EB1ng b\u1EA3n kh\u1EAFc g\u1ED7. M\u1ED7i m\xE0u s\u1EAFc \u0111\u1EC1u
+    \u0111\u01B0\u1EE3c in l\u1EA7n l\u01B0\u1EE3t, ch\u1EDD m\xE0u n\xE0y kh\xF4
+    m\u1EDBi in m\xE0u ti\u1EBFp theo. Do \u0111\xF3, s\u1ED1 l\u1EA7n in t\u01B0\u01A1ng
+    \u0111\u01B0\u01A1ng v\u1EDBi s\u1ED1 m\xE0u s\u1EAFc c\u1EE7a tranh.\r\n\r\nB\u1ED1
+    c\u1EE5c v\xE0 n\u1ED9i dung c\u1EE7a tranh \u0110\xF4ng H\u1ED3 H\u1EE9ng D\u1EEBa
+    kh\xE1 \u0111\u01A1n gi\u1EA3n. Tranh hi\u1EC3n th\u1ECB h\xECnh \u1EA3nh ng\u01B0\u1EDDi
+    cha \u0111ang h\xE1i d\u1EEBa v\xE0 treo l\xEAn c\xE2y. Ng\u01B0\u1EDDi v\u1EE3
+    \u0111\u1EE9ng d\u01B0\u1EDBi h\u1EE9ng d\u1EEBa b\u1EB1ng v\u1EA1t v\xE1y c\u1EE7a
+    m\xECnh. Hai \u0111\u1EE9a tr\u1EBB \xF4m th\xE2n c\xE2y v\xE0 c\u0169ng mu\u1ED1n
+    tr\xE8o l\xEAn c\xE2y d\u1EEBa nh\u01B0 cha. T\u1EA5t c\u1EA3 c\xF9ng t\u1EA1o
+    n\xEAn m\u1ED9t c\u1EA3nh gia \u0111\xECnh \u0111o\xE0n k\u1EBFt b\xEAn nhau."
+  anhTranh: {fileID: 21300000, guid: 9664aaafe33ebae429f99b2e50391a78, type: 3}
+  amThanhThuyetMinh: {fileID: 0}

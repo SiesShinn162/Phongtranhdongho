@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: Danh_Ghen
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: " Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 \u0110\xE1nh Ghen"
+  moTa: "Tranh \u0110\xF4ng H\u1ED3 \u0110\xE1nh Ghen thu\u1ED9c d\xF2ng tranh truy\u1EC1n
+    th\u1ED1ng t\u1EEB l\xE0ng ngh\u1EC1 l\xE0m tranh \u0110\xF4ng H\u1ED3 t\u1EA1i
+    Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh. Tranh \u0111\u01B0\u1EE3c v\u1EBD tr\xEAn
+    gi\u1EA5y d\xF3 hay c\xF2n g\u1ECDi l\xE0 gi\u1EA5y \u0111i\u1EC7p v\xE0 t\u1EEBng
+    m\u1EA3ng m\xE0u trong tranh \u0111\u01B0\u1EE3c in b\u1EA3n kh\u1EAFc g\u1ED7
+    m\u1ED9t l\u1EA7n. C\xE1c ngh\u1EC7 nh\xE2n \u0111\xE3 t\u1EC9 m\u1EA9n v\u1EBD
+    b\u1EA3n m\u1EABu v\xE0 kh\u1EAFc tr\xEAn b\u1EA3n g\u1ED7. S\u1ED1 l\u1EA7n
+    in t\u01B0\u01A1ng \u0111\u01B0\u01A1ng v\u1EDBi s\u1ED1 l\u01B0\u1EE3ng m\xE0u
+    s\u1EAFc trong tranh. \u0110\xE2y l\xE0 \u0111\u1EB7c tr\u01B0ng ri\xEAng c\u1EE7a
+    tranh \u0110\xF4ng H\u1ED3, c\xF2n \u0111\u01B0\u1EE3c g\u1ECDi l\xE0 tranh in
+    b\u1EA3n kh\u1EAFc g\u1ED7.\r\n\r\nB\u1EE9c tranh \u0110\xE1nh Ghen l\xE0 m\u1ED9t
+    trong 10 b\u1EE9c tranh d\xE2n gian \u0110\xF4ng H\u1ED3 n\u1ED5i ti\u1EBFng
+    th\u01B0\u1EDDng \u0111\u01B0\u1EE3c treo \u1EDF ph\xF2ng kh\xE1ch. B\u1EE9c
+    tranh n\xE0y thu\u1ED9c ch\u1EE7 \u0111\u1EC1 tranh sinh ho\u1EA1t trong d\xE2n
+    gian \u0110\xF4ng H\u1ED3. C\xE1i hay c\u1EE7a tranh l\xE0 ngh\u1EC7 thu\u1EADt
+    tr\xE0o ph\xFAng v\xE0 ch\xE2m bi\u1EBFm r\u1EA5t th\xFA v\u1ECB."
+  anhTranh: {fileID: 21300000, guid: 5282116d92df6b344bb12b3043c414e5, type: 3}
+  amThanhThuyetMinh: {fileID: 0}

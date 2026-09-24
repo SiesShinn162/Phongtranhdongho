@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: Em_Be_Om_Ga
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 Em B\xE9 \xD4m G\xE0"
+  moTa: "Tranh \u0110\xF4ng H\u1ED3 \"Em B\xE9 \xD4m G\xE0\" l\xE0 m\u1ED9t t\xE1c
+    ph\u1EA9m d\xE2n gian \u0111\u1EB7c s\u1EAFc, truy\u1EC1n t\u1EA3i th\xF4ng \u0111i\u1EC7p
+    v\u1EC1 s\u1EF1 may m\u1EAFn, vinh hoa v\xE0 th\xE0nh c\xF4ng trong cu\u1ED9c
+    s\u1ED1ng.\r\n\r\nH\xECnh \u1EA3nh c\u1EADu b\xE9 \xF4m ch\xFA g\xE0 tr\u1ED1ng
+    b\xEAn c\u1EA1nh ch\u1EADu hoa c\xFAc \u0111ang n\u1EDF l\xE0 bi\u1EC3u t\u01B0\u1EE3ng
+    cho ni\u1EC1m hy v\u1ECDng v\u1EC1 m\u1ED9t t\u01B0\u01A1ng lai th\u1ECBnh v\u01B0\u1EE3ng,
+    an l\xE0nh. G\xE0 tr\u1ED1ng trong v\u0103n h\xF3a truy\u1EC1n th\u1ED1ng t\u01B0\u1EE3ng
+    tr\u01B0ng cho s\u1EF1 d\u0169ng c\u1EA3m, trung th\u1EF1c, c\u1EA7n c\xF9 v\xE0
+    tinh th\u1EA7n l\u1EA1c quan \u2013 nh\u1EEFng ph\u1EA9m ch\u1EA5t qu\xFD gi\xE1
+    c\u1EE7a con ng\u01B0\u1EDDi. \u0110\u1EB7c bi\u1EC7t, t\xEAn g\u1ECDi \"\u0110\u1EA1i
+    K\xEA\" (g\xE0 l\u1EDBn) \u0111\u1ED3ng \xE2m v\u1EDBi \"\u0110\u1EA1i C\xE1t\",
+    ng\u1EE5 \xFD mang l\u1EA1i nhi\u1EC1u \u0111i\u1EC1u t\u1ED1t l\xE0nh v\xE0
+    may m\u1EAFn cho gia \u0111\xECnh.\r\n\r\nB\u1EE9c tranh c\u0169ng th\u1EC3 hi\u1EC7n
+    n\u0103m \u0111\u1EE9c t\xEDnh cao qu\xFD m\xE0 con ng\u01B0\u1EDDi h\u01B0\u1EDBng
+    t\u1EDBi: Nh\xE2n \u2013 Ngh\u0129a \u2013 L\u1EC5 \u2013 Tr\xED \u2013 T\xEDn.
+    V\u1EDBi b\u1ED1 c\u1EE5c h\xE0i h\xF2a, n\xE9t v\u1EBD m\u1ED9c m\u1EA1c v\xE0
+    m\xE0u s\u1EAFc t\u01B0\u01A1i s\xE1ng, t\xE1c ph\u1EA9m mang l\u1EA1i c\u1EA3m
+    gi\xE1c g\u1EA7n g\u0169i, th\xE2n thi\u1EC7n v\xE0 gi\xE0u \xFD ngh\u0129a nh\xE2n
+    v\u0103n."
+  anhTranh: {fileID: 21300000, guid: dd709a27a6a588f4a9254fc39aef749a, type: 3}
+  amThanhThuyetMinh: {fileID: 0}
