@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: Ga_Dan
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 G\xE0 \u0110\xE0n"
+  moTa: "Tranh d\xE2n gian \u0110\xF4ng H\u1ED3 G\xE0 \u0110\xE0n \u2013 Bi\u1EC3u
+    t\u01B0\u1EE3ng gia \u0111\xECnh sum v\u1EA7y, h\u1EA1nh ph\xFAc\r\n\r\nTranh
+    d\xE2n gian \u0110\xF4ng H\u1ED3 G\xE0 \u0110\xE0n, c\xF2n \u0111\u01B0\u1EE3c
+    bi\u1EBFt \u0111\u1EBFn v\u1EDBi t\xEAn g\u1ECDi \u0110\xE0n G\xE0 M\u1EB9 Con,
+    l\xE0 m\u1ED9t trong nh\u1EEFng b\u1EE9c tranh quen thu\u1ED9c v\xE0 gi\xE0u
+    \xFD ngh\u0129a c\u1EE7a ngh\u1EC7 thu\u1EADt d\xE2n gian Vi\u1EC7t Nam. H\xECnh
+    \u1EA3nh g\xE0 m\u1EB9 c\xF9ng \u0111\xE0n g\xE0 con qu\xE2y qu\u1EA7n kh\xF4ng
+    ch\u1EC9 t\u1EA1o n\xEAn m\u1ED9t khung c\u1EA3nh g\u1EA7n g\u0169i, vui t\u01B0\u01A1i
+    m\xE0 c\xF2n g\u1EEDi g\u1EAFm \u01B0\u1EDBc mong v\u1EC1 gia \u0111\xECnh \u0111\u1EA7m
+    \u1EA5m, con ch\xE1u \u0111\xF4ng vui v\xE0 cu\u1ED9c s\u1ED1ng sung t\xFAc.\r\n\r\nV\u1EDBi
+    \u0111\u01B0\u1EDDng n\xE9t m\u1ED9c m\u1EA1c, m\xE0u s\u1EAFc g\u1EA7n g\u0169i
+    v\xE0 \xFD ngh\u0129a t\u1ED1t \u0111\u1EB9p, tranh \u0110\xF4ng H\u1ED3 G\xE0
+    \u0110\xE0n th\xEDch h\u1EE3p \u0111\u1EC3 trang tr\xED ph\xF2ng kh\xE1ch, ph\xF2ng
+    l\xE0m vi\u1EC7c, kh\xF4ng gian truy\u1EC1n th\u1ED1ng ho\u1EB7c l\u1EF1a ch\u1ECDn
+    l\xE0m qu\xE0 t\u1EB7ng d\xE0nh cho gia \u0111\xECnh, ng\u01B0\u1EDDi th\xE2n
+    v\xE0 b\u1EA1n b\xE8.\r\n\r\nNgu\u1ED3n g\u1ED1c c\u1EE7a tranh \u0110\xF4ng
+    H\u1ED3 G\xE0 \u0110\xE0n\r\n\r\nG\xE0 \u0110\xE0n thu\u1ED9c d\xF2ng tranh d\xE2n
+    gian \u0110\xF4ng H\u1ED3, c\xF3 ngu\u1ED3n g\u1ED1c t\u1EEB l\xE0ng \u0110\xF4ng
+    H\u1ED3, v\xF9ng Kinh B\u1EAFc x\u01B0a. \u0110\xE2y l\xE0 d\xF2ng tranh g\u1EAFn
+    b\xF3 m\u1EADt thi\u1EBFt v\u1EDBi \u0111\u1EDDi s\u1ED1ng tinh th\u1EA7n c\u1EE7a
+    ng\u01B0\u1EDDi Vi\u1EC7t, \u0111\u1EB7c bi\u1EC7t ph\u1ED5 bi\u1EBFn trong m\u1ED7i
+    d\u1ECBp T\u1EBFt \u0111\u1EBFn, xu\xE2n v\u1EC1."
+  anhTranh: {fileID: 21300000, guid: 777aeebe6fd517e48b9ba332a1a96d32, type: 3}
+  amThanhThuyetMinh: {fileID: 0}

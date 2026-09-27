@@ -4,6 +4,7 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
     private AudioSource audioSource;
+    private PaintingData tranhHienTai;
 
     void Awake()
     {
@@ -18,25 +19,52 @@ public class AudioManager : MonoBehaviour
         }
 
         audioSource = GetComponent<AudioSource>();
-
     }
+
     void OnEnable()
     {
-        PaintingSelector.OnPaintingSelected += PhatThuyetMinh;
+        PaintingSelector.OnPaintingSelected += GhiNhoTranh;
     }
+
     void OnDisable()
     {
-        PaintingSelector.OnPaintingSelected -= PhatThuyetMinh;
+        PaintingSelector.OnPaintingSelected -= GhiNhoTranh;
     }
-    void PhatThuyetMinh(PaintingData tranh)
+
+    public void GhiNhoTranh(PaintingData tranh)
     {
-        if (tranh.amThanhThuyetMinh == null)
+        tranhHienTai = tranh;
+    }
+
+    public void PhatThuyetMinh()
+    {
+        if (tranhHienTai == null) return;
+
+        Debug.Log("Đang xử lý tranh: " + tranhHienTai.tenTranh + 
+                   " | File audio: " + (tranhHienTai.amThanhThuyetMinh != null ? tranhHienTai.amThanhThuyetMinh.name : "KHÔNG CÓ"));
+
+        if (tranhHienTai.amThanhThuyetMinh == null)
         {
-            Debug.Log("Tranh"+ tranh.tenTranh +"chưa có file âm thanh.");
+            Debug.Log("Tranh " + tranhHienTai.tenTranh + " chưa có file âm thanh.");
             return;
         }
+
         audioSource.Stop();
-        audioSource.clip = tranh.amThanhThuyetMinh;
+        audioSource.clip = tranhHienTai.amThanhThuyetMinh;
         audioSource.Play();
+    }
+
+    public void PhatThuyetMinh(PaintingData tranh)
+    {
+        GhiNhoTranh(tranh);
+        PhatThuyetMinh();
+    }
+
+    public void DungPhat()
+    {
+        if (audioSource != null)
+        {
+            audioSource.Stop();
+        }
     }
 }

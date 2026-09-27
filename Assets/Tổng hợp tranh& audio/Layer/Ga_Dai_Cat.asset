@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: Ga_Dai_Cat
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 G\xE0 \u0110\u1EA1i C\xE1t"
+  moTa: "Tranh \u0110\xF4ng H\u1ED3 G\xE0 \u0110\u1EA1i C\xE1t th\u1EC3 hi\u1EC7n
+    s\u1EF1 k\xEDnh tr\u1ECDng c\u1EE7a ng\u01B0\u1EDDi d\xE2n \u0111\u1ED1i v\u1EDBi
+    g\xE0 v\xE0 \u0111\u01B0\u1EE3c cho l\xE0 bi\u1EC3u t\u01B0\u1EE3ng c\u1EE7a
+    ng\u0169 \u0111\u1EE9c: v\u0103n \u2013 v\xF5 \u2013 d\u0169ng \u2013 nh\xE2n
+    \u2013 t\xEDn. Theo H\xF5a Kinh, g\xE0 \u0111\u1EA1i c\xE1t \u0111\u01B0\u1EE3c
+    m\xF4 t\u1EA3 qua nh\u1EEFng \u0111\u1EB7c \u0111i\u1EC3m sau \u0111\xE2y:\r\n\r\n\u0110\u1EA7u
+    \u0111\u1ED9i m\u0169 (m\xE0o g\xE0 tr\u1ED1ng): \u0111\u1EA1i di\u1EC7n cho
+    V\u0103n, chi\u1EBFc m\xE0o g\xE0 cao th\u1EB3ng th\u1EC3 hi\u1EC7n s\u1EF1 ki\xEAu
+    h\xE3nh v\xE0 ch\xED kh\xED. T\u1EEB \"m\xE0o g\xE0\" trong ti\u1EBFng H\xE1n
+    c\u0169ng c\xF3 \xE2m thanh gi\u1ED1ng v\u1EDBi \"quan\", do \u0111\xF3 m\xE0o
+    g\xE0 \u0111\u01B0\u1EE3c coi l\xE0 bi\u1EC3u t\u01B0\u1EE3ng c\u1EE7a quan l\u1EA1i,
+    v\xE0 c\xF3 t\xE1c d\u1EE5ng chi\xEAu t\xE0i, c\xF4ng th\xE0nh danh to\u1EA1i.\r\n\r\nB\u01B0\u1EDBc
+    \u0111i nhanh l\xE0 V\xF5: G\xE0 \u0111\u1EA1i c\xE1t th\u01B0\u1EDDng \u0111i
+    \u0111\u1EA7u \u0111\xE0n v\xE0 d\u1EABn d\u1EAFt \u0111\xE0n g\xE0 theo. H\xECnh
+    d\u1EA1ng g\xE0 \u0111i nhanh nh\u1EB9n v\xE0 m\u1EA1nh m\u1EBD, th\u1EC3 hi\u1EC7n
+    s\u1EE9c m\u1EA1nh v\xE0 v\xF5 ngh\u1EC7.\r\n\r\nG\u1EB7p \u0111\u1ECBch d\xE1m
+    chi\u1EBFn \u0111\u1EA5u l\xE0 D\u0169ng: G\xE0 \u0111\u1EA1i c\xE1t di chuy\u1EC3n
+    linh ho\u1EA1t v\xE0 \u0111\xE1nh nh\u1EEFng c\xFA m\u1ED5 chu\u1EA9n x\xE1c.
+    Ch\xFAng c\xF3 th\u1EC3 \u0111\xE1nh b\u1EA1i c\u1EA3 r\u1EAFn \u0111\u1EC3 b\u1EA3o
+    v\u1EC7 \u0111\xE0n g\xE0.\r\n\r\nC\xF3 mi\u1EBFng \u0103n bi\u1EBFt g\u1ECDi
+    \u0111\xE0n l\xE0 Nh\xE2n: G\xE0 \u0111\u1EA1i c\xE1t s\u1EBD k\xEAu l\xEAn khi
+    t\xECm th\u1EA5y th\u1EE9c \u0103n \u0111\u1EC3 c\u1EA3 \u0111\xE0n c\xF9ng nhau
+    \u0111i t\xECm v\xE0 \u0103n chung.\r\n\r\nLu\xF4n c\u0103n g\xE1c ban \u0111\xEAm
+    l\xE0 T\xEDn: G\xE0 \u0111\u1EA1i c\xE1t c\xF3 th\xF3i quen ng\u1EE7 s\u1EDBm
+    v\xE0 th\u1EE9c d\u1EADy v\xE0o ban \u0111\xEAm. Ti\u1EBFng g\xE1y c\u1EE7a ch\xFAng
+    v\xE0o s\xE1ng s\u1EDBm l\xE0 bi\u1EC3u t\u01B0\u1EE3ng c\u1EE7a b\xECnh minh
+    v\xE0 kh\u01A1i g\u1EE3i s\u1EF1 hi v\u1ECDng. G\xE0 \u0111\u1EA1i c\xE1t c\u0169ng
+    th\u01B0\u1EDDng xuy\xEAn t\u1EA5n c\xF4ng v\xE0 ph\xF2ng th\u1EE7 v\xE0o ban
+    \u0111\xEAm, bi\u1EC3u th\u1ECB s\u1EF1 can tr\u01B0\u1EDDng v\xE0 t\xEDn nhi\u1EC7m."
+  anhTranh: {fileID: 21300000, guid: 6875ecd52e0c7954b97c02e3530a063d, type: 3}
+  amThanhThuyetMinh: {fileID: 0}

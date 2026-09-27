@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: Em_Be_Om_Vit
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 Em B\xE9 \xD4m V\u1ECBt"
+  moTa: "Tranh \u0110\xF4ng H\u1ED3 \"Em B\xE9 \xD4m V\u1ECBt\" l\xE0 m\u1ED9t t\xE1c
+    ph\u1EA9m ngh\u1EC7 thu\u1EADt d\xE2n gian mang \u0111\u1EADm gi\xE1 tr\u1ECB
+    v\u0103n h\xF3a v\xE0 c\u1EA3m x\xFAc. B\u1EE9c tranh kh\xF4ng ch\u1EC9 l\xE0
+    h\xECnh \u1EA3nh \u0111\u1EB9p m\u1EAFt m\xE0 c\xF2n g\u1EEDi g\u1EAFm th\xF4ng
+    \u0111i\u1EC7p v\u1EC1 s\u1EF1 no \u0111\u1EE7, h\u1EA1nh ph\xFAc v\xE0 t\xECnh
+    c\u1EA3m gia \u0111\xECnh \u1EA5m \xE1p.\r\n\r\nH\xECnh \u1EA3nh em b\xE9 \xF4m
+    con v\u1ECBt v\u1EDBi n\u1EE5 c\u01B0\u1EDDi r\u1EA1ng r\u1EE1 th\u1EC3 hi\u1EC7n
+    ni\u1EC1m vui, hy v\u1ECDng v\xE0 \u01B0\u1EDBc m\u01A1 h\u1ED3n nhi\xEAn c\u1EE7a
+    tu\u1ED5i th\u01A1. Con v\u1ECBt l\xE0 bi\u1EC3u t\u01B0\u1EE3ng c\u1EE7a t\xE0i
+    l\u1ED9c v\xE0 may m\u1EAFn, trong khi b\xF4ng sen ph\xEDa sau t\u01B0\u1EE3ng
+    tr\u01B0ng cho s\u1EF1 tinh khi\u1EBFt, thanh cao. T\u1EA5t c\u1EA3 h\xF2a quy\u1EC7n
+    t\u1EA1o n\xEAn m\u1ED9t t\u1ED5ng th\u1EC3 h\xE0i h\xF2a, nh\u1EB9 nh\xE0ng
+    nh\u01B0ng \u0111\u1EA7y chi\u1EC1u s\xE2u v\u1EC1 m\u1EB7t \xFD ngh\u0129a."
+  anhTranh: {fileID: 21300000, guid: 4580e925c66e5cc41a889aa5a2f866c8, type: 3}
+  amThanhThuyetMinh: {fileID: 0}
