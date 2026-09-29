@@ -8534,7 +8534,7 @@ GameObject:
   - component: {fileID: 665019068}
   - component: {fileID: 665019067}
   m_Layer: 0
-  m_Name: AudioManager (1)
+  m_Name: AudioManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13160,7 +13160,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4686611860080161959, guid: 654e9dc51deb4624c8384f54e4fc55df, type: 3}
       propertyPath: m_Name
-      value: GheDa_Bac (1)
+      value: GheDa_Bac
       objectReference: {fileID: 0}
     - target: {fileID: 6707265485159767071, guid: 654e9dc51deb4624c8384f54e4fc55df, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20982,7 +20982,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4945857898103059683, guid: 544a9ab763ac66642a084997e76e74b9, type: 3}
       propertyPath: m_Name
-      value: ChauCay_CanhGhe_Nam (1)
+      value: ChauCay_CanhGhe_Nam
       objectReference: {fileID: 0}
     - target: {fileID: 8592111988959148043, guid: 544a9ab763ac66642a084997e76e74b9, type: 3}
       propertyPath: m_LocalPosition.x
