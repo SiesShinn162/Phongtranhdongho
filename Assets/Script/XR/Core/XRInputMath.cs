@@ -2,9 +2,19 @@ using UnityEngine;
 
 public static class XRInputMath
 {
-    public static bool ShouldApplyMouseLook(bool hmdActive)
+    public static bool ShouldUseDesktopLocomotion(bool hmdActive, bool simulatorActive)
     {
-        return !hmdActive;
+        return !hmdActive && !simulatorActive;
+    }
+
+    public static bool ShouldMoveSimulatorBody(bool hmdActive, bool simulatorActive, bool manipulatingFps)
+    {
+        return !hmdActive && simulatorActive && manipulatingFps;
+    }
+
+    public static bool ShouldApplyMouseLook(bool hmdActive, bool desktopMouseLookEnabled = false)
+    {
+        return desktopMouseLookEnabled && !hmdActive;
     }
 
     public static Vector3 FlatMove(Vector2 keys, Vector3 forward, Vector3 right)
