@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 627933502080422754}
   - component: {fileID: 6530535491660233633}
   m_Layer: 0
-  m_Name: Part_4
+  m_Name: Phan_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 6406679648764444635}
   - component: {fileID: 7372948577932295348}
   m_Layer: 0
-  m_Name: Part_10
+  m_Name: Phan_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 400277325442000109}
   - component: {fileID: 5019857871435056772}
   m_Layer: 0
-  m_Name: Part_11
+  m_Name: Phan_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -336,7 +336,7 @@ GameObject:
   - component: {fileID: 5716382322745750170}
   - component: {fileID: 4745545237824384792}
   m_Layer: 0
-  m_Name: Part_6
+  m_Name: Phan_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 1567583723555681510}
   - component: {fileID: 3203868754700051715}
   m_Layer: 0
-  m_Name: Part_1
+  m_Name: Phan_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -514,7 +514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7088406940771149922}
   m_Layer: 0
-  m_Name: Visuals
+  m_Name: HinhDang
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 3591254588026223172}
   - component: {fileID: 6240239867355931638}
   m_Layer: 0
-  m_Name: Part_12
+  m_Name: Phan_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -650,7 +650,7 @@ GameObject:
   - component: {fileID: 8491397535136353015}
   - component: {fileID: 5442197361901116667}
   m_Layer: 0
-  m_Name: Part_2
+  m_Name: Phan_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -740,7 +740,7 @@ GameObject:
   - component: {fileID: 1228039930596452961}
   - component: {fileID: 165671029145687455}
   m_Layer: 0
-  m_Name: Part_5
+  m_Name: Phan_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -830,7 +830,7 @@ GameObject:
   - component: {fileID: 4573919613565303493}
   - component: {fileID: 301233082800889303}
   m_Layer: 0
-  m_Name: Part_7
+  m_Name: Phan_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -920,7 +920,7 @@ GameObject:
   - component: {fileID: 2941121008084720961}
   - component: {fileID: 1708718893192112664}
   m_Layer: 0
-  m_Name: Part_9
+  m_Name: Phan_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1010,7 +1010,7 @@ GameObject:
   - component: {fileID: 3482472529332977830}
   - component: {fileID: 7573506124244625229}
   m_Layer: 0
-  m_Name: Part_3
+  m_Name: Phan_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1100,7 +1100,7 @@ GameObject:
   - component: {fileID: 248018237170830140}
   - component: {fileID: 1540215583544950957}
   m_Layer: 0
-  m_Name: Part_0
+  m_Name: Phan_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1190,7 +1190,7 @@ GameObject:
   - component: {fileID: 8482613933689319183}
   - component: {fileID: 2693885263547540468}
   m_Layer: 0
-  m_Name: Part_8
+  m_Name: Phan_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

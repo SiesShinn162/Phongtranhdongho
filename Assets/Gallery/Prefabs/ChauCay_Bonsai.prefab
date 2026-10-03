@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5554685242034139032}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: ThanCay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,7 +43,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4469178538360718881}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: ChauCay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ GameObject:
   m_Component:
   - component: {fileID: 790933930939096258}
   m_Layer: 0
-  m_Name: 748a828abc5a4fdaa3cae04974f1a99b.fbx
+  m_Name: MoHinhCay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108,7 +108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7794495377628366580}
   m_Layer: 0
-  m_Name: RootNode
+  m_Name: GocMoHinh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 914875652675925509}
   - component: {fileID: 508456890488920017}
   m_Layer: 0
-  m_Name: Cylinder_trees_0
+  m_Name: ThanCay_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -287,7 +287,7 @@ GameObject:
   - component: {fileID: 3358238933980393816}
   - component: {fileID: 3861114459740866859}
   m_Layer: 0
-  m_Name: Cylinder_Pot_0
+  m_Name: ChauCay_Tron_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -377,7 +377,7 @@ GameObject:
   - component: {fileID: 1825414033481307129}
   - component: {fileID: 4368224863972327297}
   m_Layer: 0
-  m_Name: Cube_trees_0
+  m_Name: TanCay_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -465,7 +465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1721071110463393786}
   m_Layer: 0
-  m_Name: Model
+  m_Name: MoHinh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -499,7 +499,7 @@ GameObject:
   - component: {fileID: 7120510820766856770}
   - component: {fileID: 5593839454298314162}
   m_Layer: 0
-  m_Name: Cube_Pot_0
+  m_Name: ChauCay_Hop_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
