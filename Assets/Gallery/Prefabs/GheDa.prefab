@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3674922754725447975}
   m_Layer: 0
-  m_Name: ghe-da-cong-vien_1
+  m_Name: CumGheDa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4905530508737772437}
   m_Layer: 0
-  m_Name: ghe-da-cong-vien
+  m_Name: GheDa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5205418032201466324}
   m_Layer: 0
-  m_Name: Model
+  m_Name: MoHinh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6563842700083451788}
   m_Layer: 0
-  m_Name: GeometryGroup_5
+  m_Name: NhomHinhHoc_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -193,7 +193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1787095505215806907}
   m_Layer: 0
-  m_Name: GLTF_SceneRootNode
+  m_Name: GocMoHinh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 2055683145189491273}
   - component: {fileID: 5241920507885604381}
   m_Layer: 0
-  m_Name: GeometryNode_5_0
+  m_Name: KhoiHinhHoc_5_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -315,7 +315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3932256717747277569}
   m_Layer: 0
-  m_Name: root
+  m_Name: GocCay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 4591703840263323565}
   - component: {fileID: 5466569055202641968}
   m_Layer: 0
-  m_Name: GeometryNode_5_1
+  m_Name: KhoiHinhHoc_5_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

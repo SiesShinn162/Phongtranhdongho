@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6355272797393027903
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.ShaderGraph.Editor::UnityEditor.Rendering.BuiltIn.AssetVersion
+  version: 0
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DaBacChoi_AtlasGoc
+  m_Shader: {fileID: -6465566751694194690, guid: 9a07dad0f3c4e43ff8312e3b5fa42300, type: 3}
+  m_Parent: {fileID: 1491020439527707807, guid: aa37cf24a536a474a916ee9522e3ca48, type: 3}
+  m_ModifiedSerializedProperties: 2
+  m_ValidKeywords:
+  - _SPECULAR_SETUP
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+    RenderType: Opaque
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _BUILTIN_QueueControl: 1
+    - glossinessFactor: 0.12
+    m_Colors:
+    - diffuseFactor: {r: 0.62, g: 0.6, b: 0.55, a: 1}
+    - specularFactor: {r: 0.025, g: 0.025, b: 0.025, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &4332693466573270399
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10

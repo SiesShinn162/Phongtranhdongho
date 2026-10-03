@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4847437879399174834}
   m_Layer: 0
-  m_Name: GHE_1
+  m_Name: Ghe_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2930140680696355088}
   m_Layer: 0
-  m_Name: BAN_0
+  m_Name: Ban_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -128,7 +128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4648363653020232744}
   m_Layer: 0
-  m_Name: Model
+  m_Name: MoHinh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -160,7 +160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8459562872171725754}
   m_Layer: 0
-  m_Name: GLTF_SceneRootNode
+  m_Name: GocMoHinh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -195,7 +195,7 @@ GameObject:
   - component: {fileID: 67837408075761986}
   - component: {fileID: 5362570946163537756}
   m_Layer: 0
-  m_Name: Object_4
+  m_Name: ThanCay_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -283,7 +283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 301284109392340492}
   m_Layer: 0
-  m_Name: root
+  m_Name: GocCay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 4020425284974772880}
   - component: {fileID: 5308014878484653082}
   m_Layer: 0
-  m_Name: Object_6
+  m_Name: TanCay_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

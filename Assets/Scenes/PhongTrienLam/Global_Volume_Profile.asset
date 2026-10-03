@@ -54,8 +54,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.LiftGammaGain
   active: 1
   lift:
-    m_OverrideState: 0
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_OverrideState: 1
+    m_Value: {x: 0.9876152, y: 0.9602416, z: 1, w: 0}
   gamma:
     m_OverrideState: 1
     m_Value: {x: 1, y: 1, z: 1, w: 0.05562015}
