@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "Hai_b\xE0_tr\u01B0ng_\u0111\xE1nh_gi\u1EB7c"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 Hai B\xE0 Tr\u01B0ng \u0110\xE1nh
+    Gi\u1EB7c"
+  moTa: "Tranh \u0110\xF4ng H\u1ED3 Hai B\xE0 Tr\u01B0ng \u0110\xE1nh Gi\u1EB7c \u0111\u01B0\u1EE3c
+    l\u1EA5y c\u1EA3m h\u1EE9ng t\u1EEB 2 danh nh\xE2n \u0111\u1EA5t vi\u1EC7t l\xE0
+    Hai B\xE0 Tr\u01B0ng, hai ch\u1ECB em anh h\xF9ng d\xE2n t\u1ED9c c\u1EE7a ng\u01B0\u1EDDi
+    Vi\u1EC7t, l\xE0 t\xEAn g\u1ECDi chung c\u1EE7a hai b\xE0 Tr\u01B0ng Tr\u1EAFc
+    v\xE0 Tr\u01B0ng Nh\u1ECB. M\u1EA5t v\xE0o ng\xE0y m\xF9ng 6 th\xE1ng 2 n\u0103m
+    Qu\xFD M\xE3o 43, hai b\xE0 kh\u1EDFi binh ch\u1ED1ng l\u1EA1i qu\xE2n H\xE1n,
+    l\u1EADp ra m\u1ED9t qu\u1ED1c gia c\xF3 kinh \u0111\xF4 t\u1EA1i M\xEA Linh
+    v\xE0 t\u1EF1 phong l\xE0 n\u1EEF v\u01B0\u01A1ng. Tuy nhi\xEAn, cu\u1ED9c kh\u1EDFi
+    ngh\u0129a n\xE0y \u0111\xE3 b\u1ECB qu\xE2n H\xE1n d\u01B0\u1EDBi s\u1EF1 ch\u1EC9
+    huy c\u1EE7a M\xE3 Vi\u1EC7n \u0111\xE1nh b\u1EA1i, v\xE0 hai b\xE0 \u0111\xE3
+    nh\u1EA3y xu\u1ED1ng s\xF4ng t\u1EF1 t\u1EED v\xEC kh\xF4ng mu\u1ED1n ch\u1ECBu
+    khu\u1EA5t ph\u1EE5c."
+  anhTranh: {fileID: 21300000, guid: 397d6f23375930a41899f54b1424a8fd, type: 3}
+  amThanhThuyetMinh: {fileID: 0}

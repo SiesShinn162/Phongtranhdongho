@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "Gi\xE1m_m\xE3"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 M\xE3 Gi\xE1m"
+  moTa: " B\u1EE9c tranh t\u01B0\u1EE3ng tr\u01B0ng cho l\u1EDDi ch\xFAc m\xE3 \u0111\xE1o
+    th\xE0nh c\xF4ng, th\u1EC3 hi\u1EC7n s\u1EF1 th\xF4ng minh, trung th\xE0nh, m\u1EA1nh
+    m\u1EBD v\xE0 t\xECnh ngh\u0129a th\u1EE7y chung c\u1EE7a lo\xE0i ng\u1EF1a g\u1EAFn
+    b\xF3 c\xF9ng con ng\u01B0\u1EDDi."
+  anhTranh: {fileID: 21300000, guid: 9d035005e483e7b448d9e0f0ddfe6b37, type: 3}
+  amThanhThuyetMinh: {fileID: 0}
