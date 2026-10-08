@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "Quang_Trung_ho\xE0ng_\u0111\u1EBF"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh Quang Trung ho\xE0ng \u0111\u1EBF"
+  moTa: "B\u1EE9c tranh l\xE0 l\u1EDDi ca ng\u1EE3i, kh\u1EAFc ghi c\xF4ng lao to
+    l\u1EDBn c\u1EE7a v\u1ECB ho\xE0ng \u0111\u1EBF \xE1o v\u1EA3i c\u1EDD \u0111\xE0o
+    Nguy\u1EC5n Hu\u1EC7 \u2014 ng\u01B0\u1EDDi \u0111\xE3 c\xF3 c\xF4ng d\u1EB9p
+    th\xF9 trong gi\u1EB7c ngo\xE0i, th\u1ED1ng nh\u1EA5t \u0111\u1EA5t n\u01B0\u1EDBc
+    v\xE0 \u0111\u1EB7c bi\u1EC7t l\xE0 tr\u1EADn \u0111\u1EA1i ph\xE1 29 v\u1EA1n
+    qu\xE2n Thanh v\xE0o m\xF9a xu\xE2n K\u1EF7 D\u1EADu 1789."
+  anhTranh: {fileID: 21300000, guid: eba344f461e66b341b542d35ef8d8471, type: 3}
+  amThanhThuyetMinh: {fileID: 0}

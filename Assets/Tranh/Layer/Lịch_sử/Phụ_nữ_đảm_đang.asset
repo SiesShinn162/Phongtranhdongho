@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "Ph\u1EE5_n\u1EEF_\u0111\u1EA3m_\u0111ang"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh Ph\u1EE5 N\u1EEF \u0111\u1EA3m \u0111ang"
+  moTa: "B\u1EE9c tranh t\xF4n vinh vai tr\xF2 v\u0129 \u0111\u1EA1i c\u1EE7a ng\u01B0\u1EDDi
+    ph\u1EE5 n\u1EEF Vi\u1EC7t Nam \u1EDF h\u1EADu ph\u01B0\u01A1ng: v\u1EEBa c\xE1ng
+    \u0111\xE1ng vi\u1EC7c nh\xE0, t\xEDch c\u1EF1c t\u0103ng gia s\u1EA3n xu\u1EA5t
+    l\u01B0\u01A1ng th\u1EF1c, v\u1EEBa s\u1EB5n s\xE0ng chi\u1EBFn \u0111\u1EA5u
+    tay s\xFAng tay c\xE0y khi nam gi\u1EDBi ra ti\u1EC1n tuy\u1EBFn."
+  anhTranh: {fileID: 21300000, guid: 77f6e4630c4ee244289f4d95334188c8, type: 3}
+  amThanhThuyetMinh: {fileID: 0}
