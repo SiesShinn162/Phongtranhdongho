@@ -27,4 +27,4 @@ MonoBehaviour:
     nh\u1EA3y xu\u1ED1ng s\xF4ng t\u1EF1 t\u1EED v\xEC kh\xF4ng mu\u1ED1n ch\u1ECBu
     khu\u1EA5t ph\u1EE5c."
   anhTranh: {fileID: 21300000, guid: 397d6f23375930a41899f54b1424a8fd, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: e07a71de68c4b5d4991823586834af04, type: 3}

@@ -18,4 +18,4 @@ MonoBehaviour:
     ch\u1ED1ng l\u1EA1i \xE1ch \u0111\xF4 h\u1ED9 t\xE0n b\u1EA1o c\u1EE7a nh\xE0
     Ng\xF4 v\xE0o n\u0103m 248."
   anhTranh: {fileID: 21300000, guid: 297297b134682a143a8e9ea86a09c358, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: e07a71de68c4b5d4991823586834af04, type: 3}

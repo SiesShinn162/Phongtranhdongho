@@ -24,4 +24,4 @@ MonoBehaviour:
     Tri\u1EC7u \u0111\u01B0\u1EE3c coi l\xE0 m\u1ED9t trong nh\u1EEFng anh h\xF9ng
     d\xE2n t\u1ED9c xu\u1EA5t s\u1EAFc trong l\u1ECBch s\u1EED Vi\u1EC7t Nam."
   anhTranh: {fileID: 21300000, guid: e010771a640934f4e89c3f05225038c0, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: e07a71de68c4b5d4991823586834af04, type: 3}

@@ -3,8 +3,28 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
-    private AudioSource audioSource;
+
+    [SerializeField] private AudioSource audioSource;
     private PaintingData tranhHienTai;
+
+    public AudioSource CurrentAudioSource
+    {
+        get
+        {
+            if (audioSource == null)
+            {
+                audioSource = GetComponent<AudioSource>();
+                if (audioSource == null)
+                {
+                    audioSource = gameObject.AddComponent<AudioSource>();
+                }
+            }
+            return audioSource;
+        }
+    }
+
+    public bool IsPlaying => audioSource != null && audioSource.isPlaying;
+    public PaintingData TranhHienTai => tranhHienTai;
 
     void Awake()
     {
@@ -12,13 +32,20 @@ public class AudioManager : MonoBehaviour
         {
             Instance = this;
         }
-        else
+        else if (Instance != this)
         {
             Destroy(gameObject);
             return;
         }
 
-        audioSource = GetComponent<AudioSource>();
+        var src = CurrentAudioSource;
+        src.spatialBlend = 0f; // 2D Stereo để người chơi ở bất kỳ đâu cũng nghe rõ
+        src.volume = 1f;
+        src.mute = false;
+        src.playOnAwake = false;
+        // Tắt Play On Awake không dừng clip đã tự phát khi scene được nạp.
+        src.Stop();
+        src.clip = null;
     }
 
     void OnEnable()
@@ -40,18 +67,24 @@ public class AudioManager : MonoBehaviour
     {
         if (tranhHienTai == null) return;
 
-        Debug.Log("Đang xử lý tranh: " + tranhHienTai.tenTranh + 
+        var src = CurrentAudioSource;
+        if (src == null) return;
+
+        Debug.Log("[AudioManager] Đang xử lý tranh: " + tranhHienTai.tenTranh +
                    " | File audio: " + (tranhHienTai.amThanhThuyetMinh != null ? tranhHienTai.amThanhThuyetMinh.name : "KHÔNG CÓ"));
 
         if (tranhHienTai.amThanhThuyetMinh == null)
         {
-            Debug.Log("Tranh " + tranhHienTai.tenTranh + " chưa có file âm thanh.");
+            Debug.LogWarning("[AudioManager] Tranh '" + tranhHienTai.tenTranh + "' chưa có file âm thanh.");
             return;
         }
 
-        audioSource.Stop();
-        audioSource.clip = tranhHienTai.amThanhThuyetMinh;
-        audioSource.Play();
+        src.Stop();
+        src.clip = tranhHienTai.amThanhThuyetMinh;
+        src.volume = 1f;
+        src.spatialBlend = 0f; // Luôn phát 2D toàn dải rõ nét
+        src.mute = false;
+        src.Play();
     }
 
     public void PhatThuyetMinh(PaintingData tranh)

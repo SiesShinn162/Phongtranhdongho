@@ -42,9 +42,37 @@ public class XRPaintingPointer : MonoBehaviour
             rayLine.SetPosition(0, origin.position);
             rayLine.SetPosition(1, hit != null ? hit.ClosestPoint(origin.position) : origin.position + origin.forward * maxDistance);
         }
-        if (painting == current) return;
-        current = painting;
-        if (painting != null && painting.data != null) PaintingSelector.Select(painting.data);
-        else PaintingSelector.ClearSelection();
+        if (painting != current)
+        {
+            current = painting;
+            if (painting != null && painting.data != null) PaintingSelector.Select(painting.data);
+            else PaintingSelector.ClearSelection();
+        }
+
+        // Bóp cò trigger tay phải VR để phát thuyết minh tranh
+        if (current != null && current.data != null)
+        {
+            bool triggerDown = false;
+            InputDevice rightHand = InputDevices.GetDeviceAtXRNode(XRNode.RightHand);
+            if (rightHand.isValid && rightHand.TryGetFeatureValue(CommonUsages.triggerButton, out bool pressed))
+            {
+                triggerDown = pressed;
+            }
+
+            if (triggerDown && !wasTriggerPressed)
+            {
+                if (AudioManager.Instance != null)
+                {
+                    AudioManager.Instance.PhatThuyetMinh();
+                }
+            }
+            wasTriggerPressed = triggerDown;
+        }
+        else
+        {
+            wasTriggerPressed = false;
+        }
     }
+
+    private bool wasTriggerPressed = false;
 }

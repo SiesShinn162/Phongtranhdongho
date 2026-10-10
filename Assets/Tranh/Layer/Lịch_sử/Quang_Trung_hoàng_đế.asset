@@ -20,4 +20,4 @@ MonoBehaviour:
     v\xE0 \u0111\u1EB7c bi\u1EC7t l\xE0 tr\u1EADn \u0111\u1EA1i ph\xE1 29 v\u1EA1n
     qu\xE2n Thanh v\xE0o m\xF9a xu\xE2n K\u1EF7 D\u1EADu 1789."
   anhTranh: {fileID: 21300000, guid: eba344f461e66b341b542d35ef8d8471, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 05dd95a6af0d9ae4481d64890ba0ce2b, type: 3}

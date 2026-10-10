@@ -27,4 +27,4 @@ MonoBehaviour:
     c\u1EE7a con ch\xE1u nh\u01B0 m\u1ED9t l\u1EDDi nh\u1EAFc nh\u1EDF \u0111\u1EA7y
     y\xEAu th\u01B0\u01A1ng."
   anhTranh: {fileID: 21300000, guid: dcc1285719229ed4d8a53320f42f8190, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: f60e3470259c3f04c97ec6c56e8d32c0, type: 3}
