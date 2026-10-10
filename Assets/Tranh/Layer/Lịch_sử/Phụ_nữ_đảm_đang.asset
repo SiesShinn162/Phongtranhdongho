@@ -19,4 +19,4 @@ MonoBehaviour:
     l\u01B0\u01A1ng th\u1EF1c, v\u1EEBa s\u1EB5n s\xE0ng chi\u1EBFn \u0111\u1EA5u
     tay s\xFAng tay c\xE0y khi nam gi\u1EDBi ra ti\u1EC1n tuy\u1EBFn."
   anhTranh: {fileID: 21300000, guid: 77f6e4630c4ee244289f4d95334188c8, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: b398b4dffabbac24d8788aa9a9a7787a, type: 3}

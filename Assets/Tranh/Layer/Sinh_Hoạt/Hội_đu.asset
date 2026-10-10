@@ -20,4 +20,4 @@ MonoBehaviour:
     \u0111\u01B0\u1EE3c duy tr\xEC t\u1EA1i m\u1ED9t s\u1ED1 l\xE0ng qu\xEA ng\xE0y
     nay."
   anhTranh: {fileID: 21300000, guid: 49f6cf3d3afbc024f85c7823c6bef6bc, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 652a70a62c25bc3449306937c8a3f4b5, type: 3}

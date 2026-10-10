@@ -21,4 +21,4 @@ MonoBehaviour:
     bi\u1EC3u th\u1ECB cho s\u1EF1 uy nghi\xEAm, may m\u1EAFn c\xF9ng l\u1EDDi ch\xFAc
     b\xECnh an, gia \u0111\xECnh v\u1EEFng ch\xE3i."
   anhTranh: {fileID: 21300000, guid: af29f5762097f2c448e0a53f6c20a320, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: b398b4dffabbac24d8788aa9a9a7787a, type: 3}

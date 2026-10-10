@@ -19,4 +19,4 @@ MonoBehaviour:
     v\u1EC1 c\u1EA3nh sinh ho\u1EA1t gia \u0111\xECnh, nh\u01B0ng l\u1EA1i mang nhi\u1EC1u
     \xFD ngh\u0129a s\xE2u s\u1EAFc."
   anhTranh: {fileID: 21300000, guid: 00a51d0fd112fda41a36a47deb5f9d4a, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 09335416b06194f4c916b8ee406644bc, type: 3}

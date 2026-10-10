@@ -20,4 +20,4 @@ MonoBehaviour:
     ti\u1EBFn, b\u1ED5ng l\u1ED9c d\u1ED3i d\xE0o, \u0111\u1ECBa v\u1ECB ng\xE0y
     c\xE0ng cao v\xE0 m\u1ECDi s\u1EF1 hanh th\xF4ng, nh\u01B0 \xFD."
   anhTranh: {fileID: 21300000, guid: af4bb5e361954f549aaf1b6c32357422, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 93eaee6232a3ac64f9646bf81b819df5, type: 3}

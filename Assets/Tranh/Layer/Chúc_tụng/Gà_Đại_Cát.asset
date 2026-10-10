@@ -43,4 +43,4 @@ MonoBehaviour:
     th\u01B0\u1EDDng xuy\xEAn t\u1EA5n c\xF4ng v\xE0 ph\xF2ng th\u1EE7 v\xE0o ban
     \u0111\xEAm, bi\u1EC3u th\u1ECB s\u1EF1 can tr\u01B0\u1EDDng v\xE0 t\xEDn nhi\u1EC7m."
   anhTranh: {fileID: 21300000, guid: 83ff300b2b6a0fc4bbc8caae40565af7, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 643e750053c13d14a8ec482fc0c63bc6, type: 3}

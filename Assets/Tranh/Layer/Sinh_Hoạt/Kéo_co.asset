@@ -23,4 +23,4 @@ MonoBehaviour:
     luy\u1EC7n s\u1EF1 g\u1EAFn k\u1EBFt v\xE0 s\u1EF1 ph\u1ED1i h\u1EE3p t\u1ED1t
     trong nh\xF3m."
   anhTranh: {fileID: 21300000, guid: e272db28c956d9342a996a889d661b67, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 97a61d75b31f6014ea5c72805b4f65e1, type: 3}

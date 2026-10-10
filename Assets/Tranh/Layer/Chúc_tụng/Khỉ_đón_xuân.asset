@@ -23,4 +23,4 @@ MonoBehaviour:
     tr\xE0n ng\u1EADp ni\u1EC1m vui v\xE0 ti\u1EBFng c\u01B0\u1EDDi nh\u01B0 kh\xF4ng
     kh\xED r\u1ED9n r\xE0ng ng\xE0y T\u1EBFt."
   anhTranh: {fileID: 21300000, guid: b425e16607bc1174fb582924d987f96f, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 1c7d3ead6cd72fd4b9a747a96b7cafe0, type: 3}

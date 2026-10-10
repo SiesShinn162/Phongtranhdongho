@@ -26,4 +26,4 @@ MonoBehaviour:
     d\xE2n t\u1ED9c v\xE0 c\u1EA7u ch\xFAc cho gia \u0111\u1EA1o lu\xF4n h\xF2a thu\u1EADn,
     an vui, tr\xE0n ng\u1EADp ti\u1EBFng c\u01B0\u1EDDi."
   anhTranh: {fileID: 21300000, guid: 9190f2d94bc80c8459c5bbfd469765e9, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: b398b4dffabbac24d8788aa9a9a7787a, type: 3}

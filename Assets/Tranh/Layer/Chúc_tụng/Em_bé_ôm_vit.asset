@@ -27,4 +27,4 @@ MonoBehaviour:
     t\u1EA1o n\xEAn m\u1ED9t t\u1ED5ng th\u1EC3 h\xE0i h\xF2a, nh\u1EB9 nh\xE0ng
     nh\u01B0ng \u0111\u1EA7y chi\u1EC1u s\xE2u v\u1EC1 m\u1EB7t \xFD ngh\u0129a."
   anhTranh: {fileID: 21300000, guid: 3c4cfd49de2735d4db6a7bd553209aac, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 84976602a4486a34a891cb7252b2c33a, type: 3}

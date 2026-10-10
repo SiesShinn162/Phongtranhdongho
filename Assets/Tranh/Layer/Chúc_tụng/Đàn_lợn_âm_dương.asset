@@ -37,4 +37,4 @@ MonoBehaviour:
     m\xE0 c\xF2n \u0111\u1EC3 nh\u1EAFc nh\u1EDF v\u1EC1 gi\xE1 tr\u1ECB c\u1EE7a
     s\u1EF1 c\xE2n b\u1EB1ng v\xE0 ph\xE1t tri\u1EC3n trong cu\u1ED9c s\u1ED1ng."
   anhTranh: {fileID: 21300000, guid: aa6a7f4b1085dd846ac69332c154e046, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 0324c359e2c8679448557cd2357aa80d, type: 3}

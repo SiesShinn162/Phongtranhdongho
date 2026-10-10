@@ -25,4 +25,4 @@ MonoBehaviour:
     tranh \u0110\xF4ng H\u1ED3, c\xF2n \u0111\u01B0\u1EE3c g\u1ECDi l\xE0 tranh in
     b\u1EA3n kh\u1EAFc g\u1ED7."
   anhTranh: {fileID: 21300000, guid: 12f1da47e34230241b358835957cde41, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: f3123db7a1f888c40a0e3604d5ebc01a, type: 3}

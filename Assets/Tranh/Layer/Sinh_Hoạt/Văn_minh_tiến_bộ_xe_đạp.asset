@@ -35,4 +35,4 @@ MonoBehaviour:
     T\xE2y m\xE0 \u0111\xE1nh m\u1EA5t \u0111i n\xE9t gi\u1EA3n d\u1ECB, thu\u1EA7n
     phong m\u1EF9 t\u1EE5c c\u1EE7a l\xE0ng qu\xEA truy\u1EC1n th\u1ED1ng"
   anhTranh: {fileID: 21300000, guid: dbdd9a55a0ed2d2489fe6600e11696fd, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: b398b4dffabbac24d8788aa9a9a7787a, type: 3}
