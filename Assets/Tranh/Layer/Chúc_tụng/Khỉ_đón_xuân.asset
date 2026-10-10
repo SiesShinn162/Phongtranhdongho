@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "Kh\u1EC9_\u0111\xF3n_xu\xE2n"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh d\xE2n gian \u0110\xF4ng H\u1ED3 Kh\u1EC9 \u0111\xF3n xu\xE2n"
+  moTa: " Xu\u1EA5t x\u1EE9: T\u1EEB l\xE0ng tranh d\xE2n gian \u0110\xF4ng H\u1ED3
+    (Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh). B\u1EE9c tranh kh\u1EAFc h\u1ECDa h\xECnh
+    \u1EA3nh lo\xE0i kh\u1EC9 (linh v\u1EADt Th\xE2n) tinh ngh\u1ECBch k\u1EBFt h\u1EE3p
+    c\xF9ng c\xE1c y\u1EBFu t\u1ED1 ng\xE0y xu\xE2n.\n \xDD ngh\u0129a: T\u01B0\u1EE3ng
+    tr\u01B0ng cho s\u1EF1 th\xF4ng minh, nhanh nh\u1EB9n v\xE0 t\xE0i tr\xED v\u1EB9n
+    to\xE0n; c\u1EA7u ch\xFAc gia ch\u1EE7 b\u01B0\u1EDBc sang n\u0103m m\u1EDBi
+    g\u1EB7p nhi\u1EC1u may m\u1EAFn, v\u1EA1n s\u1EF1 hanh th\xF4ng, gia \u0111\u1EA1o
+    tr\xE0n ng\u1EADp ni\u1EC1m vui v\xE0 ti\u1EBFng c\u01B0\u1EDDi nh\u01B0 kh\xF4ng
+    kh\xED r\u1ED9n r\xE0ng ng\xE0y T\u1EBFt."
+  anhTranh: {fileID: 21300000, guid: b425e16607bc1174fb582924d987f96f, type: 3}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 1c7d3ead6cd72fd4b9a747a96b7cafe0, type: 3}

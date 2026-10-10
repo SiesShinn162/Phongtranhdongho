@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "Chim_c\xF4ng"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 Chim C\xF4ng Thi\xEAn H\u1EA1
+    Th\xE1i B\xECnh"
+  moTa: "Trong kho t\xE0ng tranh d\xE2n gian Vi\u1EC7t Nam, \u201CChim C\xF4ng \u2013
+    Thi\xEAn H\u1EA1 Th\xE1i B\xECnh\u201D l\xE0 m\u1ED9t trong nh\u1EEFng t\xE1c
+    ph\u1EA9m ti\xEAu bi\u1EC3u v\xE0 \u0111\u01B0\u1EE3c y\xEAu th\xEDch nh\u1EA5t
+    c\u1EE7a d\xF2ng tranh d\xE2n gian \u0110\xF4ng H\u1ED3. V\u1EDBi h\xECnh \u1EA3nh
+    chim c\xF4ng r\u1EF1c r\u1EE1, thanh tao gi\u1EEFa b\u1ED1 c\u1EE5c h\xE0i h\xF2a,
+    b\u1EE9c tranh kh\xF4ng ch\u1EC9 cu\u1ED1n h\xFAt b\u1EDFi v\u1EBB \u0111\u1EB9p
+    th\u1ECB gi\xE1c m\xE0 c\xF2n ch\u1EA5t ch\u1EE9a nh\u1EEFng t\u1EA7ng \xFD ngh\u0129a
+    s\xE2u xa v\u1EC1 kh\xE1t v\u1ECDng h\xF2a b\xECnh, th\u1ECBnh v\u01B0\u1EE3ng
+    v\xE0 s\u1EF1 h\xE0i h\xF2a trong cu\u1ED9c s\u1ED1ng."
+  anhTranh: {fileID: 21300000, guid: 400f37738d06b4c498ea980236976bbc, type: 3}
+  amThanhThuyetMinh: {fileID: 8300000, guid: d96b0b4466b627d4c9ccbbcbf6bfa619, type: 3}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "V\u0103n_minh_ti\u1EBFn_b\u1ED9_xe_\u0111\u1EA1p"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh d\xE2n gian \u0110\xF4ng H\u1ED3 V\u0103n minh ti\u1EBFn b\u1ED9
+    - xe \u0111\u1EA1p"
+  moTa: " Xu\u1EA5t x\u1EE9: T\u1EEB l\xE0ng tranh d\xE2n gian \u0110\xF4ng H\u1ED3
+    (Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh), \u0111\u01B0\u1EE3c c\xE1c ngh\u1EC7 nh\xE2n
+    s\xE1ng t\xE1c v\xE0o giai \u0111o\u1EA1n giao th\u1EDDi Ph\xE1p thu\u1ED9c (\u0111\u1EA7u
+    th\u1EBF k\u1EF7 20). B\u1EE9c tranh mi\xEAu t\u1EA3 m\u1ED9t \u0111\xF4i nam
+    n\u1EEF t\xE2n th\u1EDDi \u0103n m\u1EB7c theo l\u1ED1i \xC2u h\xF3a (\u0111\u1ED9i
+    m\u0169 ca-l\xF4, th\u1EAFt c\xE0 v\u1EA1t, m\u1EB7c \xE1o ng\u1EAFn, c\xF4 g\xE1i
+    x\xF2e \xF4 che n\u1EAFng) v\xE0 d\u1EAFt theo m\u1ED9t chi\u1EBFc xe \u0111\u1EA1p
+    \u2013 ph\u01B0\u01A1ng ti\u1EC7n giao th\xF4ng v\xF4 c\xF9ng hi\u1EC7n \u0111\u1EA1i
+    v\xE0 xa x\u1EC9 th\u1EDDi b\u1EA5y gi\u1EDD.\n \xDD ngh\u0129a: B\u1EE9c tranh
+    mang \u0111\u1EADm t\xEDnh ch\u1EA5t ch\xE2m bi\u1EBFm, h\xE0i h\u01B0\u1EDBc
+    v\xE0 tr\xE0o ph\xFAng c\u1EE7a ng\u01B0\u1EDDi lao \u0111\u1ED9ng x\u01B0a.
+    D\xF2ng ch\u1EEF N\xF4m kh\u1EAFc tr\xEAn g\xF3c tranh mang \xFD ngh\u0129a d\xED
+    d\u1ECFm: \"V\u0103n minh ti\u1EBFn b\u1ED9, toa t\u0103ng x\u01B0\u01A1ng\"
+    (phi\xEAn \xE2m t\u1EEB ti\u1EBFng T\xE2y b\u1ED3i \"Toi t'en fous\" \u2013 ngh\u0129a
+    l\xE0 \"T\xF4i kh\xF4ng quan t\xE2m\"). Tranh ph\xEA ph\xE1n nh\u1EB9 nh\xE0ng
+    l\u1ED1i s\u1ED1ng lai c\u0103ng, th\xF3i \u0111ua \u0111\xF2i k\u1EC7ch c\u1EE1m
+    c\u1EE7a m\u1ED9t b\u1ED9 ph\u1EADn th\u1ECB d\xE2n v\u1ED9i v\xE3 ch\u1EA1y
+    theo c\xE1i m\xE1c \"v\u0103n minh hi\u1EC7n \u0111\u1EA1i\" ph\u01B0\u01A1ng
+    T\xE2y m\xE0 \u0111\xE1nh m\u1EA5t \u0111i n\xE9t gi\u1EA3n d\u1ECB, thu\u1EA7n
+    phong m\u1EF9 t\u1EE5c c\u1EE7a l\xE0ng qu\xEA truy\u1EC1n th\u1ED1ng"
+  anhTranh: {fileID: 21300000, guid: dbdd9a55a0ed2d2489fe6600e11696fd, type: 3}
+  amThanhThuyetMinh: {fileID: 8300000, guid: b398b4dffabbac24d8788aa9a9a7787a, type: 3}

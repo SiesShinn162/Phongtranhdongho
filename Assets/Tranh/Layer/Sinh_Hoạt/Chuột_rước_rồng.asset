@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "Chu\u1ED9t_r\u01B0\u1EDBc_r\u1ED3ng"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh d\xE2n gian \u0110\xF4ng H\u1ED3 chu\u1ED9t r\u01B0\u1EDBc r\u1ED3ng"
+  moTa: " Xu\u1EA5t x\u1EE9: T\u1EEB l\xE0ng tranh d\xE2n gian \u0110\xF4ng H\u1ED3
+    (Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh), c\xF2n c\xF3 t\xEAn g\u1ECDi kh\xE1c l\xE0
+    tranh \"Chu\u1ED9t m\xFAa r\u1ED3ng\". B\u1EE9c tranh kh\u1EAFc h\u1ECDa h\xECnh
+    \u1EA3nh 11 ch\xFA chu\u1ED9t \u0111ang r\u1ED9n r\xE0ng reo h\xF2, \u0111\xE1nh
+    tr\u1ED1ng, th\u1ED5i k\xE8n v\xE0 r\u01B0\u1EDBc m\u1ED9t m\xF4 h\xECnh r\u1ED3ng
+    l\u1EDBn trong ng\xE0y h\u1ED9i Xu\xE2n.\n \xDD ngh\u0129a: Th\u1EC3 hi\u1EC7n
+    \u01B0\u1EDBc v\u1ECDng v\u1EC1 m\u1ED9t cu\u1ED9c s\u1ED1ng th\xE1i b\xECnh,
+    th\u1ECBnh v\u01B0\u1EE3ng v\xE0 sung t\xFAc. H\xECnh \u1EA3nh lo\xE0i chu\u1ED9t
+    v\u1ED1n s\u1EE3 \xE1nh s\xE1ng nh\u01B0ng l\u1EA1i t\u1EF1 tin r\u01B0\u1EDBc
+    r\u1ED3ng \u0111\xF3n T\u1EBFt th\u1EC3 hi\u1EC7n tinh th\u1EA7n l\u1EA1c quan,
+    xua tan b\xF3ng t\u1ED1i v\xE0 \u0111i\u1EC1m x\u1EA5u; \u0111\u1ED3ng th\u1EDDi
+    g\u1EEDi g\u1EAFm l\u1EDDi ch\xFAc \"l\u1EAFm con nhi\u1EC1u ch\xE1u, gia \u0111\xECnh
+    h\u1EA1nh ph\xFAc, g\u1EAFn k\u1EBFt b\u1EC1n ch\u1EB7t\"."
+  anhTranh: {fileID: 21300000, guid: 75d6c62e114a5484abbfccfe3d96d09d, type: 3}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 81264790673fa8e4d935ace1ab8c2c61, type: 3}

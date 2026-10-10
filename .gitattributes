@@ -1,0 +1,5 @@
+Assets/Gallery/RoofNative/*.asset filter=lfs diff=lfs merge=lfs -text
+Assets/AllSkyFree/Cold[[:space:]]Sunset/*.png filter=lfs diff=lfs merge=lfs -text
+Assets/Gallery/RoofNative/Task46FrontExtension/*.asset filter=lfs diff=lfs merge=lfs -text
+Assets/Model_3D/npc/textures/*.png filter=lfs diff=lfs merge=lfs -text
+Assets/Model_3D/npc/*.bin filter=lfs diff=lfs merge=lfs -text

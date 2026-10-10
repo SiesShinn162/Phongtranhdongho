@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "Tam_d\u01B0\u01A1ng_khai_th\xE1i"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh \u0110\xF4ng H\u1ED3 Tam D\u01B0\u01A1ng Khai Th\xE1i"
+  moTa: "B\u1EE9c Tranh \u0110\xF4ng H\u1ED3 Tam D\u01B0\u01A1ng Khai Th\xE1i l\xE0
+    m\u1ED9t t\xE1c ph\u1EA9m ngh\u1EC7 thu\u1EADt \u0111\u1ED9c \u0111\xE1o v\xE0
+    n\u1ED5i ti\u1EBFng trong l\xE0ng \u0110\xF4ng H\u1ED3, n\u01A1i s\u1EA3n xu\u1EA5t
+    nh\u1EEFng b\u1EE9c tranh d\xE2n gian \u0111\u1EB7c tr\u01B0ng c\u1EE7a Vi\u1EC7t
+    Nam. B\u1EE9c tranh n\xE0y mi\xEAu t\u1EA3 hai con g\xE0 tr\u1ED1ng \u0111\u1EE9ng
+    \u0111\u1ED1i di\u1EC7n nhau, c\xF3 ph\u1EA7n \u0111u\xF4i x\xF2e r\u1ED9ng v\xE0
+    m\u1EB7t tr\u1EDDi \u0111\u1ECF r\u1EF1c tr\xEAn l\u01B0ng c\u1EE7a ch\xFAng.
+    Gi\u1EEFa hai con g\xE0, c\xF3 h\xECnh \u1EA3nh c\u1EE7a hoa c\u1ECF t\u01B0\u01A1i
+    t\u1ED1t. M\u1EB7c d\xF9 b\u1EE9c tranh s\u1EED d\u1EE5ng \u0111\u01B0\u1EDDng
+    n\xE9t v\xE0 m\xE0u s\u1EAFc \u0111\u01A1n gi\u1EA3n nh\u01B0ng r\u1EA5t ch\u1EAFc
+    kh\u1ECFe."
+  anhTranh: {fileID: 21300000, guid: 4639c2159cea0f44fb1efa88a14ea653, type: 3}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 0effc1007c1528f4ebb5786b7b60eb4f, type: 3}

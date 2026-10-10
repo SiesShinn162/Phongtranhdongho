@@ -1,0 +1,278 @@
+{
+  "asset": {
+    "generator": "OpenSceneGraph 3.5.6",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 304,
+      "max": [
+        0.5899983048439026,
+        0.8263395428657532,
+        0.2811580300331116
+      ],
+      "min": [
+        -0.5900009870529175,
+        -0.0036595899146050215,
+        -0.30672401189804077
+      ],
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 304,
+      "bufferView": 0,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC4",
+      "componentType": 5126,
+      "count": 304,
+      "bufferView": 0,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 304,
+      "bufferView": 0,
+      "byteOffset": 40
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 711,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 33,
+      "bufferView": 1,
+      "byteOffset": 1424
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 304,
+      "max": [
+        0.5899983048439026,
+        0.8263395428657532,
+        0.2811580300331116
+      ],
+      "min": [
+        -0.5900009870529175,
+        -0.0036595899146050215,
+        -0.30672401189804077
+      ],
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 304,
+      "bufferView": 2,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC4",
+      "componentType": 5126,
+      "count": 304,
+      "bufferView": 2,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 304,
+      "bufferView": 2,
+      "byteOffset": 40
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 14592,
+      "byteStride": 48,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14592,
+      "byteLength": 1492,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16084,
+      "byteLength": 14592,
+      "byteStride": 48,
+      "target": 34962
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "sampler": 0
+    },
+    {
+      "source": 1,
+      "sampler": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "ghe-da-cong-vien-D.jpg",
+      "mimeType": "image/jpeg",
+      "uri": "images/ghe-da-cong-vien-D.jpg"
+    },
+    {
+      "name": "ghe-da-cong-vien-N.jpg",
+      "mimeType": "image/jpeg",
+      "uri": "images/ghe-da-cong-vien-N.jpg"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "Ghế_đá_công_viên.bin",
+      "byteLength": 30676
+    }
+  ],
+  "materials": [
+    {
+      "name": "ghe-da-cong-vien",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "GeometryNode_5_0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 4
+        }
+      ]
+    },
+    {
+      "name": "GeometryNode_5_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 5
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "root",
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "GLTF_SceneRootNode",
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "ghe-da-cong-vien_1",
+      "children": [
+        3
+      ]
+    },
+    {
+      "name": "ghe-da-cong-vien",
+      "children": [
+        4
+      ]
+    },
+    {
+      "name": "GeometryGroup_5",
+      "children": [
+        5,
+        6
+      ]
+    },
+    {
+      "name": "GeometryNode_5_0",
+      "mesh": 0
+    },
+    {
+      "name": "GeometryNode_5_1",
+      "mesh": 1
+    },
+    {
+      "name": "Sketchfab_model",
+      "translation": [
+        0.007457278668880463,
+        -0.3961002230644226,
+        -2.146824359893799
+      ],
+      "rotation": [
+        0.18194118140228166,
+        0.5651718285314967,
+        0.7659494362328226,
+        -0.2465758909512436
+      ],
+      "children": [
+        0
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        7
+      ]
+    }
+  ]
+}
