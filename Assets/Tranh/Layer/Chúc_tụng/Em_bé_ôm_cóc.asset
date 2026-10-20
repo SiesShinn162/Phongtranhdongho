@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "Em_b\xE9_\xF4m_c\xF3c"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 Em B\xE9 \xD4m C\xF3c"
+  moTa: "C\xF3c \u0111\u01B0\u1EE3c d\xE2n gian xem l\xE0 \u201Cc\u1EADu \xF4ng Tr\u1EDDi\u201D,
+    g\u1ECDi \u0111\u01B0\u1EE3c m\u01B0a thu\u1EADn gi\xF3 h\xF2a n\xEAn g\u1EAFn
+    v\u1EDBi \u01B0\u1EDBc v\u1ECDng m\xF9a m\xE0ng b\u1ED9i thu. H\xECnh \u1EA3nh
+    em b\xE9 m\u0169m m\u0129m \xF4m c\xF3c g\u1EEDi g\u1EAFm l\u1EDDi ch\xFAc con
+    ch\xE1u kh\u1ECFe m\u1EA1nh, nhanh nh\u1EB9n, gia \u0111\xECnh no \u0111\u1EE7
+    v\xE0 b\xECnh an."
+  anhTranh: {fileID: 21300000, guid: 19c8099b08d3573478dcea222ef6ba36, type: 3}
+  amThanhThuyetMinh: {fileID: 0}
