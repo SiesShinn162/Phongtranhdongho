@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "Th\u01B0_h\xF9ng_gia_\u0111\xECnh"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tranh Gi\u1EA5y \u0110\xF4ng H\u1ED3 Th\u01B0 H\xF9ng Gia \u0110\xECnh
+    G\xE0"
+  moTa: "G\xE0 tr\u1ED1ng oai v\u1EC7 c\xF9ng g\xE0 m\xE1i v\xE0 \u0111\xE0n g\xE0
+    con qu\xE2y qu\u1EA7n b\xEAn nhau t\u01B0\u1EE3ng tr\u01B0ng cho gia \u0111\xECnh
+    sum v\u1EA7y, con ch\xE1u \u0111\u1EC1 hu\u1EC1, cu\u1ED9c s\u1ED1ng no \u0111\u1EE7.
+    Tranh c\xF2n g\u1EEDi g\u1EAFm l\u1EDDi ch\xFAc h\xF2a thu\u1EADn, sinh s\xF4i
+    v\xE0 m\u1ED9t n\u0103m l\xE0m \u0103n thu\u1EADn l\u1EE3i."
+  anhTranh: {fileID: 21300000, guid: 32d3b83d89e5b644787ce69705dd7ce3, type: 3}
+  amThanhThuyetMinh: {fileID: 0}
