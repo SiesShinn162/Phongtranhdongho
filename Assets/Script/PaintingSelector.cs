@@ -47,6 +47,12 @@ public class PaintingSelector : MonoBehaviour
 
         KiemTraTamNhinTranh();
 
+
+// Không tương tác khi bảng đang mở / vừa đóng
+        if (DebugPaintingUI.DangMo || Time.frameCount <= DebugPaintingUI.KhungHinhDong) return;
+
+// Tương tác bằng Chuột trái hoặc phím E
+        if (dangNhinTranh && (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.E)))
         // Tương tác bằng Chuột trái hoặc phím E
         if (dangNhinTranh && (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.E)))
         {
