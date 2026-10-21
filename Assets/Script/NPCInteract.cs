@@ -14,6 +14,12 @@ public class NPCInteract : MonoBehaviour
         "Chúc bạn có một buổi tham quan triển lãm thật thú vị và bổ ích!"
     };
 
+    [Header("Giọng nói (file audio)")]
+    [Tooltip("Thứ tự phải khớp với danh sách câu nói: Element 0 là giọng của câu 0, v.v.")]
+    public AudioClip[] giongNoi;
+    [Range(0f, 1f)] public float amLuongGiong = 1f;
+    public bool hienPhuDe = true;
+
     [Header("Khoảng cách & Layer")]
     public float khoangCachToiDa = 5f;
     public LayerMask layerNPC;
@@ -22,6 +28,12 @@ public class NPCInteract : MonoBehaviour
     private float thoiGianConLai = 0f;
     private bool dangNhinNPC = false;
     private Collider myCollider;
+    private AudioSource audioSource;
+    private int cauTruoc = -1;
+
+    // Script khác (nhạc nền) hỏi xem NPC có đang nói không
+    private static AudioSource giongDangPhat;
+    public static bool DangNoi => giongDangPhat != null && giongDangPhat.isPlaying;
 
     void Awake()
     {
@@ -30,6 +42,15 @@ public class NPCInteract : MonoBehaviour
         {
             myCollider = gameObject.AddComponent<CapsuleCollider>();
         }
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+        audioSource.playOnAwake = false;
+        audioSource.loop = false;
+        audioSource.spatialBlend = 0f; // 2D để đứng đâu cũng nghe rõ
     }
 
     void Start()
@@ -104,9 +125,33 @@ public class NPCInteract : MonoBehaviour
     public void NoiChuyen()
     {
         if (cacCauNoi == null || cacCauNoi.Length == 0) return;
+
+        // Chọn ngẫu nhiên, tránh lặp lại đúng câu vừa nói
         int idx = Random.Range(0, cacCauNoi.Length);
+        if (cacCauNoi.Length > 1)
+        {
+            while (idx == cauTruoc) idx = Random.Range(0, cacCauNoi.Length);
+        }
+        cauTruoc = idx;
+
         cauDangNoi = cacCauNoi[idx];
         thoiGianConLai = 5f;
+
+        // Phát giọng nói nếu câu này có file audio
+        AudioClip clip = (giongNoi != null && idx < giongNoi.Length) ? giongNoi[idx] : null;
+        if (clip != null)
+        {
+            // Dừng thuyết minh tranh để không bị đè tiếng
+            if (AudioManager.Instance != null) AudioManager.Instance.DungPhat();
+
+            audioSource.Stop();
+            audioSource.clip = clip;
+            audioSource.volume = amLuongGiong;
+            audioSource.Play();
+            giongDangPhat = audioSource;
+
+            thoiGianConLai = clip.length + 0.5f; // Phụ đề hiện đến hết câu nói
+        }
     }
 
     void OnGUI()
@@ -125,8 +170,8 @@ public class NPCInteract : MonoBehaviour
             GUI.Label(new Rect(Screen.width / 2 - 110, Screen.height / 2 + 42, 220, 30), "Bấm [E / Click] Nói chuyện", promptStyle);
         }
 
-        // Hộp thoại khi NPC đang nói
-        if (thoiGianConLai > 0)
+        // Phụ đề khi NPC đang nói
+        if (hienPhuDe && thoiGianConLai > 0)
         {
             GUIStyle boxStyle = new GUIStyle(GUI.skin.box);
             boxStyle.normal.textColor = Color.yellow;

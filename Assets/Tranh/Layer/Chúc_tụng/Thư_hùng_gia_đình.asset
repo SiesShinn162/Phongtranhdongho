@@ -35,4 +35,4 @@ MonoBehaviour:
     Tranh c\xF2n g\u1EEDi g\u1EAFm l\u1EDDi ch\xFAc h\xF2a thu\u1EADn, sinh s\xF4i
     v\xE0 m\u1ED9t n\u0103m l\xE0m \u0103n thu\u1EADn l\u1EE3i."
   anhTranh: {fileID: 21300000, guid: 32d3b83d89e5b644787ce69705dd7ce3, type: 3}
-  amThanhThuyetMinh: {fileID: 0}
+  amThanhThuyetMinh: {fileID: 8300000, guid: af716e82343b4a44ebdeeea11d63e12a, type: 3}
