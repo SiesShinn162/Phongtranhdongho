@@ -12,7 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
   m_Name: "Th\u1EA7y_\u0111\u1ED3_c\xF3c"
   m_EditorClassIdentifier: Assembly-CSharp::PaintingData
-  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 Th\u1EA7y \u0110\u1ED3 C\xF3c"
+  tenTranh: "Th\u1EA7y \u0110\u1ED3 C\xF3c"
+  yNghia: "B\u1EE9c tranh Th\u1EA7y \u0110\u1ED3 C\xF3c m\u01B0\u1EE3n h\xECnh \u1EA3nh
+    nh\xE2n c\xE1ch h\xF3a c\u1EE7a th\u1EBF gi\u1EDBi lo\xE0i c\xF3c, nh\xE1i, \u1EC5nh
+    \u01B0\u01A1ng \u0111\u1EC3 t\xE1i hi\u1EC7n sinh \u0111\u1ED9ng khung c\u1EA3nh
+    m\u1ED9t l\u1EDBp h\u1ECDc x\u01B0a. \u1EDE v\u1ECB tr\xED trung t\xE2m, th\u1EA7y
+    \u0111\u1ED3 C\xF3c to l\u1EDBn ng\u1ED3i oai nghi\xEAm tr\xEAn s\u1EADp g\u1EE5
+    gi\u1EA3ng b\xE0i, xung quanh l\xE0 c\xE1c h\u1ECDc tr\xF2 nh\u1ECF \u0111ang
+    ch\u0103m ch\u1EC9 \u0111\u1ECDc s\xE1ch, ch\xE2m n\u01B0\u1EDBc ph\u1EE5c v\u1EE5
+    th\u1EA7y hay ch\u1ECBu ph\u1EA1t roi khi l\u01B0\u1EDDi h\u1ECDc. T\xE1c ph\u1EA9m
+    mang \xFD ngh\u0129a ca ng\u1EE3i tinh th\u1EA7n hi\u1EBFu h\u1ECDc, t\xF4n s\u01B0
+    tr\u1ECDng \u0111\u1EA1o c\u1ED1t l\xF5i c\u1EE7a d\xE2n t\u1ED9c, \u0111\u1ED3ng
+    th\u1EDDi mang t\xEDnh tr\xE0o ph\xFAng, ch\xE2m bi\u1EBFm nh\u1EB9 nh\xE0ng
+    v\u1EC1 l\u1ED1i d\u1EA1y h\u1ECDc d\xF9ng roi v\u1ECDt v\xE0 h\u1EC7 th\u1ED1ng
+    khoa c\u1EED th\u1EDDi phong ki\u1EBFn. Treo tranh ng\xE0y T\u1EBFt g\u1EEDi
+    g\u1EAFm \u01B0\u1EDBc nguy\u1EC7n c\u1EE7a cha m\u1EB9 mong con c\xE1i ch\u0103m
+    ch\u1EC9 h\u1ECDc h\xE0nh, th\xF4ng minh s\xE1ng l\u1EA1n v\xE0 \u0111\u1ED7
+    \u0111\u1EA1t th\xE0nh t\xE0i."
+  nguonGoc: "L\xE0 tranh d\xE2n gian \u0110\xF4ng H\u1ED3, \u0111\u01B0\u1EE3c in
+    t\u1EEB c\xE1c b\u1EA3n kh\u1EAFc g\u1ED7 truy\u1EC1n th\u1ED1ng c\u1EE7a l\xE0ng
+    \u0110\xF4ng H\u1ED3, Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh, v\u1EDBi m\xE0u s\u1EAFc
+    t\u1EF1 nhi\xEAn t\u1EEB c\xE1c nguy\xEAn li\u1EC7u d\xE2n gian tr\xEAn gi\u1EA5y
+    d\xF3 qu\xE9t \u0111i\u1EC7p."
   moTa: "Tranh d\xE2n gian \u201CTh\u1EA7y \u0110\u1ED3 C\xF3c\u201D, thu\u1ED9c
     d\xF2ng tranh \u0110\xF4ng H\u1ED3 n\u1ED5i ti\u1EBFng, mang \u0111\u1EBFn m\u1ED9t
     th\u1EBF gi\u1EDBi s\u1ED1ng \u0111\u1ED9ng, d\xED d\u1ECFm m\xE0 s\xE2u s\u1EAFc,

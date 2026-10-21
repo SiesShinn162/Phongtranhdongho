@@ -12,7 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
   m_Name: "Tr\xEA_c\xF3c_ki\u1EC7n_nhau"
   m_EditorClassIdentifier: Assembly-CSharp::PaintingData
-  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 Tr\xEA C\xF3c Ki\u1EC7n Nhau"
+  tenTranh: "Tr\xEA C\xF3c Ki\u1EC7n Nhau"
+  yNghia: "B\u1EE9c tranh Tr\xEA C\xF3c Ki\u1EC7n Nhau l\xE0 t\xE1c ph\u1EA9m mang
+    t\xEDnh ng\u1EE5 ng\xF4n v\xE0 tr\xE0o ph\xFAng s\xE2u s\u1EAFc b\u1EADc nh\u1EA5t
+    c\u1EE7a d\xF2ng tranh \u0110\xF4ng H\u1ED3, m\u01B0\u1EE3n c\xE2u chuy\u1EC7n
+    tranh ch\u1EA5p quy\u1EC1n nu\xF4i con gi\u1EEFa v\u1EE3 ch\u1ED3ng nh\xE0 C\xF3c
+    v\xE0 c\xE1 Tr\xEA \u1EDF ch\u1ED1n c\xF4ng \u0111\u01B0\u1EDDng. H\xECnh \u1EA3nh
+    \xF4ng quan x\u1EED ki\u1EC7n (th\u01B0\u1EDDng l\xE0 c\xE1 G\xE1y ho\u1EB7c
+    c\u1EE5 R\xF9a) oai nghi\xEAm ng\u1ED3i tr\xEAn cao, hai b\xEAn l\xE0 nha l\u1EA1i
+    t\xF4m, cua bi\u1EC3u tr\u01B0ng cho m\u1ED9t x\xE3 h\u1ED9i \u0111\u01B0\u1EE3c
+    nh\xE2n c\xE1ch h\xF3a m\u1ED9t c\xE1ch h\xF3m h\u1EC9nh. T\xE1c ph\u1EA9m mang
+    \xFD ngh\u0129a ch\xE2m bi\u1EBFm, ph\xEA ph\xE1n th\xF3i quan li\xEAu, tham
+    nh\u0169ng c\u1EE7a t\u1EA7ng l\u1EDBp th\u1ED1ng tr\u1ECB phong ki\u1EBFn x\u01B0a,
+    n\u01A1i l\xFD ph\u1EA3i th\u01B0\u1EDDng thu\u1ED9c v\u1EC1 k\u1EBB c\xF3 ti\u1EC1n,
+    c\xF3 quy\u1EC1n. B\u1EE9c tranh g\u1EEDi g\u1EAFm l\u1EDDi r\u0103n d\u1EA1y
+    th\u1EBF h\u1EC7 sau v\u1EC1 l\u1ED1i s\u1ED1ng ch\xEDnh tr\u1EF1c, \u0111\u1ED3ng
+    th\u1EDDi ca ng\u1EE3i t\xECnh y\xEAu th\u01B0\u01A1ng con c\xE1i s\xE2u n\u1EB7ng,
+    kh\xE1t v\u1ECDng \u0111\xF2i l\u1EA1i c\xF4ng l\xFD c\u1EE7a ng\u01B0\u1EDDi
+    lao \u0111\u1ED9ng th\u1EA5p c\u1ED5 b\xE9 h\u1ECDng."
+  nguonGoc: "L\xE0 tranh d\xE2n gian \u0110\xF4ng H\u1ED3, \u0111\u01B0\u1EE3c in
+    t\u1EEB c\xE1c b\u1EA3n kh\u1EAFc g\u1ED7 truy\u1EC1n th\u1ED1ng c\u1EE7a l\xE0ng
+    \u0110\xF4ng H\u1ED3, Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh, v\u1EDBi m\xE0u s\u1EAFc
+    t\u1EF1 nhi\xEAn t\u1EEB c\xE1c nguy\xEAn li\u1EC7u d\xE2n gian tr\xEAn gi\u1EA5y
+    d\xF3 qu\xE9t \u0111i\u1EC7p."
   moTa: "B\u1EE9c tranh \u0110\xF4ng H\u1ED3 Tr\xEA C\xF3c Ki\u1EC7n Nhau D\xE1n
     M\xE0nh l\xE0 m\u1ED9t t\xE1c ph\u1EA9m truy\u1EC1n th\u1ED1ng trong d\xF2ng
     tranh \u0110\xF4ng H\u1ED3, d\u1EF1a tr\xEAn truy\u1EC7n n\xF4m \"Tr\xEA c\xF3c\"
