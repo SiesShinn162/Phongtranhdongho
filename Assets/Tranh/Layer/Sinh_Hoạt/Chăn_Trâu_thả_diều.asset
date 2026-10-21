@@ -12,7 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
   m_Name: "Ch\u0103n_Tr\xE2u_th\u1EA3_di\u1EC1u"
   m_EditorClassIdentifier: Assembly-CSharp::PaintingData
-  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 Ch\u0103n Tr\xE2u Th\u1EA3 Di\u1EC1u"
+  tenTranh: "Ch\u0103n Tr\xE2u Th\u1EA3 Di\u1EC1u"
+  yNghia: "B\u1EE9c tranh kh\u1EAFc h\u1ECDa h\xECnh \u1EA3nh m\u1ED9t c\u1EADu b\xE9
+    m\u1EE5c \u0111\u1ED3ng n\u1EB1m ng\u1EEDa tr\xEAn l\u01B0ng tr\xE2u, hai ch\xE2n
+    v\u1EAFt v\u1EBBo vui s\u01B0\u1EDBng th\u1EA3 d\xE2y di\u1EC1u, tr\xEAn b\u1EA7u
+    tr\u1EDDi l\xE0 c\xE1nh di\u1EC1u s\xE1o bay cao. Con tr\xE2u ngoan ngo\xE3n
+    n\u1EB1m r\u1EA1p b\xE9o t\u1ED1t bi\u1EC3u tr\u01B0ng cho m\u1ED9t n\u0103m
+    m\xF9a m\xE0ng b\u1ED9i thu, ru\u1ED9ng \u0111\u1ED3ng t\u01B0\u01A1i t\u1ED1t.
+    B\u1EE9c tranh g\u1EEDi g\u1EAFm \u01B0\u1EDBc nguy\u1EC7n v\u1EC1 m\u1ED9t cu\u1ED9c
+    s\u1ED1ng thanh b\xECnh, an y\xEAn n\u01A1i l\xE0ng qu\xEA, ca ng\u1EE3i tinh
+    th\u1EA7n l\u1EA1c quan, y\xEAu \u0111\u1EDDi c\u1EE7a ng\u01B0\u1EDDi n\xF4ng
+    d\xE2n Vi\u1EC7t Nam v\xE0 c\u1EA7u ch\xFAc cho v\u1EA1n s\u1EF1 \u0111\u01B0\u1EE3c
+    hanh th\xF4ng, c\xF4ng danh s\u1EF1 nghi\u1EC7p ng\xE0y c\xE0ng bay cao, bay
+    xa nh\u01B0 c\xE1nh di\u1EC1u g\u1EB7p gi\xF3."
+  nguonGoc: "L\xE0 tranh d\xE2n gian \u0110\xF4ng H\u1ED3, \u0111\u01B0\u1EE3c in
+    t\u1EEB c\xE1c b\u1EA3n kh\u1EAFc g\u1ED7 truy\u1EC1n th\u1ED1ng c\u1EE7a l\xE0ng
+    \u0110\xF4ng H\u1ED3, Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh, v\u1EDBi m\xE0u s\u1EAFc
+    t\u1EF1 nhi\xEAn t\u1EEB c\xE1c nguy\xEAn li\u1EC7u d\xE2n gian tr\xEAn gi\u1EA5y
+    d\xF3 qu\xE9t \u0111i\u1EC7p."
   moTa: "B\u1EE9c tranh \u0110\xF4ng H\u1ED3 \u201CCh\u0103n Tr\xE2u Th\u1EA3 Di\u1EC1u\u201D
     nh\u01B0 m\u1ED9t kh\xFAc \u0111\u1ED3ng dao h\u1ED3n nhi\xEAn vang v\u1ECDng
     gi\u1EEFa b\u1EA7u tr\u1EDDi cao v\u1EDDi v\u1EE3i v\xE0 c\xE1nh \u0111\u1ED3ng
