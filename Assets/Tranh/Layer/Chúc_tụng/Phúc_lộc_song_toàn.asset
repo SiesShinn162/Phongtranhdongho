@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "Ph\xFAc_l\u1ED9c_song_to\xE0n"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Ph\xFAc L\u1ED9c Song To\xE0n"
+  yNghia: "B\u1EE9c tranh th\u1EC3 hi\u1EC7n kh\xE1t v\u1ECDng l\u1EDBn lao c\u1EE7a
+    \u0111\u1EDDi ng\u01B0\u1EDDi v\u1EC1 s\u1EF1 v\u1EB9n tr\xF2n, vi\xEAn m\xE3n.
+    B\u1ED1 c\u1EE5c tranh \u0111\u1ED1i x\u1EE9ng h\xE0i h\xF2a v\u1EDBi h\xECnh
+    \u1EA3nh hai em b\xE9 b\u1EE5 b\u1EABm: m\u1ED9t b\xEAn \xF4m c\xE1 ch\xE9p bi\u1EC3u
+    tr\u01B0ng cho t\xE0i l\u1ED9c, c\xF4ng danh th\u0103ng ti\u1EBFn (\"c\xE1 ch\xE9p
+    h\xF3a r\u1ED3ng\"); m\u1ED9t b\xEAn \xF4m ch\xFA ng\u1ED7ng (ho\u1EB7c t\xF4m)
+    bi\u1EC3u tr\u01B0ng cho l\u1ED9c tr\u1EDDi ban c\xF9ng gia \u0111\u1EA1o an
+    l\xE0nh. Ph\xEDa sau c\xE1c em b\xE9 l\xE0 \u0111\xF3a hoa sen ng\xE1t h\u01B0\u01A1ng,
+    \u0111\u1EA1i di\u1EC7n cho s\u1EF1 thanh cao, tinh khi\u1EBFt c\u1EE7a con tr\u1EBB.
+    B\u1EE9c tranh l\xE0 l\u1EDDi ch\xFAc n\u0103m m\u1EDBi tr\u1ECDn v\u1EB9n c\u1EA3
+    v\u1EC1 ph\xFAc \u0111\u1EE9c, h\u1EA1nh ph\xFAc gia \u0111\xECnh l\u1EABn ti\u1EC1n
+    t\xE0i v\u1EADt ch\u1EA5t."
+  nguonGoc: "L\xE0 tranh d\xE2n gian \u0110\xF4ng H\u1ED3, \u0111\u01B0\u1EE3c in
+    t\u1EEB c\xE1c b\u1EA3n kh\u1EAFc g\u1ED7 truy\u1EC1n th\u1ED1ng c\u1EE7a l\xE0ng
+    \u0110\xF4ng H\u1ED3, Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh, v\u1EDBi m\xE0u s\u1EAFc
+    t\u1EF1 nhi\xEAn t\u1EEB c\xE1c nguy\xEAn li\u1EC7u d\xE2n gian tr\xEAn gi\u1EA5y
+    d\xF3 qu\xE9t \u0111i\u1EC7p."
+  moTa: "Tranh v\u1EBD hai em b\xE9 m\u0169m m\u0129m, m\u1ED9t b\xE9 c\u1EA7m con
+    d\u01A1i t\u01B0\u1EE3ng tr\u01B0ng cho \u201Cph\xFAc\u201D, m\u1ED9t b\xE9 c\u1EA7m
+    con nai (ho\u1EB7c c\xE0nh l\u1ED9c) t\u01B0\u1EE3ng tr\u01B0ng cho \u201Cl\u1ED9c\u201D.
+    B\u1EE9c tranh g\u1EEDi g\u1EAFm l\u1EDDi ch\xFAc gia \u0111\xECnh c\xF3 \u0111\u1EE7
+    ph\xFAc \u0111\u1EE9c v\xE0 l\u1ED9c t\xE0i, con ch\xE1u kh\u1ECFe m\u1EA1nh,
+    cu\u1ED9c s\u1ED1ng sung t\xFAc, an vui."
+  anhTranh: {fileID: 21300000, guid: d59ac0122cc17d448a4fbefbf1749761, type: 3}
+  amThanhThuyetMinh: {fileID: 0}

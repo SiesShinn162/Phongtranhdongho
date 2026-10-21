@@ -103,3 +103,13 @@ Assets/Plugins.meta
 # Graphify local configuration and generated outputs
 .graphifyignore
 graphify-out/
+docs/
+
+# Temporary / root files
+/*.jpg
+/*.png
+/*.jpeg
+/*.mp4
+/*.zip
+*.tmp
+*.bak
