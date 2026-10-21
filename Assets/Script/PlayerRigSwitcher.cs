@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
+#if ENABLE_INPUT_SYSTEM
+using UnityEngine.InputSystem;
+#endif
 
 public class PlayerRigSwitcher : MonoBehaviour
 {
@@ -73,7 +76,26 @@ public class PlayerRigSwitcher : MonoBehaviour
 
     private void Update()
     {
-        if (allowManualToggle && Input.GetKeyDown(toggleKey))
+        if (!allowManualToggle) return;
+
+        bool togglePressed = false;
+        try
+        {
+            if (Input.GetKeyDown(toggleKey)) togglePressed = true;
+        }
+        catch { }
+
+#if ENABLE_INPUT_SYSTEM
+        if (!togglePressed && Keyboard.current != null)
+        {
+            if (Keyboard.current.f1Key.wasPressedThisFrame)
+            {
+                togglePressed = true;
+            }
+        }
+#endif
+
+        if (togglePressed)
         {
             ToggleMode();
         }
