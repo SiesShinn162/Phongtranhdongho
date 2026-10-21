@@ -1,9 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
-#if ENABLE_INPUT_SYSTEM
-using UnityEngine.InputSystem;
-#endif
 
 public class PlayerRigSwitcher : MonoBehaviour
 {
@@ -86,9 +83,9 @@ public class PlayerRigSwitcher : MonoBehaviour
         catch { }
 
 #if ENABLE_INPUT_SYSTEM
-        if (!togglePressed && Keyboard.current != null)
+        if (!togglePressed && UnityEngine.InputSystem.Keyboard.current != null)
         {
-            if (Keyboard.current.f1Key.wasPressedThisFrame)
+            if (UnityEngine.InputSystem.Keyboard.current.f1Key.wasPressedThisFrame)
             {
                 togglePressed = true;
             }
@@ -202,8 +199,8 @@ public class PlayerRigSwitcher : MonoBehaviour
             if (ds.running) return true;
         }
 
-        var devices = new List<InputDevice>();
-        InputDevices.GetDevicesWithCharacteristics(InputDeviceCharacteristics.HeadMounted, devices);
+        var devices = new List<UnityEngine.XR.InputDevice>();
+        UnityEngine.XR.InputDevices.GetDevicesWithCharacteristics(InputDeviceCharacteristics.HeadMounted, devices);
         return devices.Count > 0;
     }
 }
