@@ -12,7 +12,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
   m_Name: "\u0110\xE1m_c\u01B0\u1EDBi_chu\u1ED9t"
   m_EditorClassIdentifier: Assembly-CSharp::PaintingData
-  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 \u0110\xE1m C\u01B0\u1EDBi Chu\u1ED9t"
+  tenTranh: "\u0110\xE1m C\u01B0\u1EDBi Chu\u1ED9t"
+  yNghia: "B\u1EE9c tranh \u0110\xE1m C\u01B0\u1EDBi Chu\u1ED9t l\xE0 ki\u1EC7t t\xE1c
+    tr\xE0o ph\xFAng \u0111\u1EC9nh cao c\u1EE7a ngh\u1EC7 thu\u1EADt d\xE2n gian
+    Vi\u1EC7t Nam, m\u01B0\u1EE3n h\xECnh \u1EA3nh th\u1EBF gi\u1EDBi lo\xE0i chu\u1ED9t
+    \u0111\u1EC3 nh\xE2n h\xF3a x\xE3 h\u1ED9i lo\xE0i ng\u01B0\u1EDDi. Tranh \u0111\u01B0\u1EE3c
+    chia th\xE0nh hai tuy\u1EBFn r\xF5 r\u1EC7t:\n\u2022 T\u1EA7ng tr\xEAn (Ch\xE2m
+    bi\u1EBFm, lu\u1ED3n c\xFAi): B\u1ED1n con chu\u1ED9t kh\xFAm n\xFAm mang chim,
+    d\xE2ng c\xE1 \u0111\u1EC3 \u0111\xFAt l\xF3t cho con m\xE8o b\xE9o t\u1ED1t
+    \u0111ang ch\u1EF1c ch\u1EDD. \u0110\xE2y l\xE0 l\u1EDDi ph\u1EA3n kh\xE1ng,
+    ch\xE2m bi\u1EBFm s\xE2u cay ch\u1EBF \u0111\u1ED9 phong ki\u1EBFn h\xE1ch d\u1ECBch,
+    quan l\u1EA1i tham nh\u0169ng b\xF3p n\u1EB7n d\xE2n ngh\xE8o.\n\u2022 T\u1EA7ng
+    d\u01B0\u1EDBi (Kh\xE1t v\u1ECDng, b\xECnh y\xEAn): \u0110\xE1m r\u01B0\u1EDBc
+    d\xE2u linh \u0111\xECnh v\u1EDBi k\xE8n, tr\u1ED1ng, c\u1EDD, l\u1ECDng c\xF9ng
+    h\xECnh \u1EA3nh ch\xFA r\u1EC3 chu\u1ED9t c\u01B0\u1EE1i ng\u1EF1a \u0111i tr\u01B0\u1EDBc,
+    c\xF4 d\xE2u ng\u1ED3i ki\u1EC7u theo sau. \u0110o\u1EA1n tranh n\xE0y t\xF4n
+    vinh phong t\u1EE5c truy\u1EC1n th\u1ED1ng, ni\u1EC1m vui hoan h\u1EF7 c\u1EE7a
+    x\xF3m l\xE0ng v\xE0 g\u1EEDi g\u1EAFm tri\u1EBFt l\xFD c\u1ED9ng sinh ph\xE1t
+    tri\u1EC3n \u2013 ch\u1EA5p nh\u1EADn nh\xFAn nh\u01B0\u1EDDng, \"d\u0129 h\xF2a
+    vi qu\xFD\" \u0111\u1EC3 t\xECm ki\u1EBFm s\u1EF1 b\xECnh an, sinh s\xF4i v\xE0
+    h\xF2a b\xECnh cho c\u1ED9ng \u0111\u1ED3ng."
+  nguonGoc: "L\xE0 t\xE1c ph\u1EA9m ti\xEAu bi\u1EC3u v\xE0 c\xF3 l\u1ECBch s\u1EED
+    l\xE2u \u0111\u1EDDi b\u1EADc nh\u1EA5t (kho\u1EA3ng 400 - 500 n\u0103m) c\u1EE7a
+    d\xF2ng tranh d\xE2n gian \u0110\xF4ng H\u1ED3, \u0111\u01B0\u1EE3c c\xE1c ngh\u1EC7
+    nh\xE2n kh\u1EAFc g\u1ED7 t\u1EC9 m\u1EC9 v\xE0 in th\u1EE7 c\xF4ng tr\xEAn ch\u1EA5t
+    li\u1EC7u gi\u1EA5y d\xF3 qu\xE9t \u0111i\u1EC7p truy\u1EC1n th\u1ED1ng t\u1EA1i
+    l\xE0ng \u0110\xF4ng H\u1ED3, Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh."
   moTa: "Nh\u1EAFc \u0111\u1EBFn tranh \u0110\xF4ng H\u1ED3, kh\xF4ng ai c\xF3 th\u1EC3
     qu\xEAn \u0111\u01B0\u1EE3c b\u1EE9c \u201C\u0110\xE1m C\u01B0\u1EDBi Chu\u1ED9t\u201D
     \u2013 m\u1ED9t t\xE1c ph\u1EA9m \u0111\u1ED9c \u0111\xE1o, mang \u0111\u1EADm

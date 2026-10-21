@@ -12,7 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
   m_Name: "H\u1EE9ng_d\u1EEBa"
   m_EditorClassIdentifier: Assembly-CSharp::PaintingData
-  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 H\u1EE9ng D\u1EEBa"
+  tenTranh: "H\u1EE9ng D\u1EEBa"
+  yNghia: "B\u1EE9c tranh H\u1EE9ng D\u1EEBa l\xE0 m\u1ED9t trong nh\u1EEFng t\xE1c
+    ph\u1EA9m tr\xE0o ph\xFAng, mang t\xEDnh nh\xE2n v\u0103n v\xE0 h\xF3m h\u1EC9nh
+    b\u1EADc nh\u1EA5t c\u1EE7a d\xF2ng tranh \u0110\xF4ng H\u1ED3. Tranh kh\u1EAFc
+    h\u1ECDa c\u1EA3nh m\u1ED9t ng\u01B0\u1EDDi cha tr\xE8o tr\xEAn c\xE2y d\u1EEBa
+    tung qu\u1EA3 xu\u1ED1ng, ng\u01B0\u1EDDi m\u1EB9 \u0111\u1EE9ng d\u01B0\u1EDBi
+    gi\u01A1 v\xE1y h\u1EE9ng, c\xF2n hai \u0111\u1EE9a con nh\u1ECF qu\xE2y qu\u1EA7n
+    b\xEAn c\u1EA1nh gi\xFAp \u0111\u1EE1. H\xECnh \u1EA3nh n\xE0y bi\u1EC3u tr\u01B0ng
+    cho s\u1EF1 h\xF2a thu\u1EADn, \u0111\u1ED3ng l\xF2ng c\u1EE7a v\u1EE3 ch\u1ED3ng
+    (\"Thu\u1EADn v\u1EE3 thu\u1EADn ch\u1ED3ng t\xE1t bi\u1EC3n \u0110\xF4ng c\u0169ng
+    c\u1EA1n\"), mang l\u1EA1i ni\u1EC1m vui ti\u1EBFng c\u01B0\u1EDDi v\xE0 h\u1EA1nh
+    ph\xFAc b\xECnh d\u1ECB n\u01A1i l\xE0ng qu\xEA. Ph\xEDa tr\xEAn tranh c\xF3
+    hai c\xE2u th\u01A1 ch\u1EEF N\xF4m \u0111\u1EA7y d\xED d\u1ECFm: \"Khen ai kh\xE9o
+    d\u1EF1ng n\xEAn d\u1EEBa / \u0110\u1EA5y tr\xE8o \u0111\xE2y h\u1EE9ng cho v\u1EEBa
+    m\u1ED9t \u0111\xF4i\", ca ng\u1EE3i t\xECnh ngh\u0129a v\u1EE3 ch\u1ED3ng son
+    s\u1EAFt, th\u1EE7y chung v\xE0 cu\u1ED9c s\u1ED1ng gia \u0111\xECnh sung t\xFAc,
+    sum v\u1EA7y."
+  nguonGoc: "L\xE0 tranh d\xE2n gian \u0110\xF4ng H\u1ED3, \u0111\u01B0\u1EE3c in
+    t\u1EEB c\xE1c b\u1EA3n kh\u1EAFc g\u1ED7 truy\u1EC1n th\u1ED1ng c\u1EE7a l\xE0ng
+    \u0110\xF4ng H\u1ED3, Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh, v\u1EDBi m\xE0u s\u1EAFc
+    t\u1EF1 nhi\xEAn t\u1EEB c\xE1c nguy\xEAn li\u1EC7u d\xE2n gian tr\xEAn gi\u1EA5y
+    d\xF3 qu\xE9t \u0111i\u1EC7p."
   moTa: "Tranh \u0110\xF4ng H\u1ED3 H\u1EE9ng D\u1EEBa l\xE0 m\u1ED9t bi\u1EC3u t\u01B0\u1EE3ng
     c\u1EE7a gia \u0111\xECnh h\u1EA1nh ph\xFAc trong tranh d\xE2n gian \u0110\xF4ng
     H\u1ED3. Tranh mang h\xECnh \u1EA3nh \u0111\u1EB9p v\xE0 \u0111\u01A1n gi\u1EA3n

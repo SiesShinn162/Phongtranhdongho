@@ -12,7 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
   m_Name: "Ch\u1EE3_qu\xEA"
   m_EditorClassIdentifier: Assembly-CSharp::PaintingData
-  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 Ch\u1EE3 Qu\xEA"
+  tenTranh: "Ch\u1EE3 Qu\xEA"
+  yNghia: "B\u1EE9c tranh Ch\u1EE3 Qu\xEA kh\u1EAFc h\u1ECDa m\u1ED9t khung c\u1EA3nh
+    t\u1EA5p n\u1EADp, nh\u1ED9n nh\u1ECBp mang t\xEDnh bi\u1EC3u t\u01B0\u1EE3ng
+    cao v\u1EDBi c\u1EA3nh \"k\u1EBB b\xE1n ng\u01B0\u1EDDi mua\" n\xE1o nhi\u1EC7t
+    d\u01B0\u1EDBi g\u1ED1c c\xE2y \u0111a l\xE0ng. Trong t\xE2m th\u1EE9c c\u1EE7a
+    ng\u01B0\u1EDDi Vi\u1EC7t x\u01B0a, m\u1ED9t phi\xEAn ch\u1EE3 \u0111\xF4ng vui
+    ch\xEDnh l\xE0 minh ch\u1EE9ng r\xF5 n\xE9t nh\u1EA5t cho m\u1ED9t v\xF9ng qu\xEA
+    tr\xF9 ph\xFA, qu\u1ED1c th\xE1i d\xE2n an, m\xF9a m\xE0ng t\u01B0\u01A1i t\u1ED1t
+    v\xE0 cu\u1ED9c s\u1ED1ng no \u0111\u1EE7, an l\xE0nh. T\xE1c ph\u1EA9m g\u1EEDi
+    g\u1EAFm kh\xE1t v\u1ECDng th\u1EA7m k\xEDn c\u1EE7a ng\u01B0\u1EDDi n\xF4ng
+    d\xE2n v\u1EC1 s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng c\u1EE7a n\u1EC1n kinh t\u1EBF
+    n\xF4ng nghi\u1EC7p, s\u1EF1 hanh th\xF4ng trong giao th\u01B0\u01A1ng bu\xF4n
+    b\xE1n v\xE0 c\u1EA7u ch\xFAc cho m\u1ECDi ng\u01B0\u1EDDi \u0111\u1EC1u c\xF3
+    c\xF4ng \u0103n vi\u1EC7c l\xE0m \u1ED5n \u0111\u1ECBnh, \u0111\u1EDDi s\u1ED1ng
+    \u1EA5m \xEAm."
+  nguonGoc: "L\xE0 tranh d\xE2n gian \u0110\xF4ng H\u1ED3, \u0111\u01B0\u1EE3c in
+    t\u1EEB c\xE1c b\u1EA3n kh\u1EAFc g\u1ED7 truy\u1EC1n th\u1ED1ng c\u1EE7a l\xE0ng
+    \u0110\xF4ng H\u1ED3, Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh, v\u1EDBi m\xE0u s\u1EAFc
+    t\u1EF1 nhi\xEAn t\u1EEB c\xE1c nguy\xEAn li\u1EC7u d\xE2n gian tr\xEAn gi\u1EA5y
+    d\xF3 qu\xE9t \u0111i\u1EC7p."
   moTa: "Tranh \u0110\xF4ng H\u1ED3 Ch\u1EE3 Qu\xEA l\xE0 b\u1EE9c tranh d\xE2n gian
     mi\xEAu t\u1EA3 v\u1EC1 m\u1ED9t g\xF3c c\u1EE7a ch\u1EE3 phi\xEAn ng\xE0y t\u1EBFt
     c\u1EE7a L\xE0ng \u0110\xF4ng H\u1ED3, n\u01A1i b\u1EA7y b\xE1n nh\u1EEFng b\u1EE9c

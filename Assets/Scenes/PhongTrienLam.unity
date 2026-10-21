@@ -12033,7 +12033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5b106591305657489d08e6fb4487ded, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PaintingInfo
-  data: {fileID: 11400000, guid: b5d2bd7ceb096eb44b4e235009a462e9, type: 2}
+  data: {fileID: 11400000, guid: e53459a0fe9aa6c458e5d5b9b8fb6810, type: 2}
 --- !u!23 &226247553
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -104984,7 +104984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5b106591305657489d08e6fb4487ded, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PaintingInfo
-  data: {fileID: 11400000, guid: b5d2bd7ceb096eb44b4e235009a462e9, type: 2}
+  data: {fileID: 11400000, guid: c8455a65154713e49a605c0e53035b7b, type: 2}
 --- !u!23 &1691679722
 MeshRenderer:
   m_ObjectHideFlags: 0
