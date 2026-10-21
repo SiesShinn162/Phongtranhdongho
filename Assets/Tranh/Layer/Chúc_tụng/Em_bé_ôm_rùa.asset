@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "Em_b\xE9_\xF4m_r\xF9a"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "L\u1EC5 Tr\xED"
+  yNghia: "B\u1EE9c tranh kh\u1EAFc h\u1ECDa h\xECnh \u1EA3nh m\u1ED9t b\xE9 g\xE1i
+    xinh x\u1EAFn, b\u1EE5 b\u1EABm \u0111ang \xF4m ch\xFA r\xF9a m\u1ED9t c\xE1ch
+    n\xE2ng niu. Trong v\u0103n h\xF3a t\xE2m linh Vi\u1EC7t Nam, r\xF9a l\xE0 lo\xE0i
+    linh v\u1EADt bi\u1EC3u tr\u01B0ng cho s\u1EF1 tr\u01B0\u1EDDng th\u1ECD, s\u1EE9c
+    kh\u1ECFe d\u1EBBo dai v\xE0 tri th\u1EE9c uy\xEAn b\xE1c. B\u1EE9c tranh g\u1EEDi
+    g\u1EAFm l\u1EDDi ch\xFAc cho con tr\u1EBB khi l\u1EDBn l\xEAn s\u1EBD gi\u1EEF
+    tr\u1ECDn n\xE9t \u0111\u1EB9p \"L\u1EC5 Tr\xED\" \u2013 bi\u1EBFt l\u1EC5 ngh\u0129a,
+    \u1EE9ng x\u1EED th\xF4ng minh, h\u1ECDc s\xE2u hi\u1EC3u r\u1ED9ng, \u0111\u1ED3ng
+    th\u1EDDi ch\xFAc cho gia \u0111\xECnh lu\xF4n b\xECnh an, m\u1EA1nh kh\u1ECFe
+    v\xE0 s\u1ED1ng l\xE2u tr\u0103m tu\u1ED5i."
+  nguonGoc: "L\xE0 tranh d\xE2n gian \u0110\xF4ng H\u1ED3, \u0111\u01B0\u1EE3c in
+    t\u1EEB c\xE1c b\u1EA3n kh\u1EAFc g\u1ED7 truy\u1EC1n th\u1ED1ng c\u1EE7a l\xE0ng
+    \u0110\xF4ng H\u1ED3, Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh, v\u1EDBi m\xE0u s\u1EAFc
+    t\u1EF1 nhi\xEAn t\u1EEB c\xE1c nguy\xEAn li\u1EC7u d\xE2n gian tr\xEAn gi\u1EA5y
+    d\xF3 qu\xE9t \u0111i\u1EC7p."
+  moTa: "R\xF9a l\xE0 m\u1ED9t trong t\u1EE9 linh, t\u01B0\u1EE3ng tr\u01B0ng cho
+    s\u1EF1 tr\u01B0\u1EDDng th\u1ECD, b\u1EC1n b\u1EC9 v\xE0 b\xECnh an. H\xECnh
+    \u1EA3nh em b\xE9 tr\xF2n tr\u1ECBa \xF4m r\xF9a g\u1EEDi g\u1EAFm l\u1EDDi ch\xFAc
+    con ch\xE1u kh\u1ECFe m\u1EA1nh, hi\u1EBFu th\u1EA3o, gia \u0111\xECnh \xEAm
+    \u1EA5m v\xE0 ph\xFAc l\u1ED9c d\xE0i l\xE2u."
+  anhTranh: {fileID: 21300000, guid: d02981eaec7ea144aa397e244644ae08, type: 3}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 7acee52f95adfe9419365cd414865d70, type: 3}

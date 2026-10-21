@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "Ph\u1EE5_n\u1EEF_\u0111\u1EA3m_\u0111ang"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Ph\u1EE5 N\u1EEF \u0110\u1EA3m \u0110ang"
+  yNghia: "Kh\xE1c v\u1EDBi c\xE1c \u0111\u1EC1 t\xE0i c\u1ED5 ch\xFAc t\u1EE5ng,
+    \u0111\xE2y l\xE0 t\xE1c ph\u1EA9m mang t\xEDnh th\u1EDDi cu\u1ED9c \u0111\u1EB7c
+    s\u1EAFc, ph\u1EA3n \xE1nh phong tr\xE0o \u201CBa \u0111\u1EA3m \u0111ang\u201D
+    c\u1EE7a ph\u1EE5 n\u1EEF Vi\u1EC7t Nam trong th\u1EDDi k\u1EF3 kh\xE1ng chi\u1EBFn
+    ch\u1ED1ng M\u1EF9. B\u1EE9c tranh kh\u1EAFc h\u1ECDa sinh \u0111\u1ED9ng c\u1EA3nh
+    ch\u1ECB em ph\u1EE5 n\u1EEF n\xF4 n\u1EE9c, tay c\xE0y tay s\xFAng t\u0103ng
+    gia s\u1EA3n xu\u1EA5t tr\xEAn \u0111\u1ED3ng ru\u1ED9ng nh\u01B0ng lu\xF4n s\u1EB5n
+    s\xE0ng chi\u1EBFn \u0111\u1EA5u b\u1EA3o v\u1EC7 qu\xEA h\u01B0\u01A1ng.\nTr\xEAn
+    tranh kh\u1EAFc b\u1EA3n ch\u1EEF Qu\u1ED1c ng\u1EEF v\u1EDBi hai c\xE2u th\u01A1
+    l\u1EE5c b\xE1t \u0111\u1EA7y t\u1EF1 h\xE0o: \"Hoan h\xF4 ph\u1EE5 n\u1EEF Vi\u1EC7t
+    Nam / S\u1EA3n xu\u1EA5t chi\u1EBFn \u0111\u1EA5u \u0111\u1EA3m \u0111ang anh
+    h\xF9ng\". T\xE1c ph\u1EA9m t\xF4n vinh tinh th\u1EA7n ki\xEAn c\u01B0\u1EDDng,
+    b\u1EA5t khu\u1EA5t, s\u1EF1 \u0111\u1EA3m \u0111ang g\xE1nh v\xE1c vi\u1EC7c
+    n\u01B0\u1EDBc l\u1EABn vi\u1EC7c nh\xE0 c\u1EE7a ng\u01B0\u1EDDi ph\u1EE5 n\u1EEF
+    th\u1EDDi \u0111\u1EA1i m\u1EDBi, \u0111\u1ED3ng th\u1EDDi l\xE0 l\u1EDDi c\u1ED5
+    \u0111\u1ED9ng, ti\u1EBFp th\xEAm ni\u1EC1m tin l\u1EA1c quan v\xE0o ng\xE0y
+    mai th\u1EAFng l\u1EE3i, h\xF2a b\xECnh."
+  nguonGoc: "\u0110\u01B0\u1EE3c c\xE1c ngh\u1EC7 nh\xE2n s\xE1ng t\xE1c trong giai
+    \u0111o\u1EA1n kh\xE1ng chi\u1EBFn (th\u1EBF k\u1EF7 XX) t\u1EA1i l\xE0ng tranh
+    d\xE2n gian \u0110\xF4ng H\u1ED3, Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh. Tranh \u0111\u01B0\u1EE3c
+    gi\u1EEF tr\u1ECDn v\u1EB9n k\u1EF9 thu\u1EADt in kh\u1EAFc g\u1ED7 m\u1ED9c
+    m\u1EA1c v\xE0 s\u1EED d\u1EE5ng c\xE1c m\xE0u s\u1EAFc t\u1EF1 nhi\xEAn t\u1EEB
+    c\xE2y c\u1ECF, \u0111\u1EA5t \u0111\xE1 tr\xEAn n\u1EC1n gi\u1EA5y d\xF3 qu\xE9t
+    \u0111i\u1EC7p truy\u1EC1n th\u1ED1ng."
+  moTa: "B\u1EE9c tranh t\xF4n vinh vai tr\xF2 v\u0129 \u0111\u1EA1i c\u1EE7a ng\u01B0\u1EDDi
+    ph\u1EE5 n\u1EEF Vi\u1EC7t Nam \u1EDF h\u1EADu ph\u01B0\u01A1ng: v\u1EEBa c\xE1ng
+    \u0111\xE1ng vi\u1EC7c nh\xE0, t\xEDch c\u1EF1c t\u0103ng gia s\u1EA3n xu\u1EA5t
+    l\u01B0\u01A1ng th\u1EF1c, v\u1EEBa s\u1EB5n s\xE0ng chi\u1EBFn \u0111\u1EA5u
+    tay s\xFAng tay c\xE0y khi nam gi\u1EDBi ra ti\u1EC1n tuy\u1EBFn."
+  anhTranh: {fileID: 21300000, guid: 77f6e4630c4ee244289f4d95334188c8, type: 3}
+  amThanhThuyetMinh: {fileID: 8300000, guid: b80b45bd21b4e5a40b525178cfdc9b1d, type: 3}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "Tam_d\u01B0\u01A1ng_khai_th\xE1i"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "Tam D\u01B0\u01A1ng Khai Th\xE1i"
+  yNghia: "\u0110i\u1EC3m \u0111\u1ED9c \u0111\xE1o c\u1EE7a tranh \u0110\xF4ng H\u1ED3
+    l\xE0 thay v\xEC v\u1EBD \"ba con d\xEA\", ngh\u1EC7 nh\xE2n l\u1EA1i kh\u1EAFc
+    h\u1ECDa h\xECnh \u1EA3nh hai ch\xFA g\xE0 tr\u1ED1ng oai v\u1EC7 \u0111\u1ED1i
+    x\u1EE9ng d\u01B0\u1EDBi \xE1nh m\u1EB7t tr\u1EDDi r\u1EF1c r\u1EE1. B\u1EE9c
+    tranh m\xF4 t\u1EA3 qu\u1EBB \"\u0110\u1ECBa Thi\xEAn Th\xE1i\" trong Kinh D\u1ECBch,
+    bi\u1EC3u tr\u01B0ng cho s\u1EF1 giao h\xF2a ho\xE0n h\u1EA3o gi\u1EEFa \xE2m
+    v\xE0 d\u01B0\u01A1ng, \u0111\u1EA5t v\xE0 tr\u1EDDi \u0111\u1EC3 v\u1EA1n v\u1EADt
+    sinh s\xF4i. H\xECnh \u1EA3nh n\xE0y mang \xFD ngh\u0129a xua \u0111u\u1ED5i
+    t\xE0 kh\xED, khai m\u1EDF sinh kh\xED, \u0111\xF3n ch\xE0o m\u1ED9t n\u0103m
+    m\u1EDBi hay m\u1ED9t v\u1EADn h\u1ED9i m\u1EDBi lu\xF4n b\xECnh an, hanh th\xF4ng,
+    g\u1EB7p nhi\u1EC1u may m\u1EAFn v\xE0 t\xE0i l\u1ED9c d\u1ED3i d\xE0o."
+  nguonGoc: "L\xE0 tranh d\xE2n gian \u0110\xF4ng H\u1ED3, \u0111\u01B0\u1EE3c in
+    t\u1EEB c\xE1c b\u1EA3n kh\u1EAFc g\u1ED7 truy\u1EC1n th\u1ED1ng c\u1EE7a l\xE0ng
+    \u0110\xF4ng H\u1ED3, Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh, v\u1EDBi m\xE0u s\u1EAFc
+    t\u1EF1 nhi\xEAn t\u1EEB c\xE1c nguy\xEAn li\u1EC7u d\xE2n gian tr\xEAn gi\u1EA5y
+    d\xF3 qu\xE9t \u0111i\u1EC7p."
+  moTa: "B\u1EE9c Tranh \u0110\xF4ng H\u1ED3 Tam D\u01B0\u01A1ng Khai Th\xE1i l\xE0
+    m\u1ED9t t\xE1c ph\u1EA9m ngh\u1EC7 thu\u1EADt \u0111\u1ED9c \u0111\xE1o v\xE0
+    n\u1ED5i ti\u1EBFng trong l\xE0ng \u0110\xF4ng H\u1ED3, n\u01A1i s\u1EA3n xu\u1EA5t
+    nh\u1EEFng b\u1EE9c tranh d\xE2n gian \u0111\u1EB7c tr\u01B0ng c\u1EE7a Vi\u1EC7t
+    Nam. B\u1EE9c tranh n\xE0y mi\xEAu t\u1EA3 hai con g\xE0 tr\u1ED1ng \u0111\u1EE9ng
+    \u0111\u1ED1i di\u1EC7n nhau, c\xF3 ph\u1EA7n \u0111u\xF4i x\xF2e r\u1ED9ng v\xE0
+    m\u1EB7t tr\u1EDDi \u0111\u1ECF r\u1EF1c tr\xEAn l\u01B0ng c\u1EE7a ch\xFAng.
+    Gi\u1EEFa hai con g\xE0, c\xF3 h\xECnh \u1EA3nh c\u1EE7a hoa c\u1ECF t\u01B0\u01A1i
+    t\u1ED1t. M\u1EB7c d\xF9 b\u1EE9c tranh s\u1EED d\u1EE5ng \u0111\u01B0\u1EDDng
+    n\xE9t v\xE0 m\xE0u s\u1EAFc \u0111\u01A1n gi\u1EA3n nh\u01B0ng r\u1EA5t ch\u1EAFc
+    kh\u1ECFe."
+  anhTranh: {fileID: 21300000, guid: 4639c2159cea0f44fb1efa88a14ea653, type: 3}
+  amThanhThuyetMinh: {fileID: 8300000, guid: a93ed9c154ae5e443aab2c18dfd24f44, type: 3}

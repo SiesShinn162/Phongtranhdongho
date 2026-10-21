@@ -1,0 +1,11 @@
+Model Information:
+* title:	Trees (low-Poly, 4k Tris / Tree)
+* source:	https://sketchfab.com/3d-models/trees-low-poly-4k-tris-tree-6fad6d1b2d7e4b2187ea6e6a721606ff
+* author:	Sereib (https://sketchfab.com/Sereib)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Trees (low-Poly, 4k Tris / Tree)" (https://sketchfab.com/3d-models/trees-low-poly-4k-tris-tree-6fad6d1b2d7e4b2187ea6e6a721606ff) by Sereib (https://sketchfab.com/Sereib) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
+  m_Name: "H\xE1t_quan_h\u1ECD"
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingData
+  tenTranh: "H\xE1t Quan H\u1ECD"
+  yNghia: "B\u1EE9c tranh kh\u1EAFc h\u1ECDa n\xE9t \u0111\u1EB9p v\u0103n h\xF3a
+    tinh t\u1EBF c\u1EE7a mi\u1EC1n qu\xEA Kinh B\u1EAFc x\u01B0a v\u1EDBi h\xECnh
+    \u1EA3nh c\xE1c li\u1EC1n anh kh\u0103n x\u1EBFp \xE1o the, c\xE1c li\u1EC1n
+    ch\u1ECB m\u1EDB ba m\u1EDB b\u1EA3y duy\xEAn d\xE1ng d\u1EA1o thuy\u1EC1n r\u1ED3ng
+    d\xE2ng c\xE2u ca quan h\u1ECD. Tr\xEAn g\xF3c tranh th\u01B0\u1EDDng \u0111\u1EC1
+    d\xF2ng ch\u1EEF nh\u01B0 \"\u0110\u1EBFn h\u1EB9n l\u1EA1i l\xEAn\" hay \"Ng\u01B0\u1EDDi
+    \u01A1i ng\u01B0\u1EDDi \u1EDF \u0111\u1EEBng v\u1EC1\" \u2013 nh\u1EEFng c\xE2u
+    h\xE1t trao duy\xEAn n\u1ED3ng \u0111\u01B0\u1EE3m ngh\u0129a t\xECnh. T\xE1c
+    ph\u1EA9m bi\u1EC3u tr\u01B0ng cho tinh th\u1EA7n y\xEAu \u0111\u1EDDi, l\u1ED1i
+    s\u1ED1ng tr\u1ECDng t\xECnh, hi\u1EBFu kh\xE1ch, \u0111\u1ED3ng th\u1EDDi t\xF4n
+    vinh gi\xE1 tr\u1ECB Di s\u1EA3n v\u0103n h\xF3a phi v\u1EADt th\u1EC3 qu\xFD
+    b\xE1u c\u1EE7a d\xE2n t\u1ED9c."
+  nguonGoc: "L\xE0 tranh d\xE2n gian \u0110\xF4ng H\u1ED3, \u0111\u01B0\u1EE3c in
+    t\u1EEB c\xE1c b\u1EA3n kh\u1EAFc g\u1ED7 truy\u1EC1n th\u1ED1ng c\u1EE7a l\xE0ng
+    \u0110\xF4ng H\u1ED3, Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh, v\u1EDBi m\xE0u s\u1EAFc
+    t\u1EF1 nhi\xEAn t\u1EEB c\xE1c nguy\xEAn li\u1EC7u d\xE2n gian tr\xEAn gi\u1EA5y
+    d\xF3 qu\xE9t \u0111i\u1EC7p."
+  moTa: "Tranh t\xE1i hi\u1EC7n c\u1EA3nh li\u1EC1n anh, li\u1EC1n ch\u1ECB c\u1EA5t
+    l\u1EDDi ca quan h\u1ECD, lo\u1EA1i h\xECnh d\xE2n ca \u0111\u1EB7c s\u1EAFc
+    c\u1EE7a v\xF9ng Kinh B\u1EAFc. B\u1EE9c tranh g\u1EE3i n\xE9t \u0111\u1EB9p
+    c\u1EE7a l\u1ED1i h\xE1t giao duy\xEAn, t\xECnh ngh\u0129a th\u1EE7y chung v\xE0
+    n\u1EBFp s\u1ED1ng thanh l\u1ECBch c\u1EE7a ng\u01B0\u1EDDi Vi\u1EC7t, \u0111\u1ED3ng
+    th\u1EDDi g\xECn gi\u1EEF k\xFD \u1EE9c v\u1EC1 v\u0103n h\xF3a quan h\u1ECD."
+  anhTranh: {fileID: 21300000, guid: e9a74ab61faa194478a0727f47578521, type: 3}
+  amThanhThuyetMinh: {fileID: 8300000, guid: 4b8b3e62795994a47b110957d14aba7a, type: 3}

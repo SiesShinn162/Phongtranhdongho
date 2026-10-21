@@ -1,0 +1,11 @@
+Model Information:
+* title:	NPC
+* source:	https://sketchfab.com/3d-models/npc-d2ebd003e49e4e7ba5a381ee2c63df3c
+* author:	Dr Nor Hafizah Adnan (https://sketchfab.com/norhafizah)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "NPC" (https://sketchfab.com/3d-models/npc-d2ebd003e49e4e7ba5a381ee2c63df3c) by Dr Nor Hafizah Adnan (https://sketchfab.com/norhafizah) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
