@@ -24336,6 +24336,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2792705365201203850, guid: 509ad5919b6df4f4baf2a1a7f3c3551f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e5cd5d5a01036a04a8289d1e31375b34, type: 2}
     - target: {fileID: 2798328990589770324, guid: 509ad5919b6df4f4baf2a1a7f3c3551f, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -24398,7 +24402,7 @@ PrefabInstance:
       objectReference: {fileID: 1253029716}
     - target: {fileID: 3138992460651470346, guid: 509ad5919b6df4f4baf2a1a7f3c3551f, type: 3}
       propertyPath: m_VersionIndex
-      value: 2797
+      value: 2824
       objectReference: {fileID: 0}
     - target: {fileID: 3353056065715462319, guid: 509ad5919b6df4f4baf2a1a7f3c3551f, type: 3}
       propertyPath: m_Color.b
