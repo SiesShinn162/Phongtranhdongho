@@ -113,3 +113,7 @@ docs/
 /*.zip
 *.tmp
 *.bak
+skills-lock.json
+_backup*/
+backup*/
+*.bundle
