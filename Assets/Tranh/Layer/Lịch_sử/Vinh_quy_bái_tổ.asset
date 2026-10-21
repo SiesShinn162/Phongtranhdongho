@@ -12,7 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
   m_Name: "Vinh_quy_b\xE1i_t\u1ED5"
   m_EditorClassIdentifier: Assembly-CSharp::PaintingData
-  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 Vinh Quy B\xE1i T\u1ED5"
+  tenTranh: "Vinh Quy B\xE1i T\u1ED5"
+  yNghia: "B\u1EE9c tranh kh\u1EAFc h\u1ECDa m\u1ED9t \u0111o\xE0n r\u01B0\u1EDBc
+    l\u1ECDng che, c\u1EDD qu\u1EA1t r\u1ED9n r\xE0ng r\u01B0\u1EDBc quan Tr\u1EA1ng
+    nguy\xEAn t\xE2n khoa c\u01B0\u1EE1i ng\u1EF1a c\xF9ng phu nh\xE2n ng\u1ED3i
+    ki\u1EC7u l\u1ECDng v\u1EC1 qu\xEA nh\xE0 b\xE1i ki\u1EBFn t\u1ED5 ti\xEAn, cha
+    m\u1EB9 v\xE0 ch\xE0o h\u1ECFi x\xF3m l\xE0ng. T\xE1c ph\u1EA9m mang \xFD ngh\u0129a
+    s\xE2u s\u1EAFc t\xF4n vinh truy\u1EC1n th\u1ED1ng \"u\u1ED1ng n\u01B0\u1EDBc
+    nh\u1EDB ngu\u1ED3n\", tinh th\u1EA7n hi\u1EBFu h\u1ECDc v\xE0 tr\u1ECDng d\u1EE5ng
+    nh\xE2n t\xE0i c\u1EE7a d\xE2n t\u1ED9c Vi\u1EC7t Nam. Tranh g\u1EEDi g\u1EAFm
+    l\u1EDDi r\u0103n d\u1EA1y th\u1EBF h\u1EC7 sau khi th\xE0nh \u0111\u1EA1t, \u0111\u1ED7
+    \u0111\u1EA1t vinh hi\u1EC3n lu\xF4n ph\u1EA3i ghi nh\u1EDB c\xF4ng \u01A1n d\u01B0\u1EE1ng
+    d\u1EE5c c\u1EE7a \u0111\u1EA5ng sinh th\xE0nh v\xE0 c\u1ED9i ngu\u1ED3n g\u1ED1c
+    r\u1EC5, \u0111\u1ED3ng th\u1EDDi c\u1EA7u ch\xFAc cho con ch\xE1u trong gia
+    \u0111\xECnh h\u1ECDc h\xE0nh th\xF4ng minh, thi c\u1EED \u0111\u1ED7 \u0111\u1EA1t
+    v\xE0 r\u1EA1ng danh d\xF2ng t\u1ED9c."
+  nguonGoc: "L\xE0 t\xE1c ph\u1EA9m thu\u1ED9c \u0111\u1EC1 t\xE0i tranh sinh ho\u1EA1t,
+    l\u1ECBch s\u1EED c\u1EE7a d\xF2ng tranh d\xE2n gian \u0110\xF4ng H\u1ED3, \u0111\u01B0\u1EE3c
+    in t\u1EEB c\xE1c b\u1EA3n kh\u1EAFc g\u1ED7 truy\u1EC1n th\u1ED1ng c\u1EE7a
+    l\xE0ng \u0110\xF4ng H\u1ED3, Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh, v\u1EDBi m\xE0u
+    s\u1EAFc t\u1EF1 nhi\xEAn t\u1EEB c\xE1c nguy\xEAn li\u1EC7u d\xE2n gian tr\xEAn
+    gi\u1EA5y d\xF3 qu\xE9t \u0111i\u1EC7p."
   moTa: "Tranh \u0110\xF4ng H\u1ED3 Vinh Quy B\xE1i T\u1ED5 l\xE0 m\u1ED9t trong
     nh\u1EEFng d\xF2ng tranh l\u1ECBch s\u1EED c\u1EE7a tranh d\xE2n gian \u0110\xF4ng
     H\u1ED3, xu\u1EA5t ph\xE1t t\u1EEB l\xE0ng \u0110\xF4ng H\u1ED3, t\u1EC9nh B\u1EAFc

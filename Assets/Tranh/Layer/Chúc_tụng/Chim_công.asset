@@ -12,8 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
   m_Name: "Chim_c\xF4ng"
   m_EditorClassIdentifier: Assembly-CSharp::PaintingData
-  tenTranh: "Tranh D\xE2n Gian \u0110\xF4ng H\u1ED3 Chim C\xF4ng Thi\xEAn H\u1EA1
-    Th\xE1i B\xECnh"
+  tenTranh: "Chim C\xF4ng - Thi\xEAn H\u1EA1 Th\xE1i B\xECnh"
+  yNghia: "Chim c\xF4ng l\xE0 bi\u1EC3u t\u01B0\u1EE3ng c\u1EE7a s\u1EF1 v\u01B0\u01A1ng
+    gi\u1EA3, t\xE0i l\u1ED9c, chung th\u1EE7y v\xE0 c\xF3 kh\u1EA3 n\u0103ng xua
+    \u0111u\u1ED5i t\xE0 kh\xED. H\xECnh \u1EA3nh chim c\xF4ng m\xFAa b\xEAn kh\xF3m
+    hoa h\u1ED3ng k\u1EBFt h\u1EE3p c\xF9ng b\u1ED1n ch\u1EEF \"Thi\xEAn H\u1EA1
+    Th\xE1i B\xECnh\" g\u1EEDi g\u1EAFm \u01B0\u1EDBc nguy\u1EC7n s\xE2u s\u1EAFc
+    v\u1EC1 m\u1ED9t cu\u1ED9c s\u1ED1ng gia \u0111\xECnh \u1EA5m \xEAm, \u0111\u1EA5t
+    n\u01B0\u1EDBc thanh b\xECnh, m\u01B0a thu\u1EADn gi\xF3 h\xF2a v\xE0 th\u1ECBnh
+    v\u01B0\u1EE3ng."
+  nguonGoc: "L\xE0 tranh d\xE2n gian \u0110\xF4ng H\u1ED3, \u0111\u01B0\u1EE3c in
+    t\u1EEB c\xE1c b\u1EA3n kh\u1EAFc g\u1ED7 truy\u1EC1n th\u1ED1ng c\u1EE7a l\xE0ng
+    \u0110\xF4ng H\u1ED3, Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh, v\u1EDBi m\xE0u s\u1EAFc
+    t\u1EF1 nhi\xEAn t\u1EEB c\xE1c nguy\xEAn li\u1EC7u d\xE2n gian tr\xEAn gi\u1EA5y
+    d\xF3 qu\xE9t \u0111i\u1EC7p."
   moTa: "Trong kho t\xE0ng tranh d\xE2n gian Vi\u1EC7t Nam, \u201CChim C\xF4ng \u2013
     Thi\xEAn H\u1EA1 Th\xE1i B\xECnh\u201D l\xE0 m\u1ED9t trong nh\u1EEFng t\xE1c
     ph\u1EA9m ti\xEAu bi\u1EC3u v\xE0 \u0111\u01B0\u1EE3c y\xEAu th\xEDch nh\u1EA5t

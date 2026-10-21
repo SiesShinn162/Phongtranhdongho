@@ -12,7 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341e9284c5098de498ebb2d1c546271c, type: 3}
   m_Name: "Qu\u1EA3n_t\u01B0\u1EE3ng"
   m_EditorClassIdentifier: Assembly-CSharp::PaintingData
-  tenTranh: "Tranh d\xE2n gian \u0110\xF4ng H\u1ED3 Qu\u1EA3n T\u01B0\u1EE3ng"
+  tenTranh: "Qu\u1EA3n T\u01B0\u1EE3ng"
+  yNghia: "\"Qu\u1EA3n t\u01B0\u1EE3ng\" l\xE0 ng\u01B0\u1EDDi tr\xF4ng nom v\xE0
+    \u0111i\u1EC1u khi\u1EC3n voi. B\u1EE9c tranh kh\u1EAFc h\u1ECDa h\xECnh \u1EA3nh
+    v\u1ECB qu\u1EA3n t\u01B0\u1EE3ng uy nghi\xEAm \u0111ang d\u1EAFt m\u1ED9t ch\xFA
+    voi chi\u1EBFn d\u0169ng m\xE3nh, oai phong v\u1EDBi c\u1EDD l\u1ECDng r\u1EE3p
+    tr\u1EDDi.\n\u2022 Bi\u1EC3u t\u01B0\u1EE3ng c\u1EE7a Voi: Voi l\xE0 lo\xE0i
+    linh v\u1EADt \u0111\u1EA1i di\u1EC7n cho s\u1EE9c m\u1EA1nh v\u01B0\u01A1ng
+    quy\u1EC1n, s\u1EF1 trung th\xE0nh v\xE0 b\u1EC1n b\u1EC9 trong l\u1ECBch s\u1EED
+    gi\u1EEF n\u01B0\u1EDBc c\u1EE7a d\xE2n t\u1ED9c (g\u1EAFn li\u1EC1n v\u1EDBi
+    th\u1EDBt voi c\u1EE7a Hai B\xE0 Tr\u01B0ng, B\xE0 Tri\u1EC7u). Chi ti\u1EBFt
+    voi \u0111\u01B0\u1EE3c trang tr\xED hoa v\u0103n sinh \u0111\u1ED9ng c\xF9ng
+    ph\u1EA7n y\xEAn ch\u1EA1m kh\u1EAFc r\u1ED3ng m\xE2y tinh x\u1EA3o.\n\u2022
+    Bi\u1EC3u t\u01B0\u1EE3ng ng\u01B0\u1EDDi Qu\u1EA3n t\u01B0\u1EE3ng: \u0110\u1EA1i
+    di\u1EC7n cho b\u1EA3n l\u0129nh, t\u01B0 duy s\xE1ng su\u1ED1t, t\xEDnh k\u1EF7
+    lu\u1EADt v\xE0 s\u1EF1 ki\u1EC3m so\xE1t.\nT\xE1c ph\u1EA9m mang \xFD ngh\u0129a
+    s\xE2u s\u1EAFc c\u1EA7u ch\xFAc cho gia ch\u1EE7 c\xF3 \u0111\u01B0\u1EE3c s\u1EF1
+    h\u01B0ng th\u1ECBnh, c\u1EE7ng c\u1ED1 \u0111\u1ECBa v\u1ECB, quy\u1EC1n l\u1EF1c
+    v\u1EEFng ch\xE3i v\xE0 n\u0103ng l\u01B0\u1EE3ng quy\u1EBFt \u0111o\xE1n. B\u1EE9c
+    tranh nh\u1EAFc nh\u1EDF con ng\u01B0\u1EDDi bi\u1EBFt c\xE1ch l\xE0m ch\u1EE7
+    v\xE0 \u0111i\u1EC1u khi\u1EC3n s\u1EE9c m\u1EA1nh to l\u1EDBn b\xEAn trong m\xECnh
+    \u0111\u1EC3 v\u01B0\u1EE3t qua m\u1ECDi th\u1EED th\xE1ch, ti\u1EBFn t\u1EDBi
+    vinh hoa hi\u1EC3n \u0111\u1EA1t."
+  nguonGoc: "L\xE0 tranh d\xE2n gian \u0110\xF4ng H\u1ED3, \u0111\u01B0\u1EE3c in
+    t\u1EEB c\xE1c b\u1EA3n kh\u1EAFc g\u1ED7 truy\u1EC1n th\u1ED1ng c\u1EE7a l\xE0ng
+    \u0110\xF4ng H\u1ED3, Thu\u1EADn Th\xE0nh, B\u1EAFc Ninh, v\u1EDBi m\xE0u s\u1EAFc
+    t\u1EF1 nhi\xEAn t\u1EEB c\xE1c nguy\xEAn li\u1EC7u d\xE2n gian tr\xEAn gi\u1EA5y
+    d\xF3 qu\xE9t \u0111i\u1EC7p."
   moTa: "B\u1EE9c tranh t\xF4n vinh s\u1EE9c m\u1EA1nh, s\u1EF1 d\u0169ng c\u1EA3m
     v\xE0 t\xE0i tr\xED c\u1EE7a con ng\u01B0\u1EDDi trong vi\u1EC7c chinh ph\u1EE5c,
     thu\u1EA7n h\xF3a lo\xE0i voi d\u1EEF. Trong v\u0103n h\xF3a Vi\u1EC7t Nam, h\xECnh
